@@ -1,0 +1,26 @@
+{
+  "file": "summary_overall.txt",
+  "entities": [
+    {
+      "start": 12,
+      "end": 34,
+      "text": "Projek Penjanaan Solar",
+      "label": "PRODUCT",
+      "score": 0.5600112676620483
+    },
+    {
+      "start": 42,
+      "end": 68,
+      "text": "Bank Islam Malaysia Berhad",
+      "label": "ORG",
+      "score": 0.9684740900993347
+    },
+    {
+      "start": 73,
+      "end": 94,
+      "text": "Solar Voltech Sdn Bhd",
+      "label": "ORG",
+      "score": 0.9186416864395142
+    }
+  ]
+}
