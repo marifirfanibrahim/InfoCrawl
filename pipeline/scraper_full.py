@@ -1,4 +1,11 @@
 # pipeline/scraper_full.py
+"""
+scrape news based on id
+1. set scrape
+2. set parse
+3. scrape and parse
+4. save as malay_news_*.csv file into data/raw/news_id
+"""
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
