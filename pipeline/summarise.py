@@ -22,7 +22,7 @@ out_folder.mkdir(parents=True, exist_ok=True)
 out_indiv.mkdir(parents=True, exist_ok=True)
 
 # call ollama
-def ollama_generate(prompt: str, model: str = "llama3.2") -> str:
+def ollama_generate(prompt: str, model: str) -> str:
     try:
         res = subprocess.run(
             ["ollama", "run", model],
@@ -56,7 +56,7 @@ def summarise(txt: str, query: str = "") -> str:
             f"'Here is the summary' or 'Berikut adalah ringkasan artikel'.\n\n{txt}"
         )
 
-    summary = ollama_generate(prompt, model="llama3.2").strip()
+    summary = ollama_generate(prompt, model="llama3.2").strip() # change model here!!
 
     # make sure query is mentioned
     if query and query.lower() not in summary.lower():
