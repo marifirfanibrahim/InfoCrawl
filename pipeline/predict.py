@@ -1,8 +1,7 @@
-# pipeline/predict.py
 """
 label prediction
 1. set labels
-2. load model (urchade/gliner_multi)
+2. load model (urchade/gliner_multi-v2.1)
 3. get csv files
 4. predict individual and overall summaries (txt files)
 5. predict news feed, full news, and search data (csv files)
@@ -24,18 +23,30 @@ search_folder = data_folder / "raw" / "search"
 
 proc_folder.mkdir(parents=True, exist_ok=True)
 
-# labels + model
+# labels
 labels = [
     "GPE", "PERSON", "ORG", "FAC", "MONEY", "NORP", "LOC", "PRODUCT", "EVENT",
     "PERCENT", "WORK_OF_ART", "TIME", "ORDINAL", "CARDINAL", "QUANTITY", "LAW"
 ]
 
-model = GLiNER.from_pretrained("urchade/gliner_multi")
+# Singleton pattern for model loading
+_model = None
+
+def get_model():
+    global _model
+    if _model is None:
+        print("Loading GLiNER model...")
+        # Use v2.1 for stability and compatibility
+        _model = GLiNER.from_pretrained("urchade/gliner_multi")
+        print("Model loaded successfully!")
+    return _model
 
 def predict_entities(txt: str):
     txt = (txt or "").strip()
     if not txt:
         return []
+    
+    model = get_model()
     return model.predict_entities(txt, labels=labels, threshold=0.5)
 
 # helpers
@@ -65,6 +76,7 @@ def read_all_csvs(folder: Path) -> pd.DataFrame:
 
 # individual summaries
 def run_individual() -> Path:
+    print("Running individual summaries prediction...")
     out_file = proc_folder / "predictions_individual.json"
     res = {}
     for f in sorted(indiv_summaries.glob("*.txt")):
@@ -74,12 +86,15 @@ def run_individual() -> Path:
             txt = f.read_text(errors="ignore")
         res[f.name] = predict_entities(txt)
     out_file.write_text(json.dumps(res, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Individual predictions saved to {out_file}")
     return out_file
 
 # overall summary
 def run_overall() -> Path | None:
+    print("Running overall summary prediction...")
     sum_file = out_folder / "summary_overall.txt"
     if not sum_file.exists():
+        print("Overall summary file not found")
         return None
     try:
         txt = sum_file.read_text(encoding="utf-8")
@@ -91,13 +106,16 @@ def run_overall() -> Path | None:
         json.dumps({"file": sum_file.name, "entities": ents}, ensure_ascii=False, indent=2),
         encoding="utf-8"
     )
+    print(f"Overall predictions saved to {out_file}")
     return out_file
 
 # news feed csvs
 def run_news() -> Path:
+    print("Running news feed prediction...")
     df = read_all_csvs(news_feed_folder)
     out_file = proc_folder / "predictions_newsfeed.json"
     if df.empty:
+        print("No news feed data found")
         out_file.write_text(json.dumps({}, ensure_ascii=False, indent=2), encoding="utf-8")
         return out_file
 
@@ -114,13 +132,16 @@ def run_news() -> Path:
         preds[key] = predict_entities(txt)
 
     out_file.write_text(json.dumps(preds, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"News feed predictions saved to {out_file}")
     return out_file
 
 # full news csvs
 def run_fullnews() -> Path:
+    print("Running full news prediction...")
     df = read_all_csvs(news_id_folder)
     out_file = proc_folder / "predictions_fullnews.json"
     if df.empty:
+        print("No full news data found")
         out_file.write_text(json.dumps({}, ensure_ascii=False, indent=2), encoding="utf-8")
         return out_file
 
@@ -137,13 +158,16 @@ def run_fullnews() -> Path:
         preds[key] = predict_entities(txt)
 
     out_file.write_text(json.dumps(preds, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Full news predictions saved to {out_file}")
     return out_file
 
 # search csvs
 def run_search() -> Path:
+    print("Running search prediction...")
     df = read_all_csvs(search_folder)
     out_file = proc_folder / "predictions_search.json"
     if df.empty:
+        print("No search data found")
         out_file.write_text(json.dumps({}, ensure_ascii=False, indent=2), encoding="utf-8")
         return out_file
 
@@ -160,9 +184,11 @@ def run_search() -> Path:
         preds[key] = predict_entities(txt)
 
     out_file.write_text(json.dumps(preds, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Search predictions saved to {out_file}")
     return out_file
 
 if __name__ == "__main__":
+    # Only run when executed directly, not when imported
     run_individual()
     run_overall()
     run_news()
