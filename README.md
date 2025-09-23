@@ -1,7 +1,7 @@
 # InfoCrawl: 
 InfoCrawl is an information fetcher that fetches and summarises information based on the user query. The fetching focuses on Malaysian context and most of the data is obtained from Malaysian news sites. Additionally, based on the information gathered, the labels on various entities are predicted and displayed.
 
-This system uses Selenium and BeautifulSoup for data collection, Ollama 3.2 to summarise the text data, and GliNER (urchade/gliner_multi) for label prediction.
+This system uses Selenium and BeautifulSoup for data collection, Ollama to summarise the text data, and GliNER (urchade/gliner_multi) for label prediction.
 
 <details>
 <summary>Table of Contents</summary>
