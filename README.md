@@ -324,6 +324,7 @@ streamlit run main.py
 
 - **Summarisation**  
   - As of now, the overall summary may be irrelevant despite the individual summaries being not. This also needs to be reviewed.
+  - The data needs to be cleared for each search because the summariser would also try to summarise the content from the previous query.
 
 - **Entity Recognition**  
   - The extracted entities (e.g., ORG, PERSON) are not always perfect.  
