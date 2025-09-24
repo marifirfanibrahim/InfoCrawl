@@ -1,7 +1,8 @@
+# pipeline/predict.py
 """
-label prediction
+label prediction with batching + progress printing
 1. set labels
-2. load model (urchade/gliner_multi-v2.1)
+2. load model (urchade/gliner_multi)
 3. get csv files
 4. predict individual and overall summaries (txt files)
 5. predict news feed, full news, and search data (csv files)
@@ -9,8 +10,14 @@ label prediction
 """
 from pathlib import Path
 import json
+import time
 import pandas as pd
+from collections import defaultdict
 from gliner import GLiNER
+
+# config
+CHUNK_SIZE = 500
+CHUNK_OVERLAP = 50
 
 # folders
 data_folder = Path("data")
@@ -36,18 +43,9 @@ def get_model():
     global _model
     if _model is None:
         print("Loading GLiNER model...")
-        # Use v2.1 for stability and compatibility
-        _model = GLiNER.from_pretrained("urchade/gliner_multi")
+        _model = GLiNER.from_pretrained("model/gliner_multi", local_files_only=True)
         print("Model loaded successfully!")
     return _model
-
-def predict_entities(txt: str):
-    txt = (txt or "").strip()
-    if not txt:
-        return []
-    
-    model = get_model()
-    return model.predict_entities(txt, labels=labels, threshold=0.5)
 
 # helpers
 def safe_str(x) -> str:
@@ -74,34 +72,93 @@ def read_all_csvs(folder: Path) -> pd.DataFrame:
             continue
     return pd.concat(dfs, ignore_index=True) if dfs else pd.DataFrame()
 
+def chunk_text(text: str, chunk_size: int = CHUNK_SIZE, overlap: int = CHUNK_OVERLAP) -> list[str]:
+    chunks = []
+    start = 0
+    while start < len(text):
+        end = start + chunk_size
+        chunks.append(text[start:end])
+        start += chunk_size - overlap
+    return chunks
+
+def deduplicate_entities(entities: list[dict]) -> list[dict]:
+    seen = set()
+    unique = []
+    for ent in entities:
+        key = (ent.get("label"), ent.get("text"), ent.get("start"), ent.get("end"))
+        if key not in seen:
+            seen.add(key)
+            unique.append(ent)
+    return unique
+
+# batch prediction
+def predict_entities_in_chunks(texts, batch_size=32):
+    model = get_model()
+    results = []
+    total = len(texts)
+    start_time = time.time()
+    for i in range(0, total, batch_size):
+        batch = texts[i:i+batch_size]
+        try:
+            out = model.predict_entities(batch, labels=labels, threshold=0.5)
+        except Exception:
+            out = [model.predict_entities(t, labels=labels, threshold=0.5) for t in batch]
+        results.extend(out)
+        elapsed = time.time() - start_time
+        done = i + len(batch)
+        print(f"Processed {done}/{total} rows in {elapsed:.1f}s")
+    return results
+
 # individual summaries
 def run_individual() -> Path:
-    print("Running individual summaries prediction...")
     out_file = proc_folder / "predictions_individual.json"
-    res = {}
+    if out_file.exists():
+        print(f"Skipping individual summaries — {out_file} already exists")
+        return out_file
+
+    print("Running individual summaries prediction...")
+    texts, keys = [], []
     for f in sorted(indiv_summaries.glob("*.txt")):
         try:
             txt = f.read_text(encoding="utf-8")
         except Exception:
             txt = f.read_text(errors="ignore")
-        res[f.name] = predict_entities(txt)
+        if txt.strip():
+            texts.append(txt)
+            keys.append(f.name)
+
+    preds = predict_entities_in_chunks(texts)
+    res = {k: deduplicate_entities(p) for k, p in zip(keys, preds)}
+
     out_file.write_text(json.dumps(res, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Individual predictions saved to {out_file}")
     return out_file
 
 # overall summary
 def run_overall() -> Path | None:
+    out_file = proc_folder / "predictions_overall.json"
+    if out_file.exists():
+        print(f"Skipping overall summary — {out_file} already exists")
+        return out_file
+
     print("Running overall summary prediction...")
     sum_file = out_folder / "summary_overall.txt"
     if not sum_file.exists():
         print("Overall summary file not found")
         return None
+
     try:
         txt = sum_file.read_text(encoding="utf-8")
     except Exception:
         txt = sum_file.read_text(errors="ignore")
-    ents = predict_entities(txt)
-    out_file = proc_folder / "predictions_overall.json"
+
+    if not txt.strip():
+        print("Overall summary is empty")
+        return None
+
+    ents = predict_entities_in_chunks([txt])[0]
+    ents = deduplicate_entities(ents)
+
     out_file.write_text(
         json.dumps({"file": sum_file.name, "entities": ents}, ensure_ascii=False, indent=2),
         encoding="utf-8"
@@ -109,88 +166,86 @@ def run_overall() -> Path | None:
     print(f"Overall predictions saved to {out_file}")
     return out_file
 
-# news feed csvs
-def run_news() -> Path:
-    print("Running news feed prediction...")
-    df = read_all_csvs(news_feed_folder)
-    out_file = proc_folder / "predictions_newsfeed.json"
+# predict csv files
+def run_csv(folder: Path, out_name: str, text_cols: list[str], batch_size: int = 32) -> Path:
+    out_file = proc_folder / f"predictions_{out_name}.json"
+
+    # load existing predictions if available
+    if out_file.exists():
+        try:
+            existing = json.loads(out_file.read_text(encoding="utf-8"))
+        except Exception:
+            existing = {}
+    else:
+        existing = {}
+
+    print(f"Running {out_name} prediction...")
+    df = read_all_csvs(folder)
     if df.empty:
-        print("No news feed data found")
-        out_file.write_text(json.dumps({}, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"No {out_name} data found")
+        out_file.write_text(json.dumps(existing, ensure_ascii=False, indent=2), encoding="utf-8")
         return out_file
 
-    preds = {}
+    texts, keys, starts = [], [], []
     for i, row in df.iterrows():
-        title = safe_str(row.get("Title"))
-        summ = safe_str(row.get("Summary"))
-        txt = summ if summ else title
+        # pick first non-empty text col
+        txt = ""
+        for col in text_cols:
+            txt = safe_str(row.get(col))
+            if txt:
+                break
         if not txt:
             continue
+
         key = safe_str(row.get("Source_URL")).strip()
         if not key:
-            key = f"{safe_str(row.get('__srcfile__'))}:{safe_str(i)}"
-        preds[key] = predict_entities(txt)
+            key = f"{safe_str(row.get('__srcfile__'))}:{i}"
 
-    out_file.write_text(json.dumps(preds, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"News feed predictions saved to {out_file}")
-    return out_file
-
-# full news csvs
-def run_fullnews() -> Path:
-    print("Running full news prediction...")
-    df = read_all_csvs(news_id_folder)
-    out_file = proc_folder / "predictions_fullnews.json"
-    if df.empty:
-        print("No full news data found")
-        out_file.write_text(json.dumps({}, ensure_ascii=False, indent=2), encoding="utf-8")
-        return out_file
-
-    preds = {}
-    for i, row in df.iterrows():
-        title = safe_str(row.get("Title"))
-        summ = safe_str(row.get("Summary"))
-        txt = summ if summ else title
-        if not txt:
+        # skip if already predicted
+        if key in existing and existing.get(key):
             continue
-        key = safe_str(row.get("Source_URL")).strip()
-        if not key:
-            key = f"{safe_str(row.get('__srcfile__'))}:{safe_str(i)}"
-        preds[key] = predict_entities(txt)
 
-    out_file.write_text(json.dumps(preds, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Full news predictions saved to {out_file}")
+        # chunking
+        start = 0
+        while start < len(txt):
+            end = min(start + CHUNK_SIZE, len(txt))
+            chunk = txt[start:end]
+            texts.append(chunk)
+            keys.append(f"{key}__part{len(starts)}")
+            starts.append(start)
+            start += CHUNK_SIZE - CHUNK_OVERLAP
+
+    if texts:
+        preds = predict_entities_in_chunks(texts, batch_size=batch_size)
+
+        merged = defaultdict(list)
+        for k, p, cstart in zip(keys, preds, starts):
+            doc, _, _ = k.partition("__part")
+            for ent in p:
+                try:
+                    ent["start"] = int(ent.get("start", 0)) + cstart
+                    ent["end"] = int(ent.get("end", 0)) + cstart
+                except Exception:
+                    pass
+                merged[doc].append(ent)
+
+        # deduplicate and merge
+        for doc, ents in merged.items():
+            combined = (existing.get(doc, []) or []) + ents
+            existing[doc] = deduplicate_entities(combined)
+
+    out_file.write_text(json.dumps(existing, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"{out_name.capitalize()} predictions saved to {out_file}")
     return out_file
 
-# search csvs
-def run_search() -> Path:
-    print("Running search prediction...")
-    df = read_all_csvs(search_folder)
-    out_file = proc_folder / "predictions_search.json"
-    if df.empty:
-        print("No search data found")
-        out_file.write_text(json.dumps({}, ensure_ascii=False, indent=2), encoding="utf-8")
-        return out_file
+def run_news(): return run_csv(news_feed_folder, "newsfeed", ["Summary", "Title"])
+def run_fullnews(): return run_csv(news_id_folder, "fullnews", ["Summary", "Title"])
+def run_search(): return run_csv(search_folder, "search", ["Content", "Title"])
 
-    preds = {}
-    for i, row in df.iterrows():
-        content = safe_str(row.get("Content"))
-        title = safe_str(row.get("Title"))
-        txt = content if content else title
-        if not txt:
-            continue
-        key = safe_str(row.get("Source_URL")).strip()
-        if not key:
-            key = f"{safe_str(row.get('__srcfile__'))}:{safe_str(i)}"
-        preds[key] = predict_entities(txt)
-
-    out_file.write_text(json.dumps(preds, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Search predictions saved to {out_file}")
-    return out_file
-
-if __name__ == "__main__":
-    # Only run when executed directly, not when imported
-    run_individual()
-    run_overall()
-    run_news()
-    run_fullnews()
-    run_search()
+# test - don't uncomment when running streamlit
+# if __name__ == "__main__":
+#     run_individual()
+#     run_overall()
+#     run_search()
+#     run_news()
+#     run_fullnews()

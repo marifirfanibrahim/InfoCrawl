@@ -56,7 +56,7 @@ def summarise(txt: str, query: str = "") -> str:
             f"'Here is the summary' or 'Berikut adalah ringkasan artikel'.\n\n{txt}"
         )
 
-    summary = ollama_generate(prompt, model="llama3.2").strip() # change model here!!
+    summary = ollama_generate(prompt, model="llama3.2").strip()                                 # change model here!!
 
     # make sure query is mentioned
     if query and query.lower() not in summary.lower():
@@ -129,8 +129,8 @@ def run_overall(query: str = "") -> Path | None:
         print("no compiled.txt in data/processed/")
     return None
 
-# run both
-if __name__ == "__main__":
-    q = "maybank"
-    run_individual(query=q)
-    run_overall(query=q)
+# test
+# if __name__ == "__main__":
+#     q = "maybank"
+#     run_individual(query=q)
+#     run_overall(query=q)

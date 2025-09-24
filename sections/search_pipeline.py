@@ -13,6 +13,12 @@ import shutil
 from pathlib import Path
 from ui_helpers import load_preds_json, build_colors
 
+from pipeline import crawler as crawl_mod
+from pipeline import summarise as sum_mod
+from pipeline import compile as comp_mod
+from pipeline.scraper_search import run_scraper
+from pipeline import predict as pred_mod
+
 last_query_file = Path("data/processed/last_query.txt")
 
 def _ensure_parent(path: Path):
@@ -55,10 +61,6 @@ def render_search_pipeline(search_text: str):
                 st.warning("Please enter a search term first")
             else:
                 with st.status("Running pipeline...", expanded=True) as box:
-                    from pipeline import crawler as crawl_mod
-                    from pipeline import summarise as sum_mod
-                    from pipeline import compile as comp_mod
-                    from pipeline.scraper_search import run_scraper
                     try:
                         box.write("Crawling for links...")
                         crawl_mod.run(search_text)
@@ -85,15 +87,14 @@ def render_search_pipeline(search_text: str):
 
         # run label prediction only
         if st.button("Predict Labels", type="secondary", disabled=disabled):
-            from pipeline import predict as pred_mod
             try:
                 with st.status("running label prediction...", expanded=True) as box:
                     box.write("predicting labels...")
                     pred_mod.run_individual()
                     pred_mod.run_overall()
+                    pred_mod.run_search()
                     pred_mod.run_news()
                     pred_mod.run_fullnews()
-                    pred_mod.run_search()
                     box.success("label prediction complete")
             except Exception as e:
                 st.error(f"Label prediction failed: {e}")

@@ -2,25 +2,39 @@
   "file": "summary_overall.txt",
   "entities": [
     {
-      "start": 12,
-      "end": 34,
-      "text": "Projek Penjanaan Solar",
+      "start": 38,
+      "end": 57,
+      "text": "pelan strategi baru",
       "label": "PRODUCT",
-      "score": 0.5600112676620483
+      "score": 0.7285058498382568
     },
     {
-      "start": 42,
-      "end": 68,
-      "text": "Bank Islam Malaysia Berhad",
+      "start": 82,
+      "end": 89,
+      "text": "Maybank",
       "label": "ORG",
-      "score": 0.9684740900993347
+      "score": 0.9910526871681213
     },
     {
-      "start": 73,
-      "end": 94,
-      "text": "Solar Voltech Sdn Bhd",
-      "label": "ORG",
-      "score": 0.9186416864395142
+      "start": 96,
+      "end": 105,
+      "text": "Pelan M25",
+      "label": "PRODUCT",
+      "score": 0.9557982087135315
+    },
+    {
+      "start": 144,
+      "end": 148,
+      "text": "2023",
+      "label": "TIME",
+      "score": 0.7740975618362427
+    },
+    {
+      "start": 156,
+      "end": 160,
+      "text": "2025",
+      "label": "TIME",
+      "score": 0.8387569785118103
     }
   ]
 }

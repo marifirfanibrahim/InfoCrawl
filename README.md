@@ -1,7 +1,4 @@
 # InfoCrawl: 
-InfoCrawl is an information fetcher that fetches and summarises information based on the user query. The fetching focuses on Malaysian context and most of the data is obtained from Malaysian news sites. Additionally, based on the information gathered, the labels on various entities are predicted and displayed.
-
-This system uses Selenium and BeautifulSoup for data collection, Ollama to summarise the text data, and GliNER (urchade/gliner_multi) for label prediction.
 
 <details>
 <summary>Table of Contents</summary>
@@ -23,8 +20,9 @@ This system uses Selenium and BeautifulSoup for data collection, Ollama to summa
 </details>
 
 ## 1. Introduction
-InfoCrawl is a Python-based system designed to **crawl Malaysian news sources**, **scrape and process articles**, **summarise content using LLMs**, and **extract entities** (e.g., organisations, people, locations) for analysis.  
-The project integrates multiple components — web scraping, NLP, and a Streamlit dashboard — into a single pipeline.
+InfoCrawl is an information fetcher that fetches and summarises information based on the user query. The fetching focuses on Malaysian context and most of the data is obtained from Malaysian news sites. Additionally, based on the information gathered, the labels on various entities are predicted and displayed.
+
+This system uses Selenium and BeautifulSoup for data collection, Ollama to summarise the text data, and GliNER (urchade/gliner_multi) for label prediction.
 
 ---
 ## 2. System Architecture
