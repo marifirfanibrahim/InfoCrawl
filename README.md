@@ -304,7 +304,16 @@ streamlit
   # path to edge driver
   EDGE_DRIVER_PATH = r"C:\WebDrivers\msedgedriver.exe"
   ```
-- Install [Ollama](https://ollama.ai/) and pull the `llama3.2` model for summarisation.  
+- Install [Ollama](https://ollama.ai/). Then, in the terminal;
+
+```bash
+ollama pull llama3.2
+ollama serve
+```
+
+*For lower-end hardwares i.e. <16gb RAM or no GPU, try using:
+* `tinyllama` or `phi` (4-6gb RAM)
+* `mistral` (8-12gb RAM)
 
 ---
 ## 6. Usage
