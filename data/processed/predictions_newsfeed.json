@@ -73893,5 +73893,5588 @@
       "label": "ORG",
       "score": 0.5651265382766724
     }
+  ],
+  "https://www.utusan.com.my/nasional/2025/09/gro-warga-asing-mengaku-rakyat-malaysia-elak-ditahan/?utm_source=rss&utm_medium=rss&utm_campaign=gro-warga-asing-mengaku-rakyat-malaysia-elak-ditahan": [
+    {
+      "start": 0,
+      "end": 13,
+      "text": "PETALING JAYA",
+      "label": "LOC",
+      "score": 0.9506720900535583
+    },
+    {
+      "start": 30,
+      "end": 36,
+      "text": "wanita",
+      "label": "PERSON",
+      "score": 0.5922000408172607
+    },
+    {
+      "start": 65,
+      "end": 88,
+      "text": "gadis pelayan pelanggan",
+      "label": "PERSON",
+      "score": 0.6012545228004456
+    },
+    {
+      "start": 90,
+      "end": 93,
+      "text": "GRO",
+      "label": "ORG",
+      "score": 0.6209961771965027
+    },
+    {
+      "start": 158,
+      "end": 165,
+      "text": "serbuan",
+      "label": "EVENT",
+      "score": 0.80668044090271
+    },
+    {
+      "start": 193,
+      "end": 203,
+      "text": "Sungei Way",
+      "label": "LOC",
+      "score": 0.9589613080024719
+    },
+    {
+      "start": 237,
+      "end": 243,
+      "text": "wanita",
+      "label": "PERSON",
+      "score": 0.5905935168266296
+    },
+    {
+      "start": 273,
+      "end": 287,
+      "text": "rakan-rakannya",
+      "label": "PERSON",
+      "score": 0.6571088433265686
+    },
+    {
+      "start": 322,
+      "end": 336,
+      "text": "pihak berkuasa",
+      "label": "ORG",
+      "score": 0.7129301428794861
+    },
+    {
+      "start": 352,
+      "end": 363,
+      "text": "pemeriksaan",
+      "label": "EVENT",
+      "score": 0.5526273250579834
+    }
+  ],
+  "https://www.utusan.com.my/nasional/2025/09/selesai-masalah-nelayan-petani-bukan-terhad-satu-agensi-pm/?utm_source=rss&utm_medium=rss&utm_campaign=selesai-masalah-nelayan-petani-bukan-terhad-satu-agensi-pm": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "PUTRAJAYA",
+      "label": "LOC",
+      "score": 0.9024062752723694
+    },
+    {
+      "start": 11,
+      "end": 35,
+      "text": "Datuk Seri Anwar Ibrahim",
+      "label": "PERSON",
+      "score": 0.962243378162384
+    },
+    {
+      "start": 164,
+      "end": 170,
+      "text": "agensi",
+      "label": "ORG",
+      "score": 0.5475584864616394
+    },
+    {
+      "start": 203,
+      "end": 210,
+      "text": "jabatan",
+      "label": "ORG",
+      "score": 0.6530820727348328
+    },
+    {
+      "start": 227,
+      "end": 242,
+      "text": "Perdana Menteri",
+      "label": "PERSON",
+      "score": 0.9082777500152588
+    },
+    {
+      "start": 273,
+      "end": 286,
+      "text": "agensi-agensi",
+      "label": "ORG",
+      "score": 0.6160333156585693
+    },
+    {
+      "start": 296,
+      "end": 342,
+      "text": "Kementerian Pertanian dan Keterjaminan Makanan",
+      "label": "ORG",
+      "score": 0.9475385546684265
+    },
+    {
+      "start": 344,
+      "end": 348,
+      "text": "KPKM",
+      "label": "ORG",
+      "score": 0.6566991806030273
+    }
+  ],
+  "https://www.utusan.com.my/nasional/2025/09/adun-pas-mohon-maaf-fitnah-wakil-rakyat-dap/?utm_source=rss&utm_medium=rss&utm_campaign=adun-pas-mohon-maaf-fitnah-wakil-rakyat-dap": [
+    {
+      "start": 0,
+      "end": 13,
+      "text": "PETALING JAYA",
+      "label": "LOC",
+      "score": 0.8600338101387024
+    },
+    {
+      "start": 15,
+      "end": 41,
+      "text": "Ahli Dewan Undangan Negeri",
+      "label": "ORG",
+      "score": 0.6057075262069702
+    },
+    {
+      "start": 49,
+      "end": 61,
+      "text": "Sungai Ramal",
+      "label": "LOC",
+      "score": 0.7879571914672852
+    },
+    {
+      "start": 63,
+      "end": 79,
+      "text": "Mohd Shafie Ngah",
+      "label": "PERSON",
+      "score": 0.9805349707603455
+    },
+    {
+      "start": 113,
+      "end": 132,
+      "text": "Ahli Parlimen Bangi",
+      "label": "ORG",
+      "score": 0.6654403209686279
+    },
+    {
+      "start": 134,
+      "end": 150,
+      "text": "Syahredzan Johan",
+      "label": "PERSON",
+      "score": 0.9851095676422119
+    },
+    {
+      "start": 300,
+      "end": 323,
+      "text": "penghakiman persetujuan",
+      "label": "LAW",
+      "score": 0.5609963536262512
+    },
+    {
+      "start": 327,
+      "end": 355,
+      "text": "Mahkamah Tinggi Kuala Lumpur",
+      "label": "ORG",
+      "score": 0.8054371476173401
+    }
+  ],
+  "https://www.utusan.com.my/gaya/hiburan/2025/09/transgender-dia-hanya-sparring-partner-hariz-hamdan/?utm_source=rss&utm_medium=rss&utm_campaign=transgender-dia-hanya-sparring-partner-hariz-hamdan": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.919372022151947
+    },
+    {
+      "start": 30,
+      "end": 42,
+      "text": "Hariz Hamdan",
+      "label": "PERSON",
+      "score": 0.9807916283607483
+    }
+  ],
+  "https://www.utusan.com.my/luar-negara/2025/09/terlibat-jenayah-pilihan-raya-bekas-presiden-perancis-dipenjara-lima-tahun/?utm_source=rss&utm_medium=rss&utm_campaign=terlibat-jenayah-pilihan-raya-bekas-presiden-perancis-dipenjara-lima-tahun": [
+    {
+      "start": 0,
+      "end": 5,
+      "text": "PARIS",
+      "label": "LOC",
+      "score": 0.8683483600616455
+    },
+    {
+      "start": 16,
+      "end": 21,
+      "text": "Paris",
+      "label": "LOC",
+      "score": 0.8450997471809387
+    },
+    {
+      "start": 58,
+      "end": 68,
+      "text": "lima tahun",
+      "label": "TIME",
+      "score": 0.8502009510993958
+    },
+    {
+      "start": 93,
+      "end": 101,
+      "text": "Perancis",
+      "label": "GPE",
+      "score": 0.6267597079277039
+    },
+    {
+      "start": 103,
+      "end": 118,
+      "text": "Nicolas Sarkozy",
+      "label": "PERSON",
+      "score": 0.9826768040657043
+    },
+    {
+      "start": 195,
+      "end": 219,
+      "text": "kempen pilihan raya 2007",
+      "label": "EVENT",
+      "score": 0.6285221576690674
+    },
+    {
+      "start": 242,
+      "end": 247,
+      "text": "Libya",
+      "label": "LOC",
+      "score": 0.8701449632644653
+    },
+    {
+      "start": 294,
+      "end": 296,
+      "text": "70",
+      "label": "CARDINAL",
+      "score": 0.5606578588485718
+    },
+    {
+      "start": 329,
+      "end": 337,
+      "text": "Perancis",
+      "label": "GPE",
+      "score": 0.7628145813941956
+    }
+  ],
+  "https://www.utusan.com.my/nasional/2025/09/counter-setting-imigresen-tunggu-laporan-penuh-sprm/?utm_source=rss&utm_medium=rss&utm_campaign=counter-setting-imigresen-tunggu-laporan-penuh-sprm": [
+    {
+      "start": 0,
+      "end": 13,
+      "text": "PETALING JAYA",
+      "label": "LOC",
+      "score": 0.8660653829574585
+    },
+    {
+      "start": 58,
+      "end": 84,
+      "text": "Jabatan Imigresen Malaysia",
+      "label": "ORG",
+      "score": 0.9211336970329285
+    },
+    {
+      "start": 86,
+      "end": 89,
+      "text": "JIM",
+      "label": "ORG",
+      "score": 0.7957032918930054
+    },
+    {
+      "start": 128,
+      "end": 166,
+      "text": "Suruhanjaya Pencegahan Rasuah Malaysia",
+      "label": "ORG",
+      "score": 0.9345064163208008
+    },
+    {
+      "start": 168,
+      "end": 172,
+      "text": "SPRM",
+      "label": "ORG",
+      "score": 0.8261556029319763
+    },
+    {
+      "start": 229,
+      "end": 250,
+      "text": "Datuk Zakaria Shaaban",
+      "label": "PERSON",
+      "score": 0.9128806591033936
+    },
+    {
+      "start": 302,
+      "end": 306,
+      "text": "SPRM",
+      "label": "ORG",
+      "score": 0.9021235704421997
+    },
+    {
+      "start": 347,
+      "end": 350,
+      "text": "JIM",
+      "label": "ORG",
+      "score": 0.8679847121238708
+    },
+    {
+      "start": 387,
+      "end": 391,
+      "text": "SPRM",
+      "label": "ORG",
+      "score": 0.9537466168403625
+    },
+    {
+      "start": 407,
+      "end": 415,
+      "text": "sindiket",
+      "label": "ORG",
+      "score": 0.869843602180481
+    }
+  ],
+  "https://www.utusan.com.my/terkini/2025/09/amarjit-dilantik-naib-presiden-uci/?utm_source=rss&utm_medium=rss&utm_campaign=amarjit-dilantik-naib-presiden-uci": [
+    {
+      "start": 23,
+      "end": 65,
+      "text": "Persekutuan Kebangsaan Berbasikal Malaysia",
+      "label": "ORG",
+      "score": 0.8833334445953369
+    },
+    {
+      "start": 67,
+      "end": 71,
+      "text": "PKBM",
+      "label": "ORG",
+      "score": 0.5708409547805786
+    },
+    {
+      "start": 74,
+      "end": 98,
+      "text": "Datuk Amarjit Singh Gill",
+      "label": "PERSON",
+      "score": 0.9634276628494263
+    },
+    {
+      "start": 154,
+      "end": 186,
+      "text": "Kesatuan Berbasikal Antarabangsa",
+      "label": "ORG",
+      "score": 0.9146946668624878
+    },
+    {
+      "start": 188,
+      "end": 191,
+      "text": "UCI",
+      "label": "ORG",
+      "score": 0.7788143754005432
+    },
+    {
+      "start": 210,
+      "end": 228,
+      "text": "Kongres UCI ke-194",
+      "label": "EVENT",
+      "score": 0.9012583494186401
+    },
+    {
+      "start": 232,
+      "end": 238,
+      "text": "Kigali",
+      "label": "LOC",
+      "score": 0.8568643927574158
+    },
+    {
+      "start": 240,
+      "end": 246,
+      "text": "Rwanda",
+      "label": "GPE",
+      "score": 0.8989486694335938
+    },
+    {
+      "start": 276,
+      "end": 284,
+      "text": "Malaysia",
+      "label": "GPE",
+      "score": 0.8929038047790527
+    },
+    {
+      "start": 327,
+      "end": 344,
+      "text": "badan induk dunia",
+      "label": "ORG",
+      "score": 0.7448024153709412
+    }
+  ],
+  "https://www.utusan.com.my/luar-negara/2025/09/trump-balas-dendam-bekas-pengarah-fbi-jadi-sasaran/?utm_source=rss&utm_medium=rss&utm_campaign=trump-balas-dendam-bekas-pengarah-fbi-jadi-sasaran": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "WASHINGTON",
+      "label": "LOC",
+      "score": 0.8915762901306152
+    },
+    {
+      "start": 12,
+      "end": 46,
+      "text": "Jabatan Kehakiman Amerika Syarikat",
+      "label": "ORG",
+      "score": 0.8951167464256287
+    },
+    {
+      "start": 48,
+      "end": 50,
+      "text": "AS",
+      "label": "ORG",
+      "score": 0.5222939848899841
+    },
+    {
+      "start": 84,
+      "end": 109,
+      "text": "Biro Siasatan Persekutuan",
+      "label": "ORG",
+      "score": 0.9029682278633118
+    },
+    {
+      "start": 111,
+      "end": 114,
+      "text": "FBI",
+      "label": "ORG",
+      "score": 0.7173200845718384
+    },
+    {
+      "start": 117,
+      "end": 128,
+      "text": "James Comey",
+      "label": "PERSON",
+      "score": 0.9853428602218628
+    },
+    {
+      "start": 246,
+      "end": 267,
+      "text": "Presiden Donald Trump",
+      "label": "PERSON",
+      "score": 0.8551076650619507
+    },
+    {
+      "start": 401,
+      "end": 416,
+      "text": "hukuman penjara",
+      "label": "LAW",
+      "score": 0.5932971239089966
+    },
+    {
+      "start": 426,
+      "end": 436,
+      "text": "lima tahun",
+      "label": "TIME",
+      "score": 0.9496783018112183
+    }
+  ],
+  "https://www.utusan.com.my/nasional/2025/09/bayaran-bukan-sebab-utama-jika-sudah-serasi-saya-tidak-berkira-erra-fazira/?utm_source=rss&utm_medium=rss&utm_campaign=bayaran-bukan-sebab-utama-jika-sudah-serasi-saya-tidak-berkira-erra-fazira": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "SEPANG",
+      "label": "LOC",
+      "score": 0.8914119601249695
+    },
+    {
+      "start": 8,
+      "end": 17,
+      "text": "Primadona",
+      "label": "PERSON",
+      "score": 0.7373659014701843
+    },
+    {
+      "start": 19,
+      "end": 30,
+      "text": "Erra Fazira",
+      "label": "PERSON",
+      "score": 0.9633209109306335
+    },
+    {
+      "start": 50,
+      "end": 57,
+      "text": "bayaran",
+      "label": "MONEY",
+      "score": 0.9268758893013
+    },
+    {
+      "start": 170,
+      "end": 178,
+      "text": "syarikat",
+      "label": "ORG",
+      "score": 0.6449024081230164
+    },
+    {
+      "start": 188,
+      "end": 192,
+      "text": "Erra",
+      "label": "PERSON",
+      "score": 0.660710334777832
+    },
+    {
+      "start": 214,
+      "end": 229,
+      "text": "Fazira Wan Chek",
+      "label": "PERSON",
+      "score": 0.9252310991287231
+    },
+    {
+      "start": 312,
+      "end": 318,
+      "text": "produk",
+      "label": "PRODUCT",
+      "score": 0.710783839225769
+    }
+  ],
+  "https://www.utusan.com.my/nasional/2025/09/fasa-peralihan-monsun-orang-ramai-dinasihat-berwaspada/?utm_source=rss&utm_medium=rss&utm_campaign=fasa-peralihan-monsun-orang-ramai-dinasihat-berwaspada": [
+    {
+      "start": 0,
+      "end": 13,
+      "text": "PETALING JAYA",
+      "label": "LOC",
+      "score": 0.9187821745872498
+    },
+    {
+      "start": 187,
+      "end": 215,
+      "text": "Jabatan Meteorologi Malaysia",
+      "label": "ORG",
+      "score": 0.8188454508781433
+    },
+    {
+      "start": 232,
+      "end": 258,
+      "text": "Dr. Mohd. Hisham Mohd Anip",
+      "label": "PERSON",
+      "score": 0.9391766786575317
+    },
+    {
+      "start": 294,
+      "end": 300,
+      "text": "negeri",
+      "label": "LOC",
+      "score": 0.6892203092575073
+    },
+    {
+      "start": 315,
+      "end": 333,
+      "text": "tiupan angin lemah",
+      "label": "EVENT",
+      "score": 0.5205999612808228
+    }
+  ],
+  "https://www.bharian.com.my/berita/wilayah/2025/09/1450722/lebih-90-peratus-pemilik-flat-tuta-gagal-bayar-yuran-selenggara": [
+    {
+      "start": 0,
+      "end": 11,
+      "text": "JOHOR BAHRU",
+      "label": "LOC",
+      "score": 0.8824302554130554
+    },
+    {
+      "start": 19,
+      "end": 29,
+      "text": "90 peratus",
+      "label": "PERCENT",
+      "score": 0.8495302200317383
+    },
+    {
+      "start": 38,
+      "end": 53,
+      "text": "flat kos rendah",
+      "label": "PRODUCT",
+      "score": 0.5374525189399719
+    },
+    {
+      "start": 57,
+      "end": 79,
+      "text": "Taman Ungku Tun Aminah",
+      "label": "LOC",
+      "score": 0.9318761825561523
+    },
+    {
+      "start": 148,
+      "end": 169,
+      "text": "yuran penyelenggaraan",
+      "label": "MONEY",
+      "score": 0.8206436038017273
+    }
+  ],
+  "https://www.bharian.com.my/sukan/raket/2025/09/1450721/soon-huat-shevon-gagal-sekat-beregu-nombor-satu-dunia": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.721072256565094
+    },
+    {
+      "start": 61,
+      "end": 85,
+      "text": "Goh Soon Huat-Shevon Lai",
+      "label": "PERSON",
+      "score": 0.9483363628387451
+    },
+    {
+      "start": 117,
+      "end": 122,
+      "text": "Korea",
+      "label": "LOC",
+      "score": 0.5453747510910034
+    },
+    {
+      "start": 176,
+      "end": 181,
+      "text": "China",
+      "label": "GPE",
+      "score": 0.9540141224861145
+    }
+  ],
+  "https://www.bharian.com.my/berita/wilayah/2025/09/1450718/tiada-kos-tambahan-baik-pulih-runtuhan-penghadang-ombak": [
+    {
+      "start": 0,
+      "end": 11,
+      "text": "KUALA NERUS",
+      "label": "LOC",
+      "score": 0.9365803003311157
+    },
+    {
+      "start": 13,
+      "end": 21,
+      "text": "Kerajaan",
+      "label": "ORG",
+      "score": 0.9492573142051697
+    },
+    {
+      "start": 105,
+      "end": 128,
+      "text": "Jalan Mengabang Telipot",
+      "label": "LOC",
+      "score": 0.9070329666137695
+    },
+    {
+      "start": 132,
+      "end": 147,
+      "text": "Kampung Tanjung",
+      "label": "LOC",
+      "score": 0.9466984868049622
+    },
+    {
+      "start": 149,
+      "end": 159,
+      "text": "Batu Rakit",
+      "label": "LOC",
+      "score": 0.9637721180915833
+    }
+  ],
+  "https://www.bharian.com.my/sukan/bola/2025/09/1450717/entiti-luar-cuba-sabotaj-projek-harimau-malaya": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.8894318342208862
+    },
+    {
+      "start": 51,
+      "end": 58,
+      "text": "sabotaj",
+      "label": "LAW",
+      "score": 0.6021057963371277
+    }
+  ],
+  "https://www.bharian.com.my/bisnes/korporat/2025/09/1450714/klia-pecah-rekod-pengendalian-penumpang-pada-13-september": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.8092085123062134
+    },
+    {
+      "start": 44,
+      "end": 56,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.7789613008499146
+    },
+    {
+      "start": 134,
+      "end": 150,
+      "text": "12,437 penumpang",
+      "label": "QUANTITY",
+      "score": 0.8254332542419434
+    },
+    {
+      "start": 164,
+      "end": 172,
+      "text": "satu jam",
+      "label": "TIME",
+      "score": 0.7891222834587097
+    },
+    {
+      "start": 180,
+      "end": 187,
+      "text": "7 malam",
+      "label": "TIME",
+      "score": 0.6808986067771912
+    },
+    {
+      "start": 192,
+      "end": 199,
+      "text": "8 malam",
+      "label": "TIME",
+      "score": 0.5495712757110596
+    },
+    {
+      "start": 238,
+      "end": 251,
+      "text": "Hari Malaysia",
+      "label": "EVENT",
+      "score": 0.8222371935844421
+    },
+    {
+      "start": 266,
+      "end": 278,
+      "text": "cuti sekolah",
+      "label": "EVENT",
+      "score": 0.741756021976471
+    },
+    {
+      "start": 286,
+      "end": 294,
+      "text": "seminggu",
+      "label": "TIME",
+      "score": 0.6220681071281433
+    },
+    {
+      "start": 301,
+      "end": 331,
+      "text": "Malaysia Airports Holdings Bhd",
+      "label": "ORG",
+      "score": 0.9776723980903625
+    },
+    {
+      "start": 333,
+      "end": 337,
+      "text": "MAHB",
+      "label": "ORG",
+      "score": 0.7139469385147095
+    }
+  ],
+  "https://www.bharian.com.my/bisnes/lain-lain/2025/09/1450713/klia-pecah-rekod-pengendalian-penumpang-pada-13-september": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.8092085123062134
+    },
+    {
+      "start": 44,
+      "end": 56,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.7789613008499146
+    },
+    {
+      "start": 134,
+      "end": 150,
+      "text": "12,437 penumpang",
+      "label": "QUANTITY",
+      "score": 0.8254332542419434
+    },
+    {
+      "start": 164,
+      "end": 172,
+      "text": "satu jam",
+      "label": "TIME",
+      "score": 0.7891222834587097
+    },
+    {
+      "start": 180,
+      "end": 187,
+      "text": "7 malam",
+      "label": "TIME",
+      "score": 0.6808986067771912
+    },
+    {
+      "start": 192,
+      "end": 199,
+      "text": "8 malam",
+      "label": "TIME",
+      "score": 0.5495712757110596
+    },
+    {
+      "start": 238,
+      "end": 251,
+      "text": "Hari Malaysia",
+      "label": "EVENT",
+      "score": 0.8222371935844421
+    },
+    {
+      "start": 266,
+      "end": 278,
+      "text": "cuti sekolah",
+      "label": "EVENT",
+      "score": 0.741756021976471
+    },
+    {
+      "start": 286,
+      "end": 294,
+      "text": "seminggu",
+      "label": "TIME",
+      "score": 0.6220681071281433
+    },
+    {
+      "start": 301,
+      "end": 331,
+      "text": "Malaysia Airports Holdings Bhd",
+      "label": "ORG",
+      "score": 0.9776723980903625
+    },
+    {
+      "start": 333,
+      "end": 337,
+      "text": "MAHB",
+      "label": "ORG",
+      "score": 0.7139469385147095
+    }
+  ],
+  "https://www.bharian.com.my/hiburan/selebriti/2025/09/1450710/tutup-kisah-silam-haneesya-pilih-guna-nama-sebenar": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.9485296010971069
+    },
+    {
+      "start": 33,
+      "end": 47,
+      "text": "Haneesya Hanee",
+      "label": "PERSON",
+      "score": 0.9677057862281799
+    },
+    {
+      "start": 101,
+      "end": 118,
+      "text": "Sharifah Haneesya",
+      "label": "PERSON",
+      "score": 0.9639792442321777
+    },
+    {
+      "start": 191,
+      "end": 202,
+      "text": "kontroversi",
+      "label": "EVENT",
+      "score": 0.7278896570205688
+    }
+  ],
+  "https://www.bharian.com.my/berita/nasional/2025/09/1450707/malaysia-salur-lebih-as42-juta-bagi-pemulihan-gaza-sejak-tahun-lalu": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "NEW YORK",
+      "label": "LOC",
+      "score": 0.8404501676559448
+    },
+    {
+      "start": 10,
+      "end": 18,
+      "text": "Malaysia",
+      "label": "GPE",
+      "score": 0.9178864359855652
+    },
+    {
+      "start": 37,
+      "end": 47,
+      "text": "AS$42 juta",
+      "label": "MONEY",
+      "score": 0.9370619058609009
+    },
+    {
+      "start": 49,
+      "end": 59,
+      "text": "RM177 juta",
+      "label": "MONEY",
+      "score": 0.9522004723548889
+    },
+    {
+      "start": 124,
+      "end": 128,
+      "text": "Gaza",
+      "label": "LOC",
+      "score": 0.7249881625175476
+    },
+    {
+      "start": 135,
+      "end": 139,
+      "text": "2024",
+      "label": "TIME",
+      "score": 0.8690466284751892
+    },
+    {
+      "start": 218,
+      "end": 226,
+      "text": "Palestin",
+      "label": "GPE",
+      "score": 0.5702604055404663
+    }
+  ],
+  "https://www.bharian.com.my/berita/kes/2025/09/1450705/suspek-pukul-budak-dengan-tukul-ada-sejarah-guna-dadah-halusinasi": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "BACHOK",
+      "label": "LOC",
+      "score": 0.8756336569786072
+    },
+    {
+      "start": 8,
+      "end": 13,
+      "text": "Polis",
+      "label": "ORG",
+      "score": 0.9795193672180176
+    },
+    {
+      "start": 26,
+      "end": 32,
+      "text": "suspek",
+      "label": "PERSON",
+      "score": 0.8630910515785217
+    },
+    {
+      "start": 50,
+      "end": 61,
+      "text": "kanak-kanak",
+      "label": "PERSON",
+      "score": 0.7928770780563354
+    }
+  ],
+  "https://www.bharian.com.my/berita/kes/2025/09/1450700/sindiket-tawar-khidmat-gro-melalui-whatsapp-tumpas-30-wanita-warga-asing": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.8563815355300903
+    },
+    {
+      "start": 19,
+      "end": 27,
+      "text": "sindiket",
+      "label": "ORG",
+      "score": 0.858680784702301
+    },
+    {
+      "start": 47,
+      "end": 59,
+      "text": "wanita asing",
+      "label": "PERSON",
+      "score": 0.7639577388763428
+    },
+    {
+      "start": 109,
+      "end": 117,
+      "text": "WhatsApp",
+      "label": "PRODUCT",
+      "score": 0.9308995008468628
+    },
+    {
+      "start": 133,
+      "end": 140,
+      "text": "serbuan",
+      "label": "EVENT",
+      "score": 0.6125253438949585
+    },
+    {
+      "start": 141,
+      "end": 158,
+      "text": "Jabatan Imigresen",
+      "label": "ORG",
+      "score": 0.9074177742004395
+    },
+    {
+      "start": 165,
+      "end": 173,
+      "text": "Selangor",
+      "label": "LOC",
+      "score": 0.8519861698150635
+    },
+    {
+      "start": 200,
+      "end": 210,
+      "text": "Sungai Way",
+      "label": "LOC",
+      "score": 0.9713354110717773
+    },
+    {
+      "start": 212,
+      "end": 225,
+      "text": "Petaling Jaya",
+      "label": "LOC",
+      "score": 0.9711735844612122
+    },
+    {
+      "start": 227,
+      "end": 237,
+      "text": "malam tadi",
+      "label": "TIME",
+      "score": 0.6981464624404907
+    }
+  ],
+  "https://www.bharian.com.my/sukan/bola/2025/09/1450698/selangor-rehatkan-kinoshi": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.8600198030471802
+    },
+    {
+      "start": 25,
+      "end": 36,
+      "text": "Selangor FC",
+      "label": "ORG",
+      "score": 0.9745008945465088
+    },
+    {
+      "start": 38,
+      "end": 41,
+      "text": "SFC",
+      "label": "ORG",
+      "score": 0.6607429385185242
+    },
+    {
+      "start": 44,
+      "end": 61,
+      "text": "Katsuhito Kinoshi",
+      "label": "PERSON",
+      "score": 0.994346559047699
+    },
+    {
+      "start": 105,
+      "end": 115,
+      "text": "Liga Super",
+      "label": "ORG",
+      "score": 0.8600763082504272
+    },
+    {
+      "start": 147,
+      "end": 156,
+      "text": "musim ini",
+      "label": "TIME",
+      "score": 0.7668317556381226
+    }
+  ],
+  "https://www.bharian.com.my/berita/kes/2025/09/1450696/sindiket-tawar-khidmat-gro-di-whatsapp-tumpas-30-wanita-asing-ditahan": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.8952725529670715
+    },
+    {
+      "start": 19,
+      "end": 27,
+      "text": "sindiket",
+      "label": "ORG",
+      "score": 0.8452532887458801
+    },
+    {
+      "start": 47,
+      "end": 59,
+      "text": "wanita asing",
+      "label": "PERSON",
+      "score": 0.7309913039207458
+    },
+    {
+      "start": 87,
+      "end": 90,
+      "text": "GRO",
+      "label": "ORG",
+      "score": 0.589838445186615
+    },
+    {
+      "start": 109,
+      "end": 117,
+      "text": "WhatsApp",
+      "label": "PRODUCT",
+      "score": 0.9327971935272217
+    },
+    {
+      "start": 133,
+      "end": 140,
+      "text": "serbuan",
+      "label": "EVENT",
+      "score": 0.502785861492157
+    },
+    {
+      "start": 141,
+      "end": 167,
+      "text": "Jabatan Imigresen Selangor",
+      "label": "ORG",
+      "score": 0.7135389447212219
+    },
+    {
+      "start": 194,
+      "end": 204,
+      "text": "Sungai Way",
+      "label": "LOC",
+      "score": 0.9772489070892334
+    },
+    {
+      "start": 206,
+      "end": 219,
+      "text": "Petaling Jaya",
+      "label": "LOC",
+      "score": 0.9777347445487976
+    },
+    {
+      "start": 221,
+      "end": 231,
+      "text": "malam tadi",
+      "label": "TIME",
+      "score": 0.7364938259124756
+    }
+  ],
+  "https://www.bharian.com.my/berita/nasional/2025/09/1450694/adun-pas-shafie-ngah-mohon-maaf-kepada-ahli-parlimen-dap-syahredzan": [
+    {
+      "start": 0,
+      "end": 26,
+      "text": "Oleh Nor Ain Mohamed Radhi",
+      "label": "PERSON",
+      "score": 0.8435567021369934
+    }
+  ],
+  "https://www.bharian.com.my/berita/nasional/2025/09/1450692/imigresen-tunggu-laporan-sprm-babit-pegawai-ditahan-kes-counter": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.8112087845802307
+    },
+    {
+      "start": 14,
+      "end": 31,
+      "text": "Jabatan Imigresen",
+      "label": "ORG",
+      "score": 0.9793405532836914
+    },
+    {
+      "start": 71,
+      "end": 109,
+      "text": "Suruhanjaya Pencegahan Rasuah Malaysia",
+      "label": "ORG",
+      "score": 0.9515106081962585
+    },
+    {
+      "start": 111,
+      "end": 115,
+      "text": "SPRM",
+      "label": "ORG",
+      "score": 0.861911416053772
+    },
+    {
+      "start": 137,
+      "end": 144,
+      "text": "pegawai",
+      "label": "PERSON",
+      "score": 0.7856983542442322
+    },
+    {
+      "start": 145,
+      "end": 152,
+      "text": "jabatan",
+      "label": "ORG",
+      "score": 0.5603676438331604
+    },
+    {
+      "start": 182,
+      "end": 197,
+      "text": "counter setting",
+      "label": "LAW",
+      "score": 0.5802895426750183
+    }
+  ],
+  "https://www.bharian.com.my/sukan/bola/2025/09/1450690/tidak-tidak-tidak-khairy": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.8746197819709778
+    },
+    {
+      "start": 41,
+      "end": 69,
+      "text": "Persatuan Bolasepak Malaysia",
+      "label": "ORG",
+      "score": 0.8954748511314392
+    },
+    {
+      "start": 71,
+      "end": 74,
+      "text": "FAM",
+      "label": "ORG",
+      "score": 0.7828149795532227
+    },
+    {
+      "start": 104,
+      "end": 133,
+      "text": "Bekas Menteri Belia dan Sukan",
+      "label": "ORG",
+      "score": 0.8213565945625305
+    },
+    {
+      "start": 135,
+      "end": 162,
+      "text": "Khairy Jamaluddin Abu Bakar",
+      "label": "PERSON",
+      "score": 0.9891369342803955
+    }
+  ],
+  "https://www.bharian.com.my/rencana/lain-lain/2025/09/1450688/budi95-bukti-iltizam-kerajaan-mereformasikan-sistem-subsidi": [
+    {
+      "start": 39,
+      "end": 47,
+      "text": "Malaysia",
+      "label": "GPE",
+      "score": 0.9552586674690247
+    },
+    {
+      "start": 76,
+      "end": 81,
+      "text": "RON95",
+      "label": "PRODUCT",
+      "score": 0.7823737263679504
+    },
+    {
+      "start": 93,
+      "end": 99,
+      "text": "RM1.99",
+      "label": "MONEY",
+      "score": 0.90798419713974
+    },
+    {
+      "start": 139,
+      "end": 144,
+      "text": "RON95",
+      "label": "PRODUCT",
+      "score": 0.698795735836029
+    }
+  ],
+  "https://www.bharian.com.my/berita/nasional/2025/09/1450686/malaysia-gesa-pbb-perkukuh-kerjasama-badan-serantau-dalam-usaha": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "NEW YORK",
+      "label": "LOC",
+      "score": 0.8655930757522583
+    },
+    {
+      "start": 10,
+      "end": 18,
+      "text": "Malaysia",
+      "label": "GPE",
+      "score": 0.8755253553390503
+    },
+    {
+      "start": 28,
+      "end": 60,
+      "text": "Pertubuhan Bangsa-Bangsa Bersatu",
+      "label": "ORG",
+      "score": 0.9700964093208313
+    },
+    {
+      "start": 62,
+      "end": 65,
+      "text": "PBB",
+      "label": "ORG",
+      "score": 0.7733553647994995
+    },
+    {
+      "start": 96,
+      "end": 115,
+      "text": "organisasi serantau",
+      "label": "ORG",
+      "score": 0.7881923913955688
+    },
+    {
+      "start": 216,
+      "end": 223,
+      "text": "konflik",
+      "label": "EVENT",
+      "score": 0.7212270498275757
+    },
+    {
+      "start": 249,
+      "end": 257,
+      "text": "keamanan",
+      "label": "EVENT",
+      "score": 0.7084901332855225
+    }
+  ],
+  "https://www.bharian.com.my/berita/nasional/2025/09/1450684/malaysia-salur-lebih-rm70-juta-kepada-palestin-sejak-2024-mohamad": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "NEW YORK",
+      "label": "GPE",
+      "score": 0.8078091144561768
+    },
+    {
+      "start": 10,
+      "end": 18,
+      "text": "Malaysia",
+      "label": "GPE",
+      "score": 0.9485824704170227
+    },
+    {
+      "start": 43,
+      "end": 52,
+      "text": "RM70 juta",
+      "label": "MONEY",
+      "score": 0.9752826690673828
+    },
+    {
+      "start": 54,
+      "end": 64,
+      "text": "AS$17 juta",
+      "label": "MONEY",
+      "score": 0.9051975607872009
+    },
+    {
+      "start": 119,
+      "end": 127,
+      "text": "Palestin",
+      "label": "GPE",
+      "score": 0.846217155456543
+    },
+    {
+      "start": 134,
+      "end": 138,
+      "text": "2024",
+      "label": "TIME",
+      "score": 0.8925081491470337
+    },
+    {
+      "start": 145,
+      "end": 157,
+      "text": "Menteri Luar",
+      "label": "PERSON",
+      "score": 0.811073899269104
+    },
+    {
+      "start": 159,
+      "end": 183,
+      "text": "Datuk Seri Mohamad Hasan",
+      "label": "PERSON",
+      "score": 0.9835261702537537
+    }
+  ],
+  "https://www.bharian.com.my/hujung-minggu/santai/2025/09/1450682/malim-gunung-bukan-sekadar-jurupandu-arah": [
+    {
+      "start": 8,
+      "end": 20,
+      "text": "malim gunung",
+      "label": "LOC",
+      "score": 0.8960323929786682
+    },
+    {
+      "start": 105,
+      "end": 117,
+      "text": "malim gunung",
+      "label": "LOC",
+      "score": 0.8797056078910828
+    },
+    {
+      "start": 139,
+      "end": 146,
+      "text": "pendaki",
+      "label": "PERSON",
+      "score": 0.6308384537696838
+    },
+    {
+      "start": 162,
+      "end": 167,
+      "text": "hutan",
+      "label": "LOC",
+      "score": 0.8862111568450928
+    },
+    {
+      "start": 180,
+      "end": 186,
+      "text": "puncak",
+      "label": "LOC",
+      "score": 0.8875344395637512
+    }
+  ],
+  "https://www.bharian.com.my/sukan/olahraga/2025/09/1450678/iheme-lebih-laju-daripada-usain-bolt": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "LONDON",
+      "label": "LOC",
+      "score": 0.8815851211547852
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "text": "Britain",
+      "label": "GPE",
+      "score": 0.7849518656730652
+    },
+    {
+      "start": 44,
+      "end": 52,
+      "text": "15 tahun",
+      "label": "TIME",
+      "score": 0.6577554941177368
+    },
+    {
+      "start": 67,
+      "end": 76,
+      "text": "Lightning",
+      "label": "WORK_OF_ART",
+      "score": 0.6049183011054993
+    },
+    {
+      "start": 79,
+      "end": 91,
+      "text": "Divine Iheme",
+      "label": "PERSON",
+      "score": 0.9726606011390686
+    },
+    {
+      "start": 170,
+      "end": 180,
+      "text": "Usain Bolt",
+      "label": "PERSON",
+      "score": 0.9792760610580444
+    },
+    {
+      "start": 182,
+      "end": 192,
+      "text": "Noah Lyles",
+      "label": "PERSON",
+      "score": 0.9834672808647156
+    },
+    {
+      "start": 197,
+      "end": 206,
+      "text": "Gout Gout",
+      "label": "PERSON",
+      "score": 0.9822944402694702
+    },
+    {
+      "start": 212,
+      "end": 223,
+      "text": "usia sebaya",
+      "label": "TIME",
+      "score": 0.5358304977416992
+    }
+  ],
+  "https://www.bharian.com.my/berita/kes/2025/09/1450676/tiada-kaitan-jenayah-kes-mayat-wanita-dalam-pikap": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.9483851790428162
+    },
+    {
+      "start": 37,
+      "end": 43,
+      "text": "wanita",
+      "label": "PERSON",
+      "score": 0.9242549538612366
+    },
+    {
+      "start": 57,
+      "end": 62,
+      "text": "pikap",
+      "label": "PRODUCT",
+      "score": 0.6915159225463867
+    },
+    {
+      "start": 93,
+      "end": 107,
+      "text": "Diamond Square",
+      "label": "LOC",
+      "score": 0.9606602191925049
+    },
+    {
+      "start": 109,
+      "end": 116,
+      "text": "Setapak",
+      "label": "LOC",
+      "score": 0.9448744654655457
+    },
+    {
+      "start": 126,
+      "end": 137,
+      "text": "Selasa lalu",
+      "label": "TIME",
+      "score": 0.623397171497345
+    },
+    {
+      "start": 162,
+      "end": 169,
+      "text": "jenayah",
+      "label": "LAW",
+      "score": 0.5155737996101379
+    }
+  ],
+  "https://www.bharian.com.my/rencana/sastera/2025/09/1450672/akar-maritim-bangsa-melayu": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.9196922779083252
+    },
+    {
+      "start": 14,
+      "end": 24,
+      "text": "Perkapalan",
+      "label": "FAC",
+      "score": 0.5853655338287354
+    },
+    {
+      "start": 28,
+      "end": 39,
+      "text": "alam Melayu",
+      "label": "LOC",
+      "score": 0.7779253125190735
+    },
+    {
+      "start": 68,
+      "end": 80,
+      "text": "ilmu maritim",
+      "label": "FAC",
+      "score": 0.8127232789993286
+    },
+    {
+      "start": 82,
+      "end": 99,
+      "text": "reka bentuk kapal",
+      "label": "FAC",
+      "score": 0.8165377974510193
+    },
+    {
+      "start": 101,
+      "end": 109,
+      "text": "navigasi",
+      "label": "FAC",
+      "score": 0.763489842414856
+    },
+    {
+      "start": 114,
+      "end": 125,
+      "text": "perdagangan",
+      "label": "FAC",
+      "score": 0.7940809726715088
+    }
+  ],
+  "https://www.bharian.com.my/berita/nasional/2025/09/1450668/pm-ke-sabah-segerakan-projek-rakyat-ipg-gaya-antara-tumpuan": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "PUTRAJAYA",
+      "label": "LOC",
+      "score": 0.8219184875488281
+    },
+    {
+      "start": 11,
+      "end": 35,
+      "text": "Datuk Seri Anwar Ibrahim",
+      "label": "PERSON",
+      "score": 0.9814125299453735
+    },
+    {
+      "start": 53,
+      "end": 66,
+      "text": "Kota Kinabalu",
+      "label": "LOC",
+      "score": 0.9623494744300842
+    },
+    {
+      "start": 68,
+      "end": 73,
+      "text": "Sabah",
+      "label": "GPE",
+      "score": 0.8727092742919922
+    },
+    {
+      "start": 180,
+      "end": 204,
+      "text": "Institut Pendidikan Guru",
+      "label": "ORG",
+      "score": 0.8890129327774048
+    },
+    {
+      "start": 211,
+      "end": 222,
+      "text": "Kampus Gaya",
+      "label": "ORG",
+      "score": 0.8455060720443726
+    },
+    {
+      "start": 244,
+      "end": 256,
+      "text": "tanah runtuh",
+      "label": "EVENT",
+      "score": 0.7042293548583984
+    }
+  ],
+  "https://www.bharian.com.my/sukan/bola/2025/09/1450666/bergson-tekad-terus-jadi-nadi-kemenangan-jdt": [
+    {
+      "start": 0,
+      "end": 11,
+      "text": "JOHOR BAHRU",
+      "label": "LOC",
+      "score": 0.8416069746017456
+    },
+    {
+      "start": 78,
+      "end": 96,
+      "text": "Johor Darul Ta'zim",
+      "label": "ORG",
+      "score": 0.9118701219558716
+    },
+    {
+      "start": 104,
+      "end": 120,
+      "text": "Bergson da Silva",
+      "label": "PERSON",
+      "score": 0.9880181550979614
+    },
+    {
+      "start": 206,
+      "end": 220,
+      "text": "Bangkok United",
+      "label": "ORG",
+      "score": 0.9407217502593994
+    },
+    {
+      "start": 237,
+      "end": 258,
+      "text": "Kejuaraan Kelab ASEAN",
+      "label": "EVENT",
+      "score": 0.869922935962677
+    },
+    {
+      "start": 262,
+      "end": 284,
+      "text": "Stadium Sultan Ibrahim",
+      "label": "LOC",
+      "score": 0.9022342562675476
+    },
+    {
+      "start": 286,
+      "end": 301,
+      "text": "Iskandar Puteri",
+      "label": "LOC",
+      "score": 0.9309130311012268
+    },
+    {
+      "start": 303,
+      "end": 317,
+      "text": "petang semalam",
+      "label": "TIME",
+      "score": 0.5204164981842041
+    }
+  ],
+  "https://www.bharian.com.my/bisnes/lain-lain/2025/09/1450664/malaysia-hampir-capai-sasaran-tenaga-boleh-baharu-tahun-ini": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "SHAH ALAM",
+      "label": "LOC",
+      "score": 0.9214075803756714
+    },
+    {
+      "start": 11,
+      "end": 19,
+      "text": "Malaysia",
+      "label": "LOC",
+      "score": 0.964414656162262
+    },
+    {
+      "start": 132,
+      "end": 147,
+      "text": "akhir tahun ini",
+      "label": "TIME",
+      "score": 0.5852104425430298
+    },
+    {
+      "start": 154,
+      "end": 178,
+      "text": "Timbalan Perdana Menteri",
+      "label": "PERSON",
+      "score": 0.8566862344741821
+    },
+    {
+      "start": 180,
+      "end": 205,
+      "text": "Datuk Seri Fadillah Yusof",
+      "label": "PERSON",
+      "score": 0.979558527469635
+    }
+  ],
+  "https://www.bharian.com.my/berita/nasional/2025/09/1450662/keluarga-mohon-doa-keajaiban-buat-kanak-kanak-cedera-parah-dipukul": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "BACHOK",
+      "label": "LOC",
+      "score": 0.8773558139801025
+    },
+    {
+      "start": 17,
+      "end": 28,
+      "text": "kanak-kanak",
+      "label": "PERSON",
+      "score": 0.7863584756851196
+    },
+    {
+      "start": 106,
+      "end": 115,
+      "text": "keajaiban",
+      "label": "EVENT",
+      "score": 0.6239203810691833
+    },
+    {
+      "start": 121,
+      "end": 127,
+      "text": "mangsa",
+      "label": "PERSON",
+      "score": 0.7573783993721008
+    }
+  ],
+  "https://www.bharian.com.my/berita/nasional/2025/09/1450660/kerjasama-antara-agensi-kpkm-perlu-diperkasa-bantu-selesai-masalah": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "PUTRAJAYA",
+      "label": "LOC",
+      "score": 0.7921066880226135
+    },
+    {
+      "start": 11,
+      "end": 35,
+      "text": "Datuk Seri Anwar Ibrahim",
+      "label": "PERSON",
+      "score": 0.969838559627533
+    },
+    {
+      "start": 74,
+      "end": 120,
+      "text": "Kementerian Pertanian dan Keterjaminan Makanan",
+      "label": "ORG",
+      "score": 0.9559653997421265
+    },
+    {
+      "start": 122,
+      "end": 126,
+      "text": "KPKM",
+      "label": "ORG",
+      "score": 0.683972179889679
+    },
+    {
+      "start": 177,
+      "end": 183,
+      "text": "petani",
+      "label": "PERSON",
+      "score": 0.510932207107544
+    },
+    {
+      "start": 188,
+      "end": 195,
+      "text": "nelayan",
+      "label": "PERSON",
+      "score": 0.6130866408348083
+    }
+  ],
+  "https://www.bharian.com.my/bisnes/pasaran/2025/09/1450658/bursa-malaysia-dibuka-rendah-susut-seiring-wall-street": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.8365278840065002
+    },
+    {
+      "start": 14,
+      "end": 28,
+      "text": "Bursa Malaysia",
+      "label": "LOC",
+      "score": 0.7259860038757324
+    },
+    {
+      "start": 48,
+      "end": 54,
+      "text": "Jumaat",
+      "label": "TIME",
+      "score": 0.6673113107681274
+    },
+    {
+      "start": 84,
+      "end": 95,
+      "text": "Wall Street",
+      "label": "ORG",
+      "score": 0.8062575459480286
+    },
+    {
+      "start": 165,
+      "end": 181,
+      "text": "Amerika Syarikat",
+      "label": "LOC",
+      "score": 0.8743530511856079
+    },
+    {
+      "start": 218,
+      "end": 245,
+      "text": "Keluaran Dalam Negara Kasar",
+      "label": "PRODUCT",
+      "score": 0.7192168831825256
+    },
+    {
+      "start": 298,
+      "end": 307,
+      "text": "dua tahun",
+      "label": "TIME",
+      "score": 0.9330021142959595
+    }
+  ],
+  "https://www.bharian.com.my/hujung-minggu/santai/2025/09/1450657/emas-dunia-perubatan": [
+    {
+      "start": 0,
+      "end": 11,
+      "text": "PERKONGSIAN",
+      "label": "EVENT",
+      "score": 0.5294222235679626
+    },
+    {
+      "start": 12,
+      "end": 44,
+      "text": "Bank Darah Hospital Umum Sarawak",
+      "label": "ORG",
+      "score": 0.8166651725769043
+    },
+    {
+      "start": 53,
+      "end": 56,
+      "text": "Mei",
+      "label": "TIME",
+      "score": 0.7103134393692017
+    },
+    {
+      "start": 137,
+      "end": 141,
+      "text": "Rh17",
+      "label": "PRODUCT",
+      "score": 0.6407893300056458
+    }
+  ],
+  "https://www.bharian.com.my/berita/nasional/2025/09/1450652/polis-pahang-terima-1000-kotak-makanan-madani-prihatin": [
+    {
+      "start": 9,
+      "end": 21,
+      "text": "Polis Pahang",
+      "label": "ORG",
+      "score": 0.9280197620391846
+    },
+    {
+      "start": 41,
+      "end": 46,
+      "text": "1,000",
+      "label": "QUANTITY",
+      "score": 0.5582711696624756
+    },
+    {
+      "start": 61,
+      "end": 76,
+      "text": "Madani Prihatin",
+      "label": "ORG",
+      "score": 0.9434879422187805
+    },
+    {
+      "start": 84,
+      "end": 105,
+      "text": "barang keperluan asas",
+      "label": "PRODUCT",
+      "score": 0.5414746999740601
+    },
+    {
+      "start": 114,
+      "end": 119,
+      "text": "beras",
+      "label": "PRODUCT",
+      "score": 0.9166107773780823
+    },
+    {
+      "start": 121,
+      "end": 133,
+      "text": "minyak masak",
+      "label": "PRODUCT",
+      "score": 0.9599593877792358
+    },
+    {
+      "start": 138,
+      "end": 142,
+      "text": "gula",
+      "label": "PRODUCT",
+      "score": 0.9662979245185852
+    },
+    {
+      "start": 144,
+      "end": 152,
+      "text": "hari ini",
+      "label": "TIME",
+      "score": 0.6238454580307007
+    }
+  ],
+  "https://www.bharian.com.my/sukan/bola/2025/09/1450649/anak-heskey-ikut-jejak-ayah-tradisi-epl-berterusan": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "LONDON",
+      "label": "LOC",
+      "score": 0.9194566011428833
+    },
+    {
+      "start": 8,
+      "end": 29,
+      "text": "Liga Perdana Inggeris",
+      "label": "ORG",
+      "score": 0.9212343692779541
+    },
+    {
+      "start": 31,
+      "end": 34,
+      "text": "EPL",
+      "label": "ORG",
+      "score": 0.8291022777557373
+    },
+    {
+      "start": 84,
+      "end": 93,
+      "text": "anak-anak",
+      "label": "PERSON",
+      "score": 0.8360686898231506
+    },
+    {
+      "start": 117,
+      "end": 121,
+      "text": "ayah",
+      "label": "PERSON",
+      "score": 0.9388889074325562
+    }
+  ],
+  "https://www.bharian.com.my/dunia/asia/2025/09/1450647/rusuhan-berdarah-di-ladakh-india-perketat-keselamatan": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "LADAKH",
+      "label": "LOC",
+      "score": 0.8877912163734436
+    },
+    {
+      "start": 28,
+      "end": 33,
+      "text": "India",
+      "label": "LOC",
+      "score": 0.7286121845245361
+    },
+    {
+      "start": 64,
+      "end": 72,
+      "text": "Himalaya",
+      "label": "LOC",
+      "score": 0.8687509298324585
+    },
+    {
+      "start": 74,
+      "end": 80,
+      "text": "Ladakh",
+      "label": "LOC",
+      "score": 0.8989769816398621
+    },
+    {
+      "start": 88,
+      "end": 94,
+      "text": "Khamis",
+      "label": "TIME",
+      "score": 0.705471932888031
+    },
+    {
+      "start": 103,
+      "end": 121,
+      "text": "perintah berkurung",
+      "label": "LAW",
+      "score": 0.8166311979293823
+    },
+    {
+      "start": 140,
+      "end": 156,
+      "text": "rusuhan berdarah",
+      "label": "EVENT",
+      "score": 0.8309633135795593
+    }
+  ],
+  "https://www.bharian.com.my/berita/kes/2025/09/1450645/17-notis-kompaun-dikeluarkan-dalam-operasi-bersepadu-dbkl-terhadap-premis": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.8893323540687561
+    },
+    {
+      "start": 14,
+      "end": 42,
+      "text": "Dewan Bandaraya Kuala Lumpur",
+      "label": "ORG",
+      "score": 0.9553434252738953
+    },
+    {
+      "start": 44,
+      "end": 48,
+      "text": "DBKL",
+      "label": "ORG",
+      "score": 0.807104229927063
+    },
+    {
+      "start": 103,
+      "end": 119,
+      "text": "pusat kecantikan",
+      "label": "ORG",
+      "score": 0.8721975088119507
+    },
+    {
+      "start": 123,
+      "end": 131,
+      "text": "ibu kota",
+      "label": "LOC",
+      "score": 0.9508957266807556
+    }
+  ],
+  "https://www.bharian.com.my/bisnes/pasaran/2025/09/1450643/ringgit-rendah-berbanding-dolar": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.776350736618042
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "text": "Ringgit",
+      "label": "MONEY",
+      "score": 0.9183486700057983
+    },
+    {
+      "start": 47,
+      "end": 52,
+      "text": "dolar",
+      "label": "MONEY",
+      "score": 0.6223722696304321
+    },
+    {
+      "start": 80,
+      "end": 86,
+      "text": "Jumaat",
+      "label": "TIME",
+      "score": 0.7189710140228271
+    },
+    {
+      "start": 97,
+      "end": 106,
+      "text": "mata wang",
+      "label": "MONEY",
+      "score": 0.7318406701087952
+    },
+    {
+      "start": 141,
+      "end": 143,
+      "text": "AS",
+      "label": "ORG",
+      "score": 0.5214748382568359
+    }
+  ],
+  "https://www.bharian.com.my/berita/nasional/2025/09/1450641/pm-harap-misi-gsf-berjaya-sampai-ke-gaza-keganasan-israel-dihentikan": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "PUTRAJAYA",
+      "label": "LOC",
+      "score": 0.8659677505493164
+    },
+    {
+      "start": 11,
+      "end": 35,
+      "text": "Datuk Seri Anwar Ibrahim",
+      "label": "PERSON",
+      "score": 0.9685086607933044
+    },
+    {
+      "start": 71,
+      "end": 97,
+      "text": "Global Sumud Flotila Sumud",
+      "label": "ORG",
+      "score": 0.8935157060623169
+    },
+    {
+      "start": 99,
+      "end": 102,
+      "text": "GSF",
+      "label": "ORG",
+      "score": 0.6015294790267944
+    },
+    {
+      "start": 168,
+      "end": 172,
+      "text": "Gaza",
+      "label": "LOC",
+      "score": 0.9563378095626831
+    }
+  ],
+  "https://www.bharian.com.my/rencana/sastera/2025/09/1450639/pulau-tuba-jadi-studio-seni-terbuka": [
+    {
+      "start": 16,
+      "end": 21,
+      "text": "artis",
+      "label": "PERSON",
+      "score": 0.9877881407737732
+    },
+    {
+      "start": 23,
+      "end": 33,
+      "text": "karya seni",
+      "label": "WORK_OF_ART",
+      "score": 0.9507080912590027
+    },
+    {
+      "start": 57,
+      "end": 63,
+      "text": "studio",
+      "label": "LOC",
+      "score": 0.9134397506713867
+    },
+    {
+      "start": 90,
+      "end": 95,
+      "text": "karya",
+      "label": "WORK_OF_ART",
+      "score": 0.6337398290634155
+    },
+    {
+      "start": 129,
+      "end": 133,
+      "text": "alam",
+      "label": "LOC",
+      "score": 0.9033535718917847
+    }
+  ],
+  "https://www.bharian.com.my/hiburan/selebriti/2025/09/1450634/ebu-digesa-larang-israel-sertai-pertandingan-lagu-eurovision-2026": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "GENEVA",
+      "label": "LOC",
+      "score": 0.8657209277153015
+    },
+    {
+      "start": 23,
+      "end": 43,
+      "text": "Ahli Parlimen Eropah",
+      "label": "PERSON",
+      "score": 0.5107837915420532
+    },
+    {
+      "start": 76,
+      "end": 101,
+      "text": "Kesatuan Penyiaran Eropah",
+      "label": "ORG",
+      "score": 0.951964259147644
+    },
+    {
+      "start": 103,
+      "end": 106,
+      "text": "EBU",
+      "label": "ORG",
+      "score": 0.8551923036575317
+    },
+    {
+      "start": 130,
+      "end": 136,
+      "text": "Israel",
+      "label": "GPE",
+      "score": 0.8657830953598022
+    },
+    {
+      "start": 144,
+      "end": 147,
+      "text": "Kan",
+      "label": "PERSON",
+      "score": 0.9221515655517578
+    },
+    {
+      "start": 167,
+      "end": 200,
+      "text": "Pertandingan Lagu Eurovision 2026",
+      "label": "EVENT",
+      "score": 0.9385673403739929
+    },
+    {
+      "start": 247,
+      "end": 251,
+      "text": "Gaza",
+      "label": "LOC",
+      "score": 0.9100998640060425
+    }
+  ],
+  "https://www.bharian.com.my/hujung-minggu/santai/2025/09/1450632/wang-kertas-bukan-sekadar-kuasa-beli": [
+    {
+      "start": 0,
+      "end": 11,
+      "text": "WANG kertas",
+      "label": "MONEY",
+      "score": 0.811600923538208
+    },
+    {
+      "start": 59,
+      "end": 75,
+      "text": "kehidupan harian",
+      "label": "TIME",
+      "score": 0.6091371774673462
+    },
+    {
+      "start": 125,
+      "end": 130,
+      "text": "angka",
+      "label": "CARDINAL",
+      "score": 0.7100843191146851
+    },
+    {
+      "start": 154,
+      "end": 165,
+      "text": "wang kertas",
+      "label": "MONEY",
+      "score": 0.8581124544143677
+    },
+    {
+      "start": 204,
+      "end": 210,
+      "text": "dompet",
+      "label": "PRODUCT",
+      "score": 0.6147724986076355
+    }
+  ],
+  "https://www.bharian.com.my/dunia/asean/2025/09/1450627/lebih-1000-murid-di-jawa-barat-keracunan-makanan-percuma-sekolah": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "JAWA BARAT",
+      "label": "GPE",
+      "score": 0.9145002365112305
+    },
+    {
+      "start": 18,
+      "end": 23,
+      "text": "1,000",
+      "label": "QUANTITY",
+      "score": 0.5997792482376099
+    },
+    {
+      "start": 24,
+      "end": 29,
+      "text": "murid",
+      "label": "PERSON",
+      "score": 0.7312692999839783
+    },
+    {
+      "start": 41,
+      "end": 51,
+      "text": "Jawa Barat",
+      "label": "GPE",
+      "score": 0.9107710719108582
+    },
+    {
+      "start": 53,
+      "end": 62,
+      "text": "Indonesia",
+      "label": "GPE",
+      "score": 0.9318865537643433
+    },
+    {
+      "start": 103,
+      "end": 113,
+      "text": "minggu ini",
+      "label": "TIME",
+      "score": 0.6242100596427917
+    }
+  ],
+  "https://www.bharian.com.my/hiburan/selebriti/2025/09/1450624/cik-ros-mekar-di-pentas-teater": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.9630693793296814
+    },
+    {
+      "start": 42,
+      "end": 66,
+      "text": "Dewan Bahasa dan Pustaka",
+      "label": "ORG",
+      "score": 0.7415875792503357
+    },
+    {
+      "start": 68,
+      "end": 71,
+      "text": "DBP",
+      "label": "ORG",
+      "score": 0.5419206023216248
+    }
+  ],
+  "https://www.bharian.com.my/wanita/fesyen/2025/09/1450621/acara-larian-malaysia-sarong-music-run-2025-platform-gayakan-busana": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.8836122155189514
+    },
+    {
+      "start": 29,
+      "end": 43,
+      "text": "lima kilometer",
+      "label": "TIME",
+      "score": 0.7552456855773926
+    },
+    {
+      "start": 62,
+      "end": 73,
+      "text": "baju kebaya",
+      "label": "PRODUCT",
+      "score": 0.8832972049713135
+    },
+    {
+      "start": 81,
+      "end": 91,
+      "text": "kain batik",
+      "label": "PRODUCT",
+      "score": 0.8700963854789734
+    },
+    {
+      "start": 102,
+      "end": 111,
+      "text": "selempang",
+      "label": "PRODUCT",
+      "score": 0.5570244789123535
+    },
+    {
+      "start": 168,
+      "end": 182,
+      "text": "peserta wanita",
+      "label": "PERSON",
+      "score": 0.9218225479125977
+    },
+    {
+      "start": 212,
+      "end": 242,
+      "text": "Malaysia Sarong Music Run 2025",
+      "label": "EVENT",
+      "score": 0.8340572714805603
+    },
+    {
+      "start": 268,
+      "end": 286,
+      "text": "Hari Malaysia 2025",
+      "label": "EVENT",
+      "score": 0.9583162665367126
+    }
+  ],
+  "https://www.bharian.com.my/dunia/amerika/2025/09/1450615/umum-tarif-baharu-ke-atas-pelbagai-barangan-import": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "WASHINGTON",
+      "label": "LOC",
+      "score": 0.8940627574920654
+    },
+    {
+      "start": 12,
+      "end": 28,
+      "text": "Amerika Syarikat",
+      "label": "LOC",
+      "score": 0.9086056351661682
+    },
+    {
+      "start": 100,
+      "end": 115,
+      "text": "barangan import",
+      "label": "PRODUCT",
+      "score": 0.6313852071762085
+    },
+    {
+      "start": 136,
+      "end": 140,
+      "text": "duti",
+      "label": "MONEY",
+      "score": 0.5834586024284363
+    },
+    {
+      "start": 141,
+      "end": 152,
+      "text": "100 peratus",
+      "label": "PERCENT",
+      "score": 0.5239831209182739
+    },
+    {
+      "start": 161,
+      "end": 175,
+      "text": "ubat berjenama",
+      "label": "PRODUCT",
+      "score": 0.9476508498191833
+    },
+    {
+      "start": 186,
+      "end": 196,
+      "text": "25 peratus",
+      "label": "PERCENT",
+      "score": 0.6564348936080933
+    },
+    {
+      "start": 202,
+      "end": 218,
+      "text": "lori tugas berat",
+      "label": "PRODUCT",
+      "score": 0.9706310629844666
+    },
+    {
+      "start": 227,
+      "end": 239,
+      "text": "minggu depan",
+      "label": "TIME",
+      "score": 0.869049608707428
+    }
+  ],
+  "https://www.bharian.com.my/sukan/bola/2025/09/1450613/mbeumo-kembali-ke-brentford-bersama-united": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "LONDON",
+      "label": "LOC",
+      "score": 0.9258203506469727
+    },
+    {
+      "start": 8,
+      "end": 20,
+      "text": "Bryan Mbeumo",
+      "label": "PERSON",
+      "score": 0.9950975775718689
+    },
+    {
+      "start": 118,
+      "end": 140,
+      "text": "Stadium Komuniti GTech",
+      "label": "LOC",
+      "score": 0.7671788334846497
+    },
+    {
+      "start": 167,
+      "end": 184,
+      "text": "Manchester United",
+      "label": "ORG",
+      "score": 0.9748584032058716
+    },
+    {
+      "start": 199,
+      "end": 220,
+      "text": "Liga Perdana Inggeris",
+      "label": "ORG",
+      "score": 0.6297991275787354
+    }
+  ],
+  "https://www.bharian.com.my/bisnes/lain-lain/2025/09/1450611/kwsp-naikkan-penanda-aras-lebihan-simpanan-mulai-tahun-hadapan": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.8665382266044617
+    },
+    {
+      "start": 14,
+      "end": 44,
+      "text": "Kumpulan Wang Simpanan Pekerja",
+      "label": "ORG",
+      "score": 0.9719597101211548
+    },
+    {
+      "start": 46,
+      "end": 50,
+      "text": "KWSP",
+      "label": "ORG",
+      "score": 0.821794331073761
+    },
+    {
+      "start": 80,
+      "end": 96,
+      "text": "lebihan simpanan",
+      "label": "MONEY",
+      "score": 0.5552196502685547
+    },
+    {
+      "start": 105,
+      "end": 118,
+      "text": "tahun hadapan",
+      "label": "TIME",
+      "score": 0.7150905132293701
+    },
+    {
+      "start": 158,
+      "end": 162,
+      "text": "ahli",
+      "label": "PERSON",
+      "score": 0.925416886806488
+    },
+    {
+      "start": 179,
+      "end": 188,
+      "text": "persaraan",
+      "label": "EVENT",
+      "score": 0.8976181745529175
+    }
+  ],
+  "https://www.bharian.com.my/dunia/amerika/2025/09/1450609/greece-jamin-pelayaran-selamat-flotila-gaza-di-perairannya": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "Greece",
+      "label": "GPE",
+      "score": 0.9538774490356445
+    },
+    {
+      "start": 36,
+      "end": 48,
+      "text": "Flotila Gaza",
+      "label": "ORG",
+      "score": 0.9447599053382874
+    },
+    {
+      "start": 66,
+      "end": 78,
+      "text": "Menteri Luar",
+      "label": "PERSON",
+      "score": 0.8662638664245605
+    }
+  ],
+  "https://www.bharian.com.my/berita/kes/2025/09/1450607/siasatan-akaun-bank-luar-negara-anwar-selesai-sejak-2022-sprm": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.657467246055603
+    },
+    {
+      "start": 14,
+      "end": 52,
+      "text": "Suruhanjaya Pencegahan Rasuah Malaysia",
+      "label": "ORG",
+      "score": 0.9304000735282898
+    },
+    {
+      "start": 54,
+      "end": 58,
+      "text": "SPRM",
+      "label": "ORG",
+      "score": 0.8705176711082458
+    },
+    {
+      "start": 99,
+      "end": 114,
+      "text": "Perdana Menteri",
+      "label": "PERSON",
+      "score": 0.918053388595581
+    },
+    {
+      "start": 116,
+      "end": 140,
+      "text": "Datuk Seri Anwar Ibrahim",
+      "label": "PERSON",
+      "score": 0.959874153137207
+    },
+    {
+      "start": 150,
+      "end": 152,
+      "text": "20",
+      "label": "QUANTITY",
+      "score": 0.7211127281188965
+    },
+    {
+      "start": 188,
+      "end": 194,
+      "text": "Israel",
+      "label": "LOC",
+      "score": 0.9554578065872192
+    },
+    {
+      "start": 215,
+      "end": 219,
+      "text": "2022",
+      "label": "TIME",
+      "score": 0.880647599697113
+    }
+  ],
+  "https://www.bharian.com.my/berita/nasional/2025/09/1450603/mula-perbaharui-lesen-memandu-selepas-pengumuman-kerajaan": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "SEREMBAN",
+      "label": "GPE",
+      "score": 0.9061136245727539
+    },
+    {
+      "start": 19,
+      "end": 32,
+      "text": "lesen memandu",
+      "label": "PRODUCT",
+      "score": 0.6466964483261108
+    },
+    {
+      "start": 62,
+      "end": 74,
+      "text": "tamat tempoh",
+      "label": "TIME",
+      "score": 0.5157803893089294
+    },
+    {
+      "start": 94,
+      "end": 99,
+      "text": "lesen",
+      "label": "PRODUCT",
+      "score": 0.5126428008079529
+    },
+    {
+      "start": 151,
+      "end": 171,
+      "text": "subsidi petrol RON95",
+      "label": "PRODUCT",
+      "score": 0.5885395407676697
+    }
+  ],
+  "https://www.bharian.com.my/dunia/amerika/2025/09/1450601/ketua-pentagon-panggil-jeneral-laksamana-tentera-dari-seluruh-dunia": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "WASHINGTON",
+      "label": "LOC",
+      "score": 0.9325194954872131
+    },
+    {
+      "start": 52,
+      "end": 54,
+      "text": "AS",
+      "label": "ORG",
+      "score": 0.730726957321167
+    },
+    {
+      "start": 57,
+      "end": 69,
+      "text": "Pete Hegseth",
+      "label": "PERSON",
+      "score": 0.9952422380447388
+    },
+    {
+      "start": 127,
+      "end": 144,
+      "text": "perhimpunan besar",
+      "label": "EVENT",
+      "score": 0.8329894542694092
+    },
+    {
+      "start": 187,
+      "end": 189,
+      "text": "AS",
+      "label": "ORG",
+      "score": 0.8087995052337646
+    },
+    {
+      "start": 195,
+      "end": 208,
+      "text": "seluruh dunia",
+      "label": "LOC",
+      "score": 0.7543834447860718
+    }
+  ],
+  "https://www.bharian.com.my/berita/nasional/2025/09/1450599/penutupan-10-jalan-sempena-istiadat-perkahwinan-diraja-di-klang": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "SHAH ALAM",
+      "label": "LOC",
+      "score": 0.9014900922775269
+    },
+    {
+      "start": 44,
+      "end": 49,
+      "text": "Klang",
+      "label": "LOC",
+      "score": 0.9661556482315063
+    },
+    {
+      "start": 138,
+      "end": 165,
+      "text": "Istiadat Perkahwinan Diraja",
+      "label": "EVENT",
+      "score": 0.9327297806739807
+    },
+    {
+      "start": 187,
+      "end": 244,
+      "text": "Tengku Amir Shah Ibni Sultan Sharafuddin Idris Shah Alhaj",
+      "label": "PERSON",
+      "score": 0.9769320487976074
+    },
+    {
+      "start": 249,
+      "end": 265,
+      "text": "Istana Alam Shah",
+      "label": "LOC",
+      "score": 0.967356264591217
+    },
+    {
+      "start": 267,
+      "end": 272,
+      "text": "Klang",
+      "label": "LOC",
+      "score": 0.9728310108184814
+    }
+  ],
+  "https://www.bharian.com.my/sukan/bola/2025/09/1450597/palace-uji-liverpool-arsenal-elak-mimpi-ngeri": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "LONDON",
+      "label": "LOC",
+      "score": 0.922691285610199
+    },
+    {
+      "start": 8,
+      "end": 17,
+      "text": "Liverpool",
+      "label": "ORG",
+      "score": 0.9524033665657043
+    },
+    {
+      "start": 76,
+      "end": 97,
+      "text": "Liga Perdana Inggeris",
+      "label": "ORG",
+      "score": 0.7967188358306885
+    },
+    {
+      "start": 99,
+      "end": 102,
+      "text": "EPL",
+      "label": "ORG",
+      "score": 0.6463258862495422
+    },
+    {
+      "start": 161,
+      "end": 175,
+      "text": "Crystal Palace",
+      "label": "ORG",
+      "score": 0.9390057921409607
+    },
+    {
+      "start": 199,
+      "end": 209,
+      "text": "malam esok",
+      "label": "TIME",
+      "score": 0.6158778667449951
+    }
+  ],
+  "https://www.hmetro.com.my/arena/bola-sepak/2025/09/1268363/katsuhito-kinoshi-jurulatih-liga-super-pertama-direhatkan-musim": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9641566276550293
+    },
+    {
+      "start": 34,
+      "end": 45,
+      "text": "Selangor FC",
+      "label": "ORG",
+      "score": 0.9915238618850708
+    },
+    {
+      "start": 126,
+      "end": 143,
+      "text": "Katsuhito Kinoshi",
+      "label": "PERSON",
+      "score": 0.9939082860946655
+    },
+    {
+      "start": 211,
+      "end": 226,
+      "text": "musim 2025/2026",
+      "label": "TIME",
+      "score": 0.6068695783615112
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268361/abang-ipar-tidak-pernah-agresif-bapa-kanak-kanak-parah-ditukul": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Kota Bharu",
+      "label": "LOC",
+      "score": 0.977004885673523
+    },
+    {
+      "start": 25,
+      "end": 35,
+      "text": "abang ipar",
+      "label": "PERSON",
+      "score": 0.9608628153800964
+    },
+    {
+      "start": 85,
+      "end": 91,
+      "text": "isteri",
+      "label": "PERSON",
+      "score": 0.93467777967453
+    },
+    {
+      "start": 97,
+      "end": 101,
+      "text": "anak",
+      "label": "PERSON",
+      "score": 0.9064423441886902
+    },
+    {
+      "start": 109,
+      "end": 113,
+      "text": "bapa",
+      "label": "PERSON",
+      "score": 0.8257277607917786
+    },
+    {
+      "start": 122,
+      "end": 130,
+      "text": "30 tahun",
+      "label": "TIME",
+      "score": 0.7712462544441223
+    },
+    {
+      "start": 136,
+      "end": 150,
+      "text": "anak lelakinya",
+      "label": "PERSON",
+      "score": 0.8695423603057861
+    },
+    {
+      "start": 183,
+      "end": 195,
+      "text": "bapa saudara",
+      "label": "PERSON",
+      "score": 0.8679605722427368
+    },
+    {
+      "start": 205,
+      "end": 212,
+      "text": "semalam",
+      "label": "TIME",
+      "score": 0.6632969379425049
+    }
+  ],
+  "https://www.hmetro.com.my/arena/lain/2025/09/1268359/klscm-jadi-medan-buktikan-muhaizar-layak-ke-sukan-sea": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9351316690444946
+    },
+    {
+      "start": 37,
+      "end": 53,
+      "text": "Muhaizar Mohamad",
+      "label": "PERSON",
+      "score": 0.9949064254760742
+    },
+    {
+      "start": 91,
+      "end": 109,
+      "text": "Sukan SEA Thailand",
+      "label": "EVENT",
+      "score": 0.7412229776382446
+    }
+  ],
+  "https://www.hmetro.com.my/global/asia/2025/09/1268357/remaja-dipenjara-100-tahun-kerana-pembunuhan-pubg": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "Lahore",
+      "label": "LOC",
+      "score": 0.9512736797332764
+    },
+    {
+      "start": 23,
+      "end": 31,
+      "text": "Pakistan",
+      "label": "GPE",
+      "score": 0.9382616281509399
+    },
+    {
+      "start": 57,
+      "end": 66,
+      "text": "100 tahun",
+      "label": "TIME",
+      "score": 0.8856633305549622
+    },
+    {
+      "start": 118,
+      "end": 138,
+      "text": "Press Trust of India",
+      "label": "ORG",
+      "score": 0.9258897304534912
+    },
+    {
+      "start": 140,
+      "end": 143,
+      "text": "PTI",
+      "label": "ORG",
+      "score": 0.8249790668487549
+    }
+  ],
+  "https://www.hmetro.com.my/arena/bola-sepak/2025/09/1268355/kj-tak-minat-terajui-fam": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.949012041091919
+    },
+    {
+      "start": 32,
+      "end": 60,
+      "text": "Persatuan Bolasepak Malaysia",
+      "label": "ORG",
+      "score": 0.9508838653564453
+    },
+    {
+      "start": 62,
+      "end": 65,
+      "text": "FAM",
+      "label": "ORG",
+      "score": 0.8083208203315735
+    },
+    {
+      "start": 100,
+      "end": 123,
+      "text": "Menteri Belia dan Sukan",
+      "label": "ORG",
+      "score": 0.859553337097168
+    },
+    {
+      "start": 125,
+      "end": 142,
+      "text": "Khairy Jamaluddin",
+      "label": "PERSON",
+      "score": 0.9947993755340576
+    }
+  ],
+  "https://www.hmetro.com.my/arena/badminton/2025/09/1268353/soon-huat-shevon-akur-dibaham-beregu-nombor-satu-dunia": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9055261015892029
+    },
+    {
+      "start": 61,
+      "end": 85,
+      "text": "Goh Soon Huat-Shevon Lai",
+      "label": "PERSON",
+      "score": 0.949475884437561
+    },
+    {
+      "start": 109,
+      "end": 122,
+      "text": "Terbuka Korea",
+      "label": "LOC",
+      "score": 0.6250280737876892
+    },
+    {
+      "start": 176,
+      "end": 181,
+      "text": "China",
+      "label": "GPE",
+      "score": 0.951793372631073
+    }
+  ],
+  "https://www.hmetro.com.my/arena/bola-sepak/2025/09/1268351/tmj-kongsi-dakwaan-cubaan-sabotaj-harimau-malaya": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9363502264022827
+    },
+    {
+      "start": 14,
+      "end": 36,
+      "text": "Bola sepak negara kini",
+      "label": "ORG",
+      "score": 0.5257992744445801
+    },
+    {
+      "start": 51,
+      "end": 58,
+      "text": "sabotaj",
+      "label": "LAW",
+      "score": 0.5933192372322083
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268349/adsom-plus-2025-malaysia-komited-kerjasama-dengan-negara-asean-rakan": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9477319717407227
+    },
+    {
+      "start": 14,
+      "end": 78,
+      "text": "Mesyuarat Pegawai-pegawai Kanan Pertahanan ASEAN dan Negara Plus",
+      "label": "EVENT",
+      "score": 0.7632376551628113
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "ADSOM-Plus",
+      "label": "ORG",
+      "score": 0.7641701102256775
+    },
+    {
+      "start": 126,
+      "end": 146,
+      "text": "Kumpulan Kerja Pakar",
+      "label": "ORG",
+      "score": 0.7312915921211243
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268347/metmalaysia-jangka-permulaan-fasa-peralihan-monsun-30-sept-ini": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9772776365280151
+    },
+    {
+      "start": 29,
+      "end": 35,
+      "text": "Monsun",
+      "label": "EVENT",
+      "score": 0.895357608795166
+    },
+    {
+      "start": 144,
+      "end": 161,
+      "text": "Monsun Barat Daya",
+      "label": "EVENT",
+      "score": 0.905988872051239
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268345/keluarga-syamsul-haris-tuntut-penjelasan-bedah-siasat-dilaksana-doktor": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Shah Alam",
+      "label": "LOC",
+      "score": 0.9694520235061646
+    },
+    {
+      "start": 41,
+      "end": 73,
+      "text": "Pasukan Latihan Pegawai Simpanan",
+      "label": "ORG",
+      "score": 0.861679196357727
+    },
+    {
+      "start": 84,
+      "end": 113,
+      "text": "Universiti Teknologi Malaysia",
+      "label": "ORG",
+      "score": 0.8556863069534302
+    },
+    {
+      "start": 121,
+      "end": 156,
+      "text": "Allahyarham Syamsul Haris Shamsudin",
+      "label": "PERSON",
+      "score": 0.9637141227722168
+    },
+    {
+      "start": 214,
+      "end": 234,
+      "text": "Hospital Kota Tinggi",
+      "label": "ORG",
+      "score": 0.7017945647239685
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268343/peniaga-akur-larangan-penuh-pamer-produk-rokok": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9720104932785034
+    },
+    {
+      "start": 23,
+      "end": 30,
+      "text": "peniaga",
+      "label": "PERSON",
+      "score": 0.9584977030754089
+    },
+    {
+      "start": 77,
+      "end": 86,
+      "text": "peraturan",
+      "label": "LAW",
+      "score": 0.8414262533187866
+    },
+    {
+      "start": 96,
+      "end": 111,
+      "text": "paparan terbuka",
+      "label": "LAW",
+      "score": 0.6824113726615906
+    },
+    {
+      "start": 134,
+      "end": 139,
+      "text": "rokok",
+      "label": "PRODUCT",
+      "score": 0.9524296522140503
+    },
+    {
+      "start": 144,
+      "end": 148,
+      "text": "vape",
+      "label": "PRODUCT",
+      "score": 0.9732076525688171
+    },
+    {
+      "start": 162,
+      "end": 171,
+      "text": "1 Oktober",
+      "label": "TIME",
+      "score": 0.5208478569984436
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268341/warga-emas-nafi-sumbang-mahram-terhadap-cucu": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "Seremban",
+      "label": "LOC",
+      "score": 0.9617568850517273
+    },
+    {
+      "start": 17,
+      "end": 27,
+      "text": "warga emas",
+      "label": "PERSON",
+      "score": 0.7655620574951172
+    },
+    {
+      "start": 54,
+      "end": 69,
+      "text": "Mahkamah Sesyen",
+      "label": "ORG",
+      "score": 0.9620577692985535
+    },
+    {
+      "start": 92,
+      "end": 96,
+      "text": "tiga",
+      "label": "QUANTITY",
+      "score": 0.6073628067970276
+    },
+    {
+      "start": 116,
+      "end": 141,
+      "text": "cucu kandung perempuannya",
+      "label": "PERSON",
+      "score": 0.8286633491516113
+    },
+    {
+      "start": 155,
+      "end": 163,
+      "text": "10 tahun",
+      "label": "TIME",
+      "score": 0.6044058203697205
+    },
+    {
+      "start": 169,
+      "end": 173,
+      "text": "2020",
+      "label": "TIME",
+      "score": 0.852841317653656
+    },
+    {
+      "start": 181,
+      "end": 185,
+      "text": "2021",
+      "label": "TIME",
+      "score": 0.8030456900596619
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268339/misi-kemanusiaan-gsf-perlu-diteruskan-demi-penduduk-di-gaza-pm": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Putrajaya",
+      "label": "LOC",
+      "score": 0.8831869959831238
+    },
+    {
+      "start": 27,
+      "end": 51,
+      "text": "Datuk Seri Anwar Ibrahim",
+      "label": "PERSON",
+      "score": 0.9049292206764221
+    },
+    {
+      "start": 94,
+      "end": 115,
+      "text": "Global Sumud Flotilla",
+      "label": "ORG",
+      "score": 0.9817805886268616
+    },
+    {
+      "start": 117,
+      "end": 120,
+      "text": "GSF",
+      "label": "ORG",
+      "score": 0.5415002107620239
+    },
+    {
+      "start": 159,
+      "end": 163,
+      "text": "Gaza",
+      "label": "LOC",
+      "score": 0.9662065505981445
+    }
+  ],
+  "https://www.hmetro.com.my/rap/rapextra/2025/09/1268337/orang-yang-buat-baik-secara-senyap-paling-ikhlas-hafreez-adam": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Putrajaya",
+      "label": "LOC",
+      "score": 0.9534173011779785
+    },
+    {
+      "start": 29,
+      "end": 37,
+      "text": "kejadian",
+      "label": "EVENT",
+      "score": 0.5572885870933533
+    },
+    {
+      "start": 99,
+      "end": 113,
+      "text": "aktres popular",
+      "label": "PERSON",
+      "score": 0.6333526968955994
+    },
+    {
+      "start": 130,
+      "end": 137,
+      "text": "pelakon",
+      "label": "PERSON",
+      "score": 0.5340085625648499
+    },
+    {
+      "start": 139,
+      "end": 151,
+      "text": "Hafreez Adam",
+      "label": "PERSON",
+      "score": 0.9687475562095642
+    },
+    {
+      "start": 199,
+      "end": 204,
+      "text": "artis",
+      "label": "PERSON",
+      "score": 0.7774245142936707
+    },
+    {
+      "start": 246,
+      "end": 253,
+      "text": "Threads",
+      "label": "ORG",
+      "score": 0.974261999130249
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268335/209000-kes-sekatan-perjalanan-akibat-tunggakan-cukai": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9521785974502563
+    },
+    {
+      "start": 23,
+      "end": 30,
+      "text": "209,000",
+      "label": "QUANTITY",
+      "score": 0.706913948059082
+    },
+    {
+      "start": 79,
+      "end": 105,
+      "text": "Lembaga Hasil Dalam Negeri",
+      "label": "ORG",
+      "score": 0.9137192368507385
+    },
+    {
+      "start": 107,
+      "end": 112,
+      "text": "HASiL",
+      "label": "ORG",
+      "score": 0.7531556487083435
+    },
+    {
+      "start": 123,
+      "end": 131,
+      "text": "individu",
+      "label": "PERSON",
+      "score": 0.9038373827934265
+    },
+    {
+      "start": 136,
+      "end": 144,
+      "text": "syarikat",
+      "label": "ORG",
+      "score": 0.8852241635322571
+    },
+    {
+      "start": 148,
+      "end": 158,
+      "text": "negara ini",
+      "label": "LOC",
+      "score": 0.7065694332122803
+    },
+    {
+      "start": 190,
+      "end": 195,
+      "text": "cukai",
+      "label": "LAW",
+      "score": 0.5384840965270996
+    },
+    {
+      "start": 218,
+      "end": 230,
+      "text": "31 Ogos lalu",
+      "label": "TIME",
+      "score": 0.5179926156997681
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268333/kes-counter-setting-jabatan-imigresen-tunggu-laporan-sprm": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.941409170627594
+    },
+    {
+      "start": 14,
+      "end": 40,
+      "text": "Jabatan Imigresen Malaysia",
+      "label": "ORG",
+      "score": 0.9535179734230042
+    },
+    {
+      "start": 42,
+      "end": 45,
+      "text": "JIM",
+      "label": "ORG",
+      "score": 0.7407012581825256
+    },
+    {
+      "start": 86,
+      "end": 124,
+      "text": "Suruhanjaya Pencegahan Rasuah Malaysia",
+      "label": "ORG",
+      "score": 0.942632257938385
+    },
+    {
+      "start": 126,
+      "end": 130,
+      "text": "SPRM",
+      "label": "ORG",
+      "score": 0.768936038017273
+    },
+    {
+      "start": 152,
+      "end": 159,
+      "text": "pegawai",
+      "label": "PERSON",
+      "score": 0.8050128221511841
+    },
+    {
+      "start": 187,
+      "end": 195,
+      "text": "siasatan",
+      "label": "LAW",
+      "score": 0.5981082320213318
+    },
+    {
+      "start": 197,
+      "end": 212,
+      "text": "counter setting",
+      "label": "LAW",
+      "score": 0.6312696933746338
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268332/lelaki-didakwa-cuba-bunuh-anggota-polis": [
+    {
+      "start": 0,
+      "end": 11,
+      "text": "Teluk Intan",
+      "label": "LOC",
+      "score": 0.9470762014389038
+    },
+    {
+      "start": 13,
+      "end": 19,
+      "text": "Lelaki",
+      "label": "PERSON",
+      "score": 0.9362720251083374
+    },
+    {
+      "start": 31,
+      "end": 46,
+      "text": "Mahkamah Sesyen",
+      "label": "ORG",
+      "score": 0.971903383731842
+    },
+    {
+      "start": 95,
+      "end": 100,
+      "text": "empat",
+      "label": "QUANTITY",
+      "score": 0.8148475885391235
+    },
+    {
+      "start": 116,
+      "end": 126,
+      "text": "Sabtu lalu",
+      "label": "TIME",
+      "score": 0.71334308385849
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268329/suspek-kes-pukul-anak-saudara-alami-halusinasi-terbabit-kes-dadah": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "Bachok",
+      "label": "LOC",
+      "score": 0.9124255776405334
+    },
+    {
+      "start": 8,
+      "end": 13,
+      "text": "Polis",
+      "label": "ORG",
+      "score": 0.9686084985733032
+    },
+    {
+      "start": 26,
+      "end": 32,
+      "text": "suspek",
+      "label": "PERSON",
+      "score": 0.8936226963996887
+    },
+    {
+      "start": 78,
+      "end": 96,
+      "text": "kanak-kanak lelaki",
+      "label": "PERSON",
+      "score": 0.8986350297927856
+    },
+    {
+      "start": 109,
+      "end": 114,
+      "text": "tukul",
+      "label": "PRODUCT",
+      "score": 0.6246309876441956
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268327/budi95-nelayan-pemilik-perahu-boleh-kemuka-rayuan": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Putrajaya",
+      "label": "LOC",
+      "score": 0.9380530714988708
+    },
+    {
+      "start": 11,
+      "end": 35,
+      "text": "Datuk Seri Anwar Ibrahim",
+      "label": "PERSON",
+      "score": 0.9718742370605469
+    },
+    {
+      "start": 142,
+      "end": 145,
+      "text": "bot",
+      "label": "ORG",
+      "score": 0.5243031978607178
+    },
+    {
+      "start": 163,
+      "end": 175,
+      "text": "petrol RON95",
+      "label": "PRODUCT",
+      "score": 0.8372306823730469
+    },
+    {
+      "start": 251,
+      "end": 256,
+      "text": "RON95",
+      "label": "PRODUCT",
+      "score": 0.7437050938606262
+    },
+    {
+      "start": 258,
+      "end": 264,
+      "text": "BUDI95",
+      "label": "PRODUCT",
+      "score": 0.5020238161087036
+    }
+  ],
+  "https://www.hmetro.com.my/arena/bola-sepak/2025/09/1268325/fam-mampu-uruskan-nfdp": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9298683404922485
+    },
+    {
+      "start": 14,
+      "end": 42,
+      "text": "Persatuan Bolasepak Malaysia",
+      "label": "ORG",
+      "score": 0.9625144600868225
+    },
+    {
+      "start": 44,
+      "end": 47,
+      "text": "FAM",
+      "label": "ORG",
+      "score": 0.7707977890968323
+    },
+    {
+      "start": 114,
+      "end": 151,
+      "text": "Program Pembangunan Bola Sepak Negara",
+      "label": "ORG",
+      "score": 0.8867751955986023
+    },
+    {
+      "start": 190,
+      "end": 201,
+      "text": "badan induk",
+      "label": "ORG",
+      "score": 0.6694483160972595
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268323/kesedaran-bahaya-pandu-tanpa-lesen-mula-dari-rumah": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9773411750793457
+    },
+    {
+      "start": 65,
+      "end": 74,
+      "text": "kenderaan",
+      "label": "PRODUCT",
+      "score": 0.6417394280433655
+    },
+    {
+      "start": 81,
+      "end": 94,
+      "text": "lesen memandu",
+      "label": "LAW",
+      "score": 0.6411317586898804
+    },
+    {
+      "start": 127,
+      "end": 133,
+      "text": "remaja",
+      "label": "PERSON",
+      "score": 0.8836945295333862
+    },
+    {
+      "start": 139,
+      "end": 150,
+      "text": "kanak-kanak",
+      "label": "PERSON",
+      "score": 0.8412187099456787
+    },
+    {
+      "start": 178,
+      "end": 183,
+      "text": "rumah",
+      "label": "LOC",
+      "score": 0.9286856055259705
+    }
+  ],
+  "https://www.hmetro.com.my/global/amerika-utara/2025/09/1268321/arab-saudi-lancar-pakatan-antarabangsa-sumbang-as90-juta-sokong": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "New York",
+      "label": "LOC",
+      "score": 0.8178341388702393
+    },
+    {
+      "start": 35,
+      "end": 55,
+      "text": "Putera Faisal Farhan",
+      "label": "PERSON",
+      "score": 0.9647572636604309
+    },
+    {
+      "start": 92,
+      "end": 112,
+      "text": "pakatan antarabangsa",
+      "label": "ORG",
+      "score": 0.5358774662017822
+    },
+    {
+      "start": 165,
+      "end": 188,
+      "text": "Pihak Berkuasa Palestin",
+      "label": "ORG",
+      "score": 0.9525046944618225
+    },
+    {
+      "start": 190,
+      "end": 192,
+      "text": "PA",
+      "label": "ORG",
+      "score": 0.5972315669059753
+    },
+    {
+      "start": 243,
+      "end": 253,
+      "text": "AS$90 juta",
+      "label": "MONEY",
+      "score": 0.9739584922790527
+    },
+    {
+      "start": 265,
+      "end": 275,
+      "text": "RM387 juta",
+      "label": "MONEY",
+      "score": 0.9590070247650146
+    },
+    {
+      "start": 284,
+      "end": 297,
+      "text": "Saudi Gazette",
+      "label": "ORG",
+      "score": 0.9473299980163574
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268319/mayat-wanita-dalam-kenderaan-tiada-unsur-jenayah-polis": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9731542468070984
+    },
+    {
+      "start": 29,
+      "end": 35,
+      "text": "wanita",
+      "label": "PERSON",
+      "score": 0.6961941719055176
+    },
+    {
+      "start": 90,
+      "end": 104,
+      "text": "Diamond Square",
+      "label": "LOC",
+      "score": 0.9591377377510071
+    },
+    {
+      "start": 106,
+      "end": 113,
+      "text": "Setapak",
+      "label": "LOC",
+      "score": 0.9503865838050842
+    },
+    {
+      "start": 124,
+      "end": 135,
+      "text": "Selasa lalu",
+      "label": "TIME",
+      "score": 0.6509281396865845
+    }
+  ],
+  "https://www.hmetro.com.my/arena/bola-sepak/2025/09/1268317/arif-aiman-buktikan-pemain-malaysia-boleh-tembus-asia": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9760985970497131
+    },
+    {
+      "start": 49,
+      "end": 57,
+      "text": "cap ayam",
+      "label": "WORK_OF_ART",
+      "score": 0.6755034327507019
+    }
+  ],
+  "https://www.hmetro.com.my/arena/bola-sepak/2025/09/1268315/mat-yat-terpaksa-diketepikan-bertemu-kl-city-fc": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "Kuala Terengganu",
+      "label": "LOC",
+      "score": 0.8730496764183044
+    },
+    {
+      "start": 18,
+      "end": 31,
+      "text": "Terengganu FC",
+      "label": "ORG",
+      "score": 0.9580795168876648
+    },
+    {
+      "start": 33,
+      "end": 36,
+      "text": "TFC",
+      "label": "ORG",
+      "score": 0.7900174856185913
+    },
+    {
+      "start": 91,
+      "end": 101,
+      "text": "Liga Super",
+      "label": "EVENT",
+      "score": 0.7191122174263
+    },
+    {
+      "start": 149,
+      "end": 162,
+      "text": "Akhyar Rashid",
+      "label": "PERSON",
+      "score": 0.9940668344497681
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268313/tiada-duit-alasan-paling-popular": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9762780070304871
+    },
+    {
+      "start": 27,
+      "end": 31,
+      "text": "duit",
+      "label": "MONEY",
+      "score": 0.9243042469024658
+    },
+    {
+      "start": 36,
+      "end": 40,
+      "text": "wang",
+      "label": "MONEY",
+      "score": 0.9590961933135986
+    },
+    {
+      "start": 58,
+      "end": 78,
+      "text": "penunggang motosikal",
+      "label": "PERSON",
+      "score": 0.7241917252540588
+    },
+    {
+      "start": 87,
+      "end": 94,
+      "text": "pemandu",
+      "label": "PERSON",
+      "score": 0.9534196257591248
+    },
+    {
+      "start": 108,
+      "end": 117,
+      "text": "kenderaan",
+      "label": "PRODUCT",
+      "score": 0.5429702997207642
+    }
+  ],
+  "https://www.hmetro.com.my/rap/rapextra/2025/09/1268311/haneesya-buka-buku-baharu-ambil-keputusan-guna-nama-asal": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9647067189216614
+    },
+    {
+      "start": 22,
+      "end": 36,
+      "text": "Haneesya Hanee",
+      "label": "PERSON",
+      "score": 0.9794421792030334
+    },
+    {
+      "start": 101,
+      "end": 118,
+      "text": "Sharifah Haneesya",
+      "label": "PERSON",
+      "score": 0.9544203877449036
+    },
+    {
+      "start": 135,
+      "end": 146,
+      "text": "buku baharu",
+      "label": "WORK_OF_ART",
+      "score": 0.6878414750099182
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268309/premis-sedia-gro-menerusi-tempahan-whatsapps-kena-serbu-30-ditahan": [
+    {
+      "start": 0,
+      "end": 13,
+      "text": "Petaling Jaya",
+      "label": "LOC",
+      "score": 0.9601101279258728
+    },
+    {
+      "start": 54,
+      "end": 57,
+      "text": "GRO",
+      "label": "ORG",
+      "score": 0.5412161946296692
+    },
+    {
+      "start": 79,
+      "end": 87,
+      "text": "WhatsApp",
+      "label": "ORG",
+      "score": 0.8417767882347107
+    },
+    {
+      "start": 154,
+      "end": 164,
+      "text": "Sungai Way",
+      "label": "LOC",
+      "score": 0.9401451945304871
+    },
+    {
+      "start": 201,
+      "end": 227,
+      "text": "Jabatan Imigresen Malaysia",
+      "label": "ORG",
+      "score": 0.9416795969009399
+    },
+    {
+      "start": 229,
+      "end": 232,
+      "text": "JIM",
+      "label": "ORG",
+      "score": 0.6375796794891357
+    },
+    {
+      "start": 234,
+      "end": 242,
+      "text": "Selangor",
+      "label": "LOC",
+      "score": 0.9135066270828247
+    }
+  ],
+  "https://www.hmetro.com.my/arena/bola-sepak/2025/09/1268307/bergson-tekad-terus-pacu-jdt-lakar-kemenangan": [
+    {
+      "start": 0,
+      "end": 11,
+      "text": "Johor Bahru",
+      "label": "LOC",
+      "score": 0.9140419363975525
+    },
+    {
+      "start": 78,
+      "end": 96,
+      "text": "Johor Darul Ta'zim",
+      "label": "ORG",
+      "score": 0.887764573097229
+    },
+    {
+      "start": 104,
+      "end": 120,
+      "text": "Bergson da Silva",
+      "label": "PERSON",
+      "score": 0.9876575469970703
+    },
+    {
+      "start": 206,
+      "end": 220,
+      "text": "Bangkok United",
+      "label": "ORG",
+      "score": 0.8958728909492493
+    },
+    {
+      "start": 236,
+      "end": 257,
+      "text": "Kejuaraan Kelab ASEAN",
+      "label": "EVENT",
+      "score": 0.6260419487953186
+    },
+    {
+      "start": 272,
+      "end": 284,
+      "text": "Piala Shopee",
+      "label": "EVENT",
+      "score": 0.9499132633209229
+    },
+    {
+      "start": 289,
+      "end": 311,
+      "text": "Stadium Sultan Ibrahim",
+      "label": "LOC",
+      "score": 0.935548722743988
+    },
+    {
+      "start": 313,
+      "end": 328,
+      "text": "Iskandar Puteri",
+      "label": "LOC",
+      "score": 0.9528090357780457
+    }
+  ],
+  "https://www.hmetro.com.my/global/asia/2025/09/1268305/ibu-sembunyi-mayat-anak-dalam-peti-sejuk-beku-selama-20-tahun": [
+    {
+      "start": 0,
+      "end": 5,
+      "text": "Tokyo",
+      "label": "LOC",
+      "score": 0.9475283622741699
+    },
+    {
+      "start": 7,
+      "end": 18,
+      "text": "Polis Jepun",
+      "label": "ORG",
+      "score": 0.8468087911605835
+    },
+    {
+      "start": 35,
+      "end": 41,
+      "text": "wanita",
+      "label": "PERSON",
+      "score": 0.936069667339325
+    },
+    {
+      "start": 106,
+      "end": 123,
+      "text": "anak perempuannya",
+      "label": "PERSON",
+      "score": 0.9366223216056824
+    },
+    {
+      "start": 163,
+      "end": 172,
+      "text": "dua dekad",
+      "label": "TIME",
+      "score": 0.9382132887840271
+    }
+  ],
+  "https://www.hmetro.com.my/utama/2025/09/1268301/9-juta-bawa-motor-tiada-lesen": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.969720184803009
+    },
+    {
+      "start": 52,
+      "end": 65,
+      "text": "sembilan juta",
+      "label": "QUANTITY",
+      "score": 0.7380822896957397
+    },
+    {
+      "start": 66,
+      "end": 86,
+      "text": "penunggang motosikal",
+      "label": "PERSON",
+      "score": 0.5606625080108643
+    },
+    {
+      "start": 96,
+      "end": 109,
+      "text": "golongan muda",
+      "label": "PERSON",
+      "score": 0.7440010905265808
+    },
+    {
+      "start": 113,
+      "end": 123,
+      "text": "negara ini",
+      "label": "LOC",
+      "score": 0.8486406803131104
+    },
+    {
+      "start": 167,
+      "end": 180,
+      "text": "lesen memandu",
+      "label": "PRODUCT",
+      "score": 0.6062654256820679
+    },
+    {
+      "start": 193,
+      "end": 205,
+      "text": "tamat tempoh",
+      "label": "TIME",
+      "score": 0.9096813797950745
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268299/budi95-mampu-dilaksana-kerana-tatakelola-cekap-pm": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Putrajaya",
+      "label": "LOC",
+      "score": 0.9279752969741821
+    },
+    {
+      "start": 11,
+      "end": 26,
+      "text": "Perdana Menteri",
+      "label": "PERSON",
+      "score": 0.6639454364776611
+    },
+    {
+      "start": 27,
+      "end": 51,
+      "text": "Datuk Seri Anwar Ibrahim",
+      "label": "PERSON",
+      "score": 0.9018031358718872
+    },
+    {
+      "start": 73,
+      "end": 81,
+      "text": "kerajaan",
+      "label": "ORG",
+      "score": 0.7877428531646729
+    },
+    {
+      "start": 120,
+      "end": 137,
+      "text": "BUDI MADANI RON95",
+      "label": "PRODUCT",
+      "score": 0.7675713896751404
+    },
+    {
+      "start": 139,
+      "end": 145,
+      "text": "BUDI95",
+      "label": "PRODUCT",
+      "score": 0.525901734828949
+    }
+  ],
+  "https://www.hmetro.com.my/arena/bola-sepak/2025/09/1268297/munoz-angkat-afiq-jadi-nadi-harimau-selatan": [
+    {
+      "start": 0,
+      "end": 11,
+      "text": "Johor Bahru",
+      "label": "LOC",
+      "score": 0.8852948546409607
+    },
+    {
+      "start": 24,
+      "end": 42,
+      "text": "Johor Darul Ta'zim",
+      "label": "ORG",
+      "score": 0.9199178218841553
+    },
+    {
+      "start": 50,
+      "end": 61,
+      "text": "Xisco Munoz",
+      "label": "PERSON",
+      "score": 0.9815948009490967
+    },
+    {
+      "start": 87,
+      "end": 98,
+      "text": "Afiq Fazail",
+      "label": "PERSON",
+      "score": 0.9882000684738159
+    },
+    {
+      "start": 214,
+      "end": 228,
+      "text": "Bangkok United",
+      "label": "ORG",
+      "score": 0.9346986413002014
+    },
+    {
+      "start": 286,
+      "end": 298,
+      "text": "Piala Shopee",
+      "label": "EVENT",
+      "score": 0.923073410987854
+    },
+    {
+      "start": 302,
+      "end": 324,
+      "text": "Stadium Sultan Ibrahim",
+      "label": "LOC",
+      "score": 0.8991841673851013
+    },
+    {
+      "start": 326,
+      "end": 341,
+      "text": "Iskandar Puteri",
+      "label": "LOC",
+      "score": 0.9327152967453003
+    }
+  ],
+  "https://www.hmetro.com.my/utama/2025/09/1268295/kwsp-naikkan-penanda-aras-lebihan-simpanan-mulai-2026": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9528066515922546
+    },
+    {
+      "start": 14,
+      "end": 44,
+      "text": "Kumpulan Wang Simpanan Pekerja",
+      "label": "ORG",
+      "score": 0.966009259223938
+    },
+    {
+      "start": 46,
+      "end": 50,
+      "text": "KWSP",
+      "label": "ORG",
+      "score": 0.7504830360412598
+    },
+    {
+      "start": 105,
+      "end": 118,
+      "text": "tahun hadapan",
+      "label": "TIME",
+      "score": 0.6904454231262207
+    },
+    {
+      "start": 158,
+      "end": 162,
+      "text": "ahli",
+      "label": "PERSON",
+      "score": 0.9210101366043091
+    },
+    {
+      "start": 179,
+      "end": 188,
+      "text": "persaraan",
+      "label": "EVENT",
+      "score": 0.8922562003135681
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268293/kanak-kanak-kritikal-dipukul-dengan-tukul-bapa-mohon-doa-orang-ramai": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "Bachok",
+      "label": "LOC",
+      "score": 0.9031559228897095
+    },
+    {
+      "start": 17,
+      "end": 28,
+      "text": "kanak-kanak",
+      "label": "PERSON",
+      "score": 0.7386553883552551
+    },
+    {
+      "start": 80,
+      "end": 91,
+      "text": "orang ramai",
+      "label": "PERSON",
+      "score": 0.5522887706756592
+    },
+    {
+      "start": 127,
+      "end": 133,
+      "text": "mangsa",
+      "label": "PERSON",
+      "score": 0.7343974113464355
+    }
+  ],
+  "https://www.hmetro.com.my/global/eropah/2025/09/1268291/flotila-sumud-global-tak-ancam-mana-mana-pihak-termasuk-israel-menteri": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "London",
+      "label": "LOC",
+      "score": 0.8721197247505188
+    },
+    {
+      "start": 8,
+      "end": 28,
+      "text": "Flotila Sumud Global",
+      "label": "ORG",
+      "score": 0.9635528326034546
+    },
+    {
+      "start": 44,
+      "end": 48,
+      "text": "Gaza",
+      "label": "LOC",
+      "score": 0.8984837532043457
+    },
+    {
+      "start": 86,
+      "end": 94,
+      "text": "Sepanyol",
+      "label": "GPE",
+      "score": 0.5088097453117371
+    },
+    {
+      "start": 162,
+      "end": 168,
+      "text": "Israel",
+      "label": "GPE",
+      "score": 0.8718023896217346
+    },
+    {
+      "start": 188,
+      "end": 196,
+      "text": "Sepanyol",
+      "label": "GPE",
+      "score": 0.5961845517158508
+    },
+    {
+      "start": 198,
+      "end": 217,
+      "text": "Jose Manuel Albares",
+      "label": "PERSON",
+      "score": 0.988198459148407
+    },
+    {
+      "start": 225,
+      "end": 232,
+      "text": "Reuters",
+      "label": "ORG",
+      "score": 0.97292160987854
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268289/siasatan-akaun-bank-luar-negara-pm-selesai-2022-tiada-bukti-rasuah-salah": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9503837823867798
+    },
+    {
+      "start": 73,
+      "end": 88,
+      "text": "Perdana Menteri",
+      "label": "PERSON",
+      "score": 0.9191111326217651
+    },
+    {
+      "start": 90,
+      "end": 114,
+      "text": "Datuk Seri Anwar Ibrahim",
+      "label": "PERSON",
+      "score": 0.9702416062355042
+    },
+    {
+      "start": 207,
+      "end": 209,
+      "text": "20",
+      "label": "QUANTITY",
+      "score": 0.6114969253540039
+    },
+    {
+      "start": 245,
+      "end": 251,
+      "text": "Israel",
+      "label": "LOC",
+      "score": 0.973236083984375
+    }
+  ],
+  "https://www.hmetro.com.my/rap/rapextra/2025/09/1268287/erra-bersyukur-kagum-disiplin-tinggi-aleesya-tuai-hasil": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.978721559047699
+    },
+    {
+      "start": 35,
+      "end": 46,
+      "text": "Erra Fazira",
+      "label": "PERSON",
+      "score": 0.9887872338294983
+    },
+    {
+      "start": 113,
+      "end": 120,
+      "text": "Aleesya",
+      "label": "PERSON",
+      "score": 0.9859533905982971
+    },
+    {
+      "start": 174,
+      "end": 182,
+      "text": "akademik",
+      "label": "FAC",
+      "score": 0.7239314913749695
+    }
+  ],
+  "https://www.hmetro.com.my/global/asia/2025/09/1268285/kes-jasad-dihantar-pulang-tanpa-jantung-hospital-di-bali-nafi-kecurian": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "Denpasar",
+      "label": "LOC",
+      "score": 0.8903237581253052
+    },
+    {
+      "start": 10,
+      "end": 19,
+      "text": "Indonesia",
+      "label": "GPE",
+      "score": 0.8784158825874329
+    },
+    {
+      "start": 40,
+      "end": 44,
+      "text": "Bali",
+      "label": "LOC",
+      "score": 0.9247687458992004
+    },
+    {
+      "start": 125,
+      "end": 136,
+      "text": "pengarahnya",
+      "label": "PERSON",
+      "score": 0.870611310005188
+    },
+    {
+      "start": 167,
+      "end": 176,
+      "text": "Australia",
+      "label": "GPE",
+      "score": 0.7593489289283752
+    },
+    {
+      "start": 218,
+      "end": 227,
+      "text": "Indonesia",
+      "label": "GPE",
+      "score": 0.9064668416976929
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268283/budi95-persatuan-p-hailing-syor-tapisan-ketat-untuk-elak-ketirisan": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9088849425315857
+    },
+    {
+      "start": 14,
+      "end": 53,
+      "text": "Persatuan Penghantar P-Hailing Malaysia",
+      "label": "ORG",
+      "score": 0.8806976079940796
+    },
+    {
+      "start": 55,
+      "end": 65,
+      "text": "PENGHANTAR",
+      "label": "ORG",
+      "score": 0.6564114093780518
+    },
+    {
+      "start": 104,
+      "end": 112,
+      "text": "kerajaan",
+      "label": "ORG",
+      "score": 0.8403738737106323
+    },
+    {
+      "start": 121,
+      "end": 143,
+      "text": "Skim Budi MADANI RON95",
+      "label": "LAW",
+      "score": 0.8456622958183289
+    },
+    {
+      "start": 221,
+      "end": 229,
+      "text": "kerajaan",
+      "label": "ORG",
+      "score": 0.857093870639801
+    }
+  ],
+  "https://www.hmetro.com.my/global/asia/2025/09/1268280/pesawat-netanyahu-guna-laluan-luar-biasa-untuk-ke-new-york": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Baitulmaqdis",
+      "label": "LOC",
+      "score": 0.8917314410209656
+    },
+    {
+      "start": 38,
+      "end": 44,
+      "text": "Israel",
+      "label": "GPE",
+      "score": 0.635981559753418
+    },
+    {
+      "start": 46,
+      "end": 64,
+      "text": "Benjamin Netanyahu",
+      "label": "PERSON",
+      "score": 0.9923862218856812
+    },
+    {
+      "start": 96,
+      "end": 104,
+      "text": "New York",
+      "label": "LOC",
+      "score": 0.9143732190132141
+    },
+    {
+      "start": 153,
+      "end": 159,
+      "text": "Eropah",
+      "label": "GPE",
+      "score": 0.8391370177268982
+    },
+    {
+      "start": 180,
+      "end": 230,
+      "text": "Perhimpunan Agung Pertubuhan Bangsa-Bangsa Bersatu",
+      "label": "ORG",
+      "score": 0.8348491787910461
+    },
+    {
+      "start": 232,
+      "end": 236,
+      "text": "UNGA",
+      "label": "ORG",
+      "score": 0.68317049741745
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268278/tnb-genco-sedia-kemudahan-internet-untuk-penduduk-orang-asli": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Gua Musang",
+      "label": "LOC",
+      "score": 0.9432367086410522
+    },
+    {
+      "start": 22,
+      "end": 27,
+      "text": "3,000",
+      "label": "QUANTITY",
+      "score": 0.7094215154647827
+    },
+    {
+      "start": 37,
+      "end": 47,
+      "text": "Orang Asli",
+      "label": "NORP",
+      "score": 0.815923810005188
+    },
+    {
+      "start": 97,
+      "end": 105,
+      "text": "Internet",
+      "label": "PRODUCT",
+      "score": 0.8090241551399231
+    },
+    {
+      "start": 126,
+      "end": 134,
+      "text": "Starlink",
+      "label": "PRODUCT",
+      "score": 0.9516597986221313
+    },
+    {
+      "start": 153,
+      "end": 181,
+      "text": "TNB Power Generation Sdn Bhd",
+      "label": "ORG",
+      "score": 0.9527189135551453
+    },
+    {
+      "start": 183,
+      "end": 192,
+      "text": "TNB Genco",
+      "label": "ORG",
+      "score": 0.8312286138534546
+    }
+  ],
+  "https://www.hmetro.com.my/rap/rapextra/2025/09/1268276/erysha-nafi-bermasam-muka-dengan-qasrina": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Putrajaya",
+      "label": "LOC",
+      "score": 0.9642263054847717
+    },
+    {
+      "start": 20,
+      "end": 32,
+      "text": "Erysha Emyra",
+      "label": "PERSON",
+      "score": 0.9885669946670532
+    },
+    {
+      "start": 34,
+      "end": 36,
+      "text": "25",
+      "label": "CARDINAL",
+      "score": 0.604120671749115
+    },
+    {
+      "start": 113,
+      "end": 126,
+      "text": "Qasrina Karim",
+      "label": "PERSON",
+      "score": 0.9903850555419922
+    },
+    {
+      "start": 128,
+      "end": 130,
+      "text": "29",
+      "label": "CARDINAL",
+      "score": 0.6302136182785034
+    }
+  ],
+  "https://www.hmetro.com.my/global/asia/2025/09/1268274/bunuh-kekasih-sebab-diejek-tak-mampu-beli-iphone": [
+    {
+      "start": 0,
+      "end": 7,
+      "text": "Lampung",
+      "label": "LOC",
+      "score": 0.9250823855400085
+    },
+    {
+      "start": 17,
+      "end": 23,
+      "text": "lelaki",
+      "label": "PERSON",
+      "score": 0.9004539251327515
+    },
+    {
+      "start": 32,
+      "end": 40,
+      "text": "42 tahun",
+      "label": "TIME",
+      "score": 0.7107602953910828
+    },
+    {
+      "start": 52,
+      "end": 59,
+      "text": "Lampung",
+      "label": "LOC",
+      "score": 0.9124221205711365
+    },
+    {
+      "start": 61,
+      "end": 70,
+      "text": "Indonesia",
+      "label": "GPE",
+      "score": 0.9109026193618774
+    },
+    {
+      "start": 80,
+      "end": 85,
+      "text": "polis",
+      "label": "ORG",
+      "score": 0.8035478591918945
+    },
+    {
+      "start": 103,
+      "end": 118,
+      "text": "teman wanitanya",
+      "label": "PERSON",
+      "score": 0.90589839220047
+    },
+    {
+      "start": 132,
+      "end": 140,
+      "text": "15 tahun",
+      "label": "TIME",
+      "score": 0.847428560256958
+    },
+    {
+      "start": 149,
+      "end": 155,
+      "text": "mangsa",
+      "label": "PERSON",
+      "score": 0.5838577151298523
+    },
+    {
+      "start": 210,
+      "end": 216,
+      "text": "iPhone",
+      "label": "PRODUCT",
+      "score": 0.9661688208580017
+    },
+    {
+      "start": 224,
+      "end": 237,
+      "text": "MustShareNews",
+      "label": "ORG",
+      "score": 0.9464519619941711
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268272/baki-simpanan-tinggal-rm10978-akibat-diperdaya-scammer": [
+    {
+      "start": 0,
+      "end": 7,
+      "text": "Kuantan",
+      "label": "LOC",
+      "score": 0.9521364569664001
+    },
+    {
+      "start": 15,
+      "end": 30,
+      "text": "pengurus kilang",
+      "label": "PERSON",
+      "score": 0.5221832990646362
+    },
+    {
+      "start": 56,
+      "end": 65,
+      "text": "RM200,000",
+      "label": "MONEY",
+      "score": 0.9587203860282898
+    },
+    {
+      "start": 84,
+      "end": 92,
+      "text": "individu",
+      "label": "PERSON",
+      "score": 0.7653895020484924
+    },
+    {
+      "start": 121,
+      "end": 136,
+      "text": "hospital swasta",
+      "label": "ORG",
+      "score": 0.6068888902664185
+    },
+    {
+      "start": 141,
+      "end": 154,
+      "text": "anggota polis",
+      "label": "PERSON",
+      "score": 0.71809983253479
+    },
+    {
+      "start": 232,
+      "end": 243,
+      "text": "senjata api",
+      "label": "ORG",
+      "score": 0.7224660515785217
+    }
+  ],
+  "https://www.hmetro.com.my/arena/bola-sepak/2025/09/1268270/amorim-timbang-mainoo-ganti-casemiro": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Manchester",
+      "label": "LOC",
+      "score": 0.8953432440757751
+    },
+    {
+      "start": 12,
+      "end": 24,
+      "text": "Ruben Amorim",
+      "label": "PERSON",
+      "score": 0.9893031120300293
+    },
+    {
+      "start": 95,
+      "end": 108,
+      "text": "Kobbie Mainoo",
+      "label": "PERSON",
+      "score": 0.9915633201599121
+    },
+    {
+      "start": 155,
+      "end": 165,
+      "text": "Manchester",
+      "label": "LOC",
+      "score": 0.9501391053199768
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268268/saya-malu-kalau-menantu-tahu-saya-ni-penagih-dadah": [
+    {
+      "start": 0,
+      "end": 11,
+      "text": "Kuala Kedah",
+      "label": "LOC",
+      "score": 0.9322769045829773
+    },
+    {
+      "start": 30,
+      "end": 37,
+      "text": "menantu",
+      "label": "PERSON",
+      "score": 0.8141657710075378
+    },
+    {
+      "start": 105,
+      "end": 110,
+      "text": "encik",
+      "label": "PERSON",
+      "score": 0.7133212685585022
+    },
+    {
+      "start": 140,
+      "end": 146,
+      "text": "lelaki",
+      "label": "PERSON",
+      "score": 0.617033064365387
+    },
+    {
+      "start": 173,
+      "end": 200,
+      "text": "Agensi Antidadah Kebangsaan",
+      "label": "ORG",
+      "score": 0.982434093952179
+    },
+    {
+      "start": 202,
+      "end": 206,
+      "text": "AADK",
+      "label": "ORG",
+      "score": 0.680687665939331
+    },
+    {
+      "start": 208,
+      "end": 213,
+      "text": "Kedah",
+      "label": "LOC",
+      "score": 0.7925444841384888
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268267/alumni-pibg-serah-van-baharu-buat-pemangkin-semangat-pelajar-smach": [
+    {
+      "start": 0,
+      "end": 7,
+      "text": "Machang",
+      "label": "LOC",
+      "score": 0.7775290608406067
+    },
+    {
+      "start": 9,
+      "end": 31,
+      "text": "Sekolah Menengah Sains",
+      "label": "ORG",
+      "score": 0.5198959708213806
+    },
+    {
+      "start": 32,
+      "end": 39,
+      "text": "Machang",
+      "label": "LOC",
+      "score": 0.8889619708061218
+    },
+    {
+      "start": 41,
+      "end": 46,
+      "text": "SMACH",
+      "label": "ORG",
+      "score": 0.9000833034515381
+    },
+    {
+      "start": 98,
+      "end": 101,
+      "text": "van",
+      "label": "PRODUCT",
+      "score": 0.7163746953010559
+    },
+    {
+      "start": 117,
+      "end": 126,
+      "text": "RM100,000",
+      "label": "MONEY",
+      "score": 0.9821807146072388
+    },
+    {
+      "start": 144,
+      "end": 149,
+      "text": "SMACH",
+      "label": "ORG",
+      "score": 0.8451293706893921
+    },
+    {
+      "start": 154,
+      "end": 181,
+      "text": "Persatuan Ibu Bapa dan Guru",
+      "label": "ORG",
+      "score": 0.9759359955787659
+    },
+    {
+      "start": 183,
+      "end": 187,
+      "text": "PIBG",
+      "label": "ORG",
+      "score": 0.8314850926399231
+    }
+  ],
+  "https://www.hmetro.com.my/mutakhir/2025/09/1268264/ramai-perbaharui-lesen-di-jpj-takut-tak-dapat-subsidi-ron95": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "Seremban",
+      "label": "LOC",
+      "score": 0.9562097191810608
+    },
+    {
+      "start": 19,
+      "end": 32,
+      "text": "lesen memandu",
+      "label": "PRODUCT",
+      "score": 0.5921820402145386
+    },
+    {
+      "start": 63,
+      "end": 75,
+      "text": "tamat tempoh",
+      "label": "TIME",
+      "score": 0.5250890851020813
+    },
+    {
+      "start": 152,
+      "end": 172,
+      "text": "subsidi petrol RON95",
+      "label": "PRODUCT",
+      "score": 0.581268846988678
+    }
+  ],
+  "https://www.hmetro.com.my/arena/lain/2025/09/1268262/lightning-iheme-lebih-pantas-daripada-bolt": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "London",
+      "label": "LOC",
+      "score": 0.9355273246765137
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "text": "Britain",
+      "label": "GPE",
+      "score": 0.7334384918212891
+    },
+    {
+      "start": 44,
+      "end": 52,
+      "text": "15 tahun",
+      "label": "TIME",
+      "score": 0.6615921854972839
+    },
+    {
+      "start": 67,
+      "end": 76,
+      "text": "Lightning",
+      "label": "WORK_OF_ART",
+      "score": 0.6860339045524597
+    },
+    {
+      "start": 79,
+      "end": 91,
+      "text": "Divine Iheme",
+      "label": "PERSON",
+      "score": 0.9752340316772461
+    },
+    {
+      "start": 170,
+      "end": 180,
+      "text": "Usain Bolt",
+      "label": "PERSON",
+      "score": 0.9751620292663574
+    },
+    {
+      "start": 182,
+      "end": 192,
+      "text": "Noah Lyles",
+      "label": "PERSON",
+      "score": 0.9822568297386169
+    },
+    {
+      "start": 197,
+      "end": 206,
+      "text": "Gout Gout",
+      "label": "PERSON",
+      "score": 0.9807615876197815
+    },
+    {
+      "start": 212,
+      "end": 223,
+      "text": "usia sebaya",
+      "label": "TIME",
+      "score": 0.508158266544342
+    }
+  ],
+  "https://www.hmetro.com.my/rap/rapextra/2025/09/1268260/yazmin-aziz-pikat-juri-ungguli-episod-sulung-silk-way-star-di": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Kuala Lumpur",
+      "label": "LOC",
+      "score": 0.9199286699295044
+    },
+    {
+      "start": 40,
+      "end": 51,
+      "text": "Yazmin Aziz",
+      "label": "PERSON",
+      "score": 0.9935393929481506
+    },
+    {
+      "start": 53,
+      "end": 55,
+      "text": "24",
+      "label": "QUANTITY",
+      "score": 0.5601372718811035
+    },
+    {
+      "start": 137,
+      "end": 150,
+      "text": "Silk Way Star",
+      "label": "EVENT",
+      "score": 0.8088071346282959
+    },
+    {
+      "start": 171,
+      "end": 181,
+      "text": "Kazakhstan",
+      "label": "GPE",
+      "score": 0.94025719165802
+    }
+  ],
+  "https://www.kosmo.com.my/2025/09/26/melaka-bakal-bergegau-pm-rasmi-tmm2026-malam-esok/?utm_source=rss&utm_medium=rss&utm_campaign=melaka-bakal-bergegau-pm-rasmi-tmm2026-malam-esok": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "MELAKA",
+      "label": "LOC",
+      "score": 0.9487237930297852
+    },
+    {
+      "start": 15,
+      "end": 21,
+      "text": "Melaka",
+      "label": "LOC",
+      "score": 0.9654033780097961
+    },
+    {
+      "start": 90,
+      "end": 112,
+      "text": "Tahun Melawat Malaysia",
+      "label": "EVENT",
+      "score": 0.7036747932434082
+    },
+    {
+      "start": 184,
+      "end": 208,
+      "text": "Hari Pelancongan Sedunia",
+      "label": "EVENT",
+      "score": 0.9551679491996765
+    },
+    {
+      "start": 226,
+      "end": 257,
+      "text": "Persidangan Pelancongan Sedunia",
+      "label": "EVENT",
+      "score": 0.9698386788368225
+    }
+  ],
+  "https://www.kosmo.com.my/2025/09/26/pelajar-tingkatan-empat-ugut-junior-didakwa/?utm_source=rss&utm_medium=rss&utm_campaign=pelajar-tingkatan-empat-ugut-junior-didakwa": [
+    {
+      "start": 23,
+      "end": 36,
+      "text": "remaja lelaki",
+      "label": "PERSON",
+      "score": 0.8982222676277161
+    },
+    {
+      "start": 45,
+      "end": 53,
+      "text": "16 tahun",
+      "label": "TIME",
+      "score": 0.6139726638793945
+    },
+    {
+      "start": 68,
+      "end": 86,
+      "text": "Mahkamah Majistret",
+      "label": "ORG",
+      "score": 0.9595946073532104
+    },
+    {
+      "start": 185,
+      "end": 199,
+      "text": "pelajar junior",
+      "label": "PERSON",
+      "score": 0.8202543258666992
+    },
+    {
+      "start": 203,
+      "end": 209,
+      "text": "Rembau",
+      "label": "LOC",
+      "score": 0.9638180732727051
+    },
+    {
+      "start": 237,
+      "end": 243,
+      "text": "remaja",
+      "label": "PERSON",
+      "score": 0.5374547839164734
+    },
+    {
+      "start": 283,
+      "end": 293,
+      "text": "pertuduhan",
+      "label": "LAW",
+      "score": 0.7664833664894104
+    },
+    {
+      "start": 325,
+      "end": 351,
+      "text": "Mohamad Redza Azhar Rezali",
+      "label": "PERSON",
+      "score": 0.8139083385467529
+    }
+  ],
+  "https://www.kosmo.com.my/2025/09/26/sijil-halal-diragui-dada-ayam-sejuk-beku-rm200000-disita/?utm_source=rss&utm_medium=rss&utm_campaign=sijil-halal-diragui-dada-ayam-sejuk-beku-rm200000-disita": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "ALOR SETAR",
+      "label": "LOC",
+      "score": 0.9030914902687073
+    },
+    {
+      "start": 40,
+      "end": 46,
+      "text": "25 tan",
+      "label": "QUANTITY",
+      "score": 0.6403520107269287
+    },
+    {
+      "start": 47,
+      "end": 62,
+      "text": "ayam sejuk beku",
+      "label": "PRODUCT",
+      "score": 0.8306370973587036
+    },
+    {
+      "start": 68,
+      "end": 80,
+      "text": "negara jiran",
+      "label": "LOC",
+      "score": 0.5637324452400208
+    },
+    {
+      "start": 116,
+      "end": 156,
+      "text": "Agensi Kawalan dan Perlindungan Sempadan",
+      "label": "ORG",
+      "score": 0.9604414701461792
+    },
+    {
+      "start": 158,
+      "end": 162,
+      "text": "AKPS",
+      "label": "ORG",
+      "score": 0.7713606953620911
+    },
+    {
+      "start": 237,
+      "end": 253,
+      "text": "pukul 11.40 pagi",
+      "label": "TIME",
+      "score": 0.5904828906059265
+    },
+    {
+      "start": 303,
+      "end": 320,
+      "text": "tulang sejuk beku",
+      "label": "PRODUCT",
+      "score": 0.5722544193267822
+    },
+    {
+      "start": 330,
+      "end": 339,
+      "text": "RM200,000",
+      "label": "MONEY",
+      "score": 0.9764926433563232
+    },
+    {
+      "start": 363,
+      "end": 375,
+      "text": "lori kontena",
+      "label": "PRODUCT",
+      "score": 0.8328291177749634
+    }
+  ],
+  "https://www.kosmo.com.my/2025/09/26/malaysia-capai-30-peratus-kapasiti-tenaga-boleh-baharu/?utm_source=rss&utm_medium=rss&utm_campaign=malaysia-capai-30-peratus-kapasiti-tenaga-boleh-baharu": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "SHAH ALAM",
+      "label": "LOC",
+      "score": 0.9124858975410461
+    },
+    {
+      "start": 18,
+      "end": 26,
+      "text": "Malaysia",
+      "label": "LOC",
+      "score": 0.9531518220901489
+    },
+    {
+      "start": 42,
+      "end": 52,
+      "text": "30 peratus",
+      "label": "PERCENT",
+      "score": 0.8345990180969238
+    },
+    {
+      "start": 171,
+      "end": 195,
+      "text": "Timbalan Perdana Menteri",
+      "label": "PERSON",
+      "score": 0.8201672434806824
+    },
+    {
+      "start": 253,
+      "end": 278,
+      "text": "Datuk Seri Fadillah Yusof",
+      "label": "PERSON",
+      "score": 0.9708626866340637
+    },
+    {
+      "start": 319,
+      "end": 329,
+      "text": "31 peratus",
+      "label": "PERCENT",
+      "score": 0.8618600368499756
+    },
+    {
+      "start": 339,
+      "end": 378,
+      "text": "Pelan Hala Tuju Peralihan Tenaga Negara",
+      "label": "ORG",
+      "score": 0.7372527718544006
+    }
+  ],
+  "https://www.kosmo.com.my/2025/09/26/kes-palapes-utm-menteri-pertahanan-mindef-setuju-tidak-ulas-kematian/?utm_source=rss&utm_medium=rss&utm_campaign=kes-palapes-utm-menteri-pertahanan-mindef-setuju-tidak-ulas-kematian": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "SHAH ALAM",
+      "label": "LOC",
+      "score": 0.9058053493499756
+    },
+    {
+      "start": 18,
+      "end": 36,
+      "text": "Menteri Pertahanan",
+      "label": "ORG",
+      "score": 0.5807936191558838
+    },
+    {
+      "start": 41,
+      "end": 63,
+      "text": "Kementerian Pertahanan",
+      "label": "ORG",
+      "score": 0.8913748860359192
+    },
+    {
+      "start": 65,
+      "end": 71,
+      "text": "Mindef",
+      "label": "ORG",
+      "score": 0.9102784991264343
+    },
+    {
+      "start": 161,
+      "end": 193,
+      "text": "Pasukan Latihan Pegawai Simpanan",
+      "label": "ORG",
+      "score": 0.7691436409950256
+    },
+    {
+      "start": 204,
+      "end": 233,
+      "text": "Universiti Teknologi Malaysia",
+      "label": "ORG",
+      "score": 0.8931151032447815
+    },
+    {
+      "start": 240,
+      "end": 246,
+      "text": "Skudai",
+      "label": "LOC",
+      "score": 0.7766655683517456
+    },
+    {
+      "start": 248,
+      "end": 283,
+      "text": "Allahyarham Syamsul Haris Shamsudin",
+      "label": "PERSON",
+      "score": 0.9691932797431946
+    },
+    {
+      "start": 298,
+      "end": 306,
+      "text": "siasatan",
+      "label": "EVENT",
+      "score": 0.6315433382987976
+    }
+  ],
+  "https://www.kosmo.com.my/2025/09/26/budak-dipukul-guna-tukul-doakan-anak-saya-darah-tak-berhenti/?utm_source=rss&utm_medium=rss&utm_campaign=budak-dipukul-guna-tukul-doakan-anak-saya-darah-tak-berhenti": [
+    {
+      "start": 0,
+      "end": 13,
+      "text": "PETALING JAYA",
+      "label": "LOC",
+      "score": 0.9147690534591675
+    },
+    {
+      "start": 52,
+      "end": 59,
+      "text": "sahabat",
+      "label": "PERSON",
+      "score": 0.5097173452377319
+    },
+    {
+      "start": 131,
+      "end": 146,
+      "text": "Muhammad Badrul",
+      "label": "PERSON",
+      "score": 0.9590886235237122
+    },
+    {
+      "start": 165,
+      "end": 172,
+      "text": "anaknya",
+      "label": "PERSON",
+      "score": 0.61240154504776
+    },
+    {
+      "start": 254,
+      "end": 265,
+      "text": "rumah kedai",
+      "label": "LOC",
+      "score": 0.5036619901657104
+    },
+    {
+      "start": 269,
+      "end": 276,
+      "text": "Jelawat",
+      "label": "LOC",
+      "score": 0.894397497177124
+    },
+    {
+      "start": 280,
+      "end": 286,
+      "text": "Bachok",
+      "label": "LOC",
+      "score": 0.9069268107414246
+    },
+    {
+      "start": 288,
+      "end": 296,
+      "text": "Kelantan",
+      "label": "GPE",
+      "score": 0.8960192203521729
+    }
+  ],
+  "https://www.kosmo.com.my/2025/09/26/tidak-pernah-runding-bincang-dengan-ejen-pelaburan-rm2-8-juta-bung-moktar/?utm_source=rss&utm_medium=rss&utm_campaign=tidak-pernah-runding-bincang-dengan-ejen-pelaburan-rm2-8-juta-bung-moktar": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.9142715930938721
+    },
+    {
+      "start": 49,
+      "end": 77,
+      "text": "Datuk Seri Bung Moktar Radin",
+      "label": "PERSON",
+      "score": 0.9608473777770996
+    },
+    {
+      "start": 91,
+      "end": 106,
+      "text": "Mahkamah Sesyen",
+      "label": "ORG",
+      "score": 0.770357608795166
+    },
+    {
+      "start": 176,
+      "end": 190,
+      "text": "ejen pelaburan",
+      "label": "PERSON",
+      "score": 0.6695742011070251
+    },
+    {
+      "start": 207,
+      "end": 217,
+      "text": "RM2.8 juta",
+      "label": "MONEY",
+      "score": 0.9881591796875
+    }
+  ],
+  "https://www.kosmo.com.my/2025/09/26/penemuan-mayat-wanita-dalam-kereta-di-setapak-tiada-unsur-jenayah/?utm_source=rss&utm_medium=rss&utm_campaign=penemuan-mayat-wanita-dalam-kereta-di-setapak-tiada-unsur-jenayah": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "KUALA LUMPUR",
+      "label": "LOC",
+      "score": 0.9397959113121033
+    },
+    {
+      "start": 67,
+      "end": 73,
+      "text": "wanita",
+      "label": "PERSON",
+      "score": 0.6023069024085999
+    },
+    {
+      "start": 112,
+      "end": 126,
+      "text": "Diamond Square",
+      "label": "LOC",
+      "score": 0.9720455408096313
+    },
+    {
+      "start": 128,
+      "end": 135,
+      "text": "Setapak",
+      "label": "LOC",
+      "score": 0.9371289610862732
+    },
+    {
+      "start": 215,
+      "end": 226,
+      "text": "Wangsa Maju",
+      "label": "LOC",
+      "score": 0.6468137502670288
+    },
+    {
+      "start": 228,
+      "end": 267,
+      "text": "Asisten Komisioner Mohamad Lazim Ismail",
+      "label": "PERSON",
+      "score": 0.9535027146339417
+    },
+    {
+      "start": 313,
+      "end": 323,
+      "text": "orang awam",
+      "label": "PERSON",
+      "score": 0.7299543619155884
+    },
+    {
+      "start": 343,
+      "end": 349,
+      "text": "mangsa",
+      "label": "PERSON",
+      "score": 0.5666093826293945
+    },
+    {
+      "start": 358,
+      "end": 371,
+      "text": "pukul 11 pagi",
+      "label": "TIME",
+      "score": 0.8175129294395447
+    }
+  ],
+  "https://www.kosmo.com.my/2025/09/26/beraninya-budak-budak-ni-mana-mak-ayah/?utm_source=rss&utm_medium=rss&utm_campaign=beraninya-budak-budak-ni-mana-mak-ayah": [
+    {
+      "start": 0,
+      "end": 13,
+      "text": "PETALING JAYA",
+      "label": "LOC",
+      "score": 0.9516652822494507
+    },
+    {
+      "start": 33,
+      "end": 44,
+      "text": "kanak-kanak",
+      "label": "PERSON",
+      "score": 0.8308039903640747
+    },
+    {
+      "start": 134,
+      "end": 148,
+      "text": "Tanjung Lumpur",
+      "label": "LOC",
+      "score": 0.9178348183631897
+    },
+    {
+      "start": 150,
+      "end": 157,
+      "text": "Kuantan",
+      "label": "LOC",
+      "score": 0.8800734281539917
+    },
+    {
+      "start": 159,
+      "end": 165,
+      "text": "Pahang",
+      "label": "GPE",
+      "score": 0.8514116406440735
+    },
+    {
+      "start": 197,
+      "end": 202,
+      "text": "empat",
+      "label": "QUANTITY",
+      "score": 0.5813869833946228
+    },
+    {
+      "start": 203,
+      "end": 214,
+      "text": "kanak-kanak",
+      "label": "PERSON",
+      "score": 0.7782902717590332
+    },
+    {
+      "start": 290,
+      "end": 298,
+      "text": "jejambat",
+      "label": "LOC",
+      "score": 0.7154791355133057
+    },
+    {
+      "start": 307,
+      "end": 310,
+      "text": "dua",
+      "label": "QUANTITY",
+      "score": 0.5189523696899414
+    }
+  ],
+  "https://www.kosmo.com.my/2025/09/26/terkejut-tengok-kepala-mangsa-pecah-berlumuran-darah/?utm_source=rss&utm_medium=rss&utm_campaign=terkejut-tengok-kepala-mangsa-pecah-berlumuran-darah": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "BACHOK",
+      "label": "PERSON",
+      "score": 0.8472919464111328
+    },
+    {
+      "start": 70,
+      "end": 81,
+      "text": "kanak-kanak",
+      "label": "PERSON",
+      "score": 0.7766087651252747
+    },
+    {
+      "start": 106,
+      "end": 111,
+      "text": "dadah",
+      "label": "PRODUCT",
+      "score": 0.5304405093193054
+    },
+    {
+      "start": 120,
+      "end": 135,
+      "text": "bapa saudaranya",
+      "label": "PERSON",
+      "score": 0.8793504238128662
+    },
+    {
+      "start": 144,
+      "end": 150,
+      "text": "mangsa",
+      "label": "PERSON",
+      "score": 0.7490927577018738
+    },
+    {
+      "start": 224,
+      "end": 235,
+      "text": "rumah kedai",
+      "label": "LOC",
+      "score": 0.7643148899078369
+    },
+    {
+      "start": 239,
+      "end": 246,
+      "text": "Jelawat",
+      "label": "LOC",
+      "score": 0.9697251915931702
+    }
   ]
 }

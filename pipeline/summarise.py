@@ -36,7 +36,7 @@ def ollama_generate(prompt: str, model: str) -> str:
         return ""
 
 # summarise
-def summarise(txt: str, query: str = "") -> str:
+def summarise(txt: str, query: str = "", model: str = "mistral") -> str:
     if not txt.strip():
         return ""
 
@@ -56,7 +56,7 @@ def summarise(txt: str, query: str = "") -> str:
             f"'Here is the summary' or 'Berikut adalah ringkasan artikel'.\n\n{txt}"
         )
 
-    summary = ollama_generate(prompt, model="mistral").strip()                                 # change model here!!
+    summary = ollama_generate(prompt, model=model).strip()                                
 
     # make sure query is mentioned
     if query and query.lower() not in summary.lower():
@@ -74,7 +74,7 @@ def summarise(txt: str, query: str = "") -> str:
     return summary
 
 # summarise each article
-def run_individual(query: str = ""):
+def run_individual(query: str = "", model: str = "mistral"):
     csvs = sorted(raw_folder.glob("*.csv"))
     if not csvs:
         print("no csv files in data/raw/search/")
@@ -106,7 +106,8 @@ def run_individual(query: str = ""):
             if not content:
                 continue
 
-            summary = summarise(content, query=query)
+            summary = summarise(content, query=query, model=model)
+            
             if not summary:
                 continue
 
@@ -119,7 +120,7 @@ def run_individual(query: str = ""):
                 print("could not write summary for", title, e)
 
 # summarise compiled file
-def run_overall(query: str = "") -> Path | None:
+def run_overall(query: str = "", model: str = "mistral") -> Path | None:
     safe_q = "".join(c if c.isalnum() else "_" for c in query) if query else "compiled"
     compiled = Path("data/processed") / f"compiled_{safe_q}.txt"
 
@@ -128,7 +129,8 @@ def run_overall(query: str = "") -> Path | None:
         return None
 
     txt = compiled.read_text(encoding="utf-8", errors="ignore")
-    summary = summarise(txt, query=query)
+    summary = summarise(txt, query=query, model=model)
+
     if not summary:
         return None
 

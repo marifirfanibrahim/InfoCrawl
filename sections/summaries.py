@@ -38,9 +38,13 @@ def get_query_from_filename(filename: str) -> str:
             return parts[1].split("_")[0]
     return ""
 
-def build_source_map():
+def build_source_map(current_query: str):
     src_map = {}
-    for csv_file in raw_folder.glob("*.csv"):
+    safe_q = "".join(c if c.isalnum() else "_" for c in current_query).lower()
+    for csv_file in raw_folder.glob("search_*.csv"):
+        # only include files that contain the query string
+        if safe_q not in csv_file.stem.lower():
+            continue
         try:
             df = pd.read_csv(csv_file)
         except Exception:
@@ -52,8 +56,12 @@ def build_source_map():
             url = str(row.get("Source_URL", "")).strip()
             if not title:
                 continue
+            if url and not url.startswith(("http://", "https://")):
+                url = "https://" + url
             fname = make_safe_filename(title, idx)
+            # store both plain and query-prefixed keys to match summary filenames
             src_map[fname] = (title, url)
+            src_map[f"{safe_q}_{Path(fname).stem}"] = (title, url)
     return src_map
 
 def get_summaries_for_query(current_query: str):
@@ -135,7 +143,7 @@ def render_individual_summaries(summary_files: list, show_ents: bool, active_lab
     st.caption(f"{len(summary_files)} individual summaries generated for query: {current_query}")
     
     safe_q = "".join(c if c.isalnum() else "_" for c in current_query).lower()
-    src_map = build_source_map()
+    src_map = build_source_map(current_query)
     indiv_preds = load_preds_json(proc_folder / f"predictions_individual_{safe_q}.json")
     
     for i, f in enumerate(summary_files):
@@ -158,9 +166,16 @@ def render_individual_summaries(summary_files: list, show_ents: bool, active_lab
                 st.markdown(f"<div class='summary-text'>{s(txt)}</div>", unsafe_allow_html=True)
             
             # source information
-            title, link = src_map.get(f.name, (f.stem, ""))
+            key = Path(f).stem  # strip extension, e.g. "maybank_Some_Title_0"
+            title, link = src_map.get(key, (f.stem, ""))
+
             if link:
-                st.markdown(f"**Source:** [{title}]({link})")
+                if not link.startswith(("http://", "https://")):
+                    link = "https://" + link
+                st.markdown(
+                    f'**Source:** <a href="{link}" target="_blank">{title}</a>',
+                    unsafe_allow_html=True
+                )
             else:
                 st.markdown(f"**Source:** {title}")
             
@@ -202,11 +217,11 @@ def render_summaries(search_text: str):
     
     if not has_overall and not has_individual:
         banner("Overall Summary")
-        st.info("No summaries available. Click 'Summarise' to generate summaries for this query.")
+        st.caption("No summaries available.")
         st.markdown("<div style='margin-bottom:20px;'></div>", unsafe_allow_html=True)
 
         banner("Individual Summaries")
-        st.info("No individual summaries available. Click 'Summarise' to generate summaries.")
+        st.caption("No individual summaries available.")
         return
     
     # get entity highlighting settings

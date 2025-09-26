@@ -37,6 +37,8 @@ def render_news_controls():
 
                 box.success("Feed scraped & labeled")
 
+        st.caption("Scrapes the latest news feed and predicts entity labels")
+        
     # button for full news
     with col2:
         if st.button("Get News Articles"):
@@ -60,3 +62,5 @@ def render_news_controls():
                     return
 
                 box.success("Full news scraped & labeled")
+                
+        st.caption("Fetches full news articles and predicts entity labels")

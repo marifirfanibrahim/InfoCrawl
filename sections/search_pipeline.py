@@ -12,6 +12,7 @@ import streamlit as st
 import shutil
 from pathlib import Path
 from ui_helpers import load_preds_json, build_colors
+import subprocess
 
 from pipeline import crawler as crawl_mod
 from pipeline import summarise as sum_mod
@@ -50,37 +51,79 @@ def clear_pipeline_data():
                         pass
     st.success("Pipeline data cleared (except news_feed, news_id, and two prediction json files)")
 
+def check_model(model: str):
+    try:
+        # check installed models
+        res = subprocess.run(
+            ["ollama", "list"],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+        if model not in res.stdout:
+            with st.spinner(f"Downloading model '{model}'..."):
+                pull = subprocess.run(
+                    ["ollama", "pull", model],
+                    capture_output=True,
+                    text=True
+                )
+                if pull.returncode == 0:
+                    st.success(f"Model '{model}' downloaded successfully")
+                else:
+                    st.error(f"Failed to download model '{model}': {pull.stderr}")
+        else:
+            st.caption(f"✅ Model '{model}' already available")
+    except Exception as e:
+        st.error(f"Could not check/download model: {e}")
+
 def render_search_pipeline(search_text: str):
-    col1, col2 = st.columns(2)
+    # update last_query.txt
+    _ensure_parent(last_query_file)
+    query = search_text.strip()
+    last_query_file.write_text(query, encoding="utf-8")
+
+    col1, _, col2= st.columns([3, 1, 1])
     with col1:
         disabled = not bool(search_text.strip())
 
+        # choose model (make sure to download the model first with ollama pull (model_name))
+        model_options = {
+            "mistral": "Mistral – Lightweight (~4‑7B), runs well on CPU or modest GPU",
+            "llama3.2": "LLaMA 3.2 – Larger (~13B), needs ≥12‑16GB VRAM or lots of RAM",
+            "tinyllama": "TinyLLaMA – Tiny (~1B), runs anywhere, very fast but less detailed"
+
+        }
+
+        col_model, _ = st.columns([3,2])
+        with col_model:
+            model_choice = st.selectbox(
+                "Choose summarisation model",
+                options=list(model_options.keys()),
+                format_func=lambda x: model_options[x]  # shows description in dropdown
+            )
+
         # run full pipeline
         if st.button("Search & Summarise", type="primary", disabled=disabled):
+            check_model(model_choice) 
             if not search_text.strip():
                 st.warning("Please enter a search term first")
             else:
                 with st.status("Running pipeline...", expanded=True) as box:
                     try:
-                        query = search_text.strip()
-
                         box.write("Crawling for links...")
                         crawl_mod.run(query)
-
-                        _ensure_parent(last_query_file)
-                        last_query_file.write_text(query, encoding="utf-8")
 
                         box.write("Scraping for text...")
                         run_scraper(query) 
 
                         box.write("Summarising individual files...")
-                        sum_mod.run_individual(query=query)
+                        sum_mod.run_individual(query=query, model=model_choice)
 
                         box.write("Compiling files...")
                         comp_mod.run(query=query)
 
                         box.write("Summarising compiled file...")
-                        sum_mod.run_overall(query=query)
+                        sum_mod.run_overall(query=query, model=model_choice)
 
                         box.success("Search summarised")
                     except Exception as e:
@@ -103,40 +146,59 @@ def render_search_pipeline(search_text: str):
             except Exception as e:
                 st.error(f"Label prediction failed: {e}")
 
-        # toggle + picker + legend
-        show_ents = st.checkbox("Show predicted labels", key="show_ents")
-
-        if show_ents:
-            proc_folder = Path("data/processed")
-            indiv_preds = load_preds_json(proc_folder / "predictions_individual.json")
-            feed_preds = load_preds_json(proc_folder / "predictions_newsfeed.json")
-            full_preds = load_preds_json(proc_folder / "predictions_fullnews.json")
-            search_preds = load_preds_json(proc_folder / "predictions_search.json")
-
-            labels = sorted({
-                e.get("label", "")
-                for src in (indiv_preds, feed_preds, full_preds, search_preds)
-                if isinstance(src, dict)
-                for ents in src.values()
-                for e in ents
-            } - {""})
-
-            colors = build_colors(labels)
-            st.session_state["entity_colors"] = colors
-
-            if "active_labels" not in st.session_state:
-                st.session_state.active_labels = labels[:]
-
-            if labels:
-                st.multiselect("entity types", options=labels, key="active_labels")
-                legend = "  ".join(
-                    f'<span style="background:{colors[lbl]};display:inline-block;width:0.8em;height:0.8em;'
-                    f'margin-right:0.3em;border-radius:3px;"></span>{lbl}'
-                    for lbl in st.session_state.active_labels
-                )
-                st.markdown(legend, unsafe_allow_html=True)
-
     with col2:
+        if "show_clear_confirm" not in st.session_state:
+            st.session_state.show_clear_confirm = False
+
         # clear button
-        if st.button("Clear Data", type="secondary"):
-            clear_pipeline_data()
+        if st.button("Clear Data", type="secondary", use_container_width=True):
+            st.session_state.show_clear_confirm = True
+
+        # confirm clear
+        if st.session_state.show_clear_confirm:
+            st.warning(
+                "Are you sure you want to clear pipeline data? "
+                "This will remove processed/output data but keep news_feed, news_id, "
+                "and their respective prediction JSON files."
+            )
+            c1, c2 = st.columns(2)
+            with c1:
+                if st.button("Yes, clear it"):
+                    clear_pipeline_data()
+                    st.session_state.show_clear_confirm = False
+            with c2:
+                if st.button("Cancel"):
+                    st.session_state.show_clear_confirm = False
+
+    # toggle + picker + legend
+    show_ents = st.checkbox("Show predicted labels", key="show_ents")
+
+    if show_ents:
+        proc_folder = Path("data/processed")
+        indiv_preds = load_preds_json(proc_folder / "predictions_individual.json")
+        feed_preds = load_preds_json(proc_folder / "predictions_newsfeed.json")
+        full_preds = load_preds_json(proc_folder / "predictions_fullnews.json")
+        search_preds = load_preds_json(proc_folder / "predictions_search.json")
+
+        labels = sorted({
+            e.get("label", "")
+            for src in (indiv_preds, feed_preds, full_preds, search_preds)
+            if isinstance(src, dict)
+            for ents in src.values()
+            for e in ents
+        } - {""})
+
+        colors = build_colors(labels)
+        st.session_state["entity_colors"] = colors
+
+        if "active_labels" not in st.session_state:
+            st.session_state.active_labels = labels[:]
+
+        if labels:
+            st.multiselect("entity types", options=labels, key="active_labels")
+            legend = "  ".join(
+                f'<span style="background:{colors[lbl]};display:inline-block;width:0.8em;height:0.8em;'
+                f'margin-right:0.3em;border-radius:3px;"></span>{lbl}'
+                for lbl in st.session_state.active_labels
+            )
+            st.markdown(legend, unsafe_allow_html=True)

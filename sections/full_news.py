@@ -101,7 +101,6 @@ def render_full_news(search_text: str):
                 mask = exact_mask(df["Title"], text)
             return df[mask]
         return df.iloc[0:0]
-
     
     df_search_filtered = filter_df(df_search, search_text)  # for search
     df_news_filtered = filter_df(df_news, search_text)  # for news

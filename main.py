@@ -20,10 +20,11 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# search box
-search_text = st.text_input("Search", placeholder="e.g. Maybank")
+# search box + clear button
+search_text = st.text_input("", placeholder="e.g. Maybank")
 
-# layout: left = pipeline/summaries, right = controls/feed
+
+# layout: left = pipeline/summaries, right = news controls/feed
 left, right = st.columns([2, 1])
 
 # right side: news controls

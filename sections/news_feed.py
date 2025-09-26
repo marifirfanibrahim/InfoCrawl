@@ -89,7 +89,7 @@ def render_news_feed(search_text: str):
     # combine
     df_all = pd.concat(dfs, ignore_index=True)
 
-    # filter by search
+    # filter by query
     if search_text.strip():
         mask = exact_mask(df_all["Title"], search_text) | exact_mask(df_all["Summary"], search_text)
         df_filt = df_all[mask]
