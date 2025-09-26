@@ -1,0 +1,152 @@
+{
+  "file": "summary_overall_bank_islam.txt",
+  "entities": [
+    {
+      "start": 83,
+      "end": 86,
+      "text": "JKM",
+      "label": "ORG",
+      "score": 0.9698657989501953
+    },
+    {
+      "start": 93,
+      "end": 95,
+      "text": "SK",
+      "label": "ORG",
+      "score": 0.9508170485496521
+    },
+    {
+      "start": 117,
+      "end": 137,
+      "text": "Maybank 114487056732",
+      "label": "ORG",
+      "score": 0.7564111351966858
+    },
+    {
+      "start": 187,
+      "end": 190,
+      "text": "JKM",
+      "label": "ORG",
+      "score": 0.9403350949287415
+    },
+    {
+      "start": 258,
+      "end": 266,
+      "text": "Malaysia",
+      "label": "LOC",
+      "score": 0.867300808429718
+    },
+    {
+      "start": 440,
+      "end": 442,
+      "text": "SK",
+      "label": "ORG",
+      "score": 0.9391196966171265
+    },
+    {
+      "start": 480,
+      "end": 488,
+      "text": "Malaysia",
+      "label": "LOC",
+      "score": 0.8677869439125061
+    },
+    {
+      "start": 636,
+      "end": 660,
+      "text": "Central Bank of Malaysia",
+      "label": "ORG",
+      "score": 0.7907686829566956
+    },
+    {
+      "start": 669,
+      "end": 676,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.7705426216125488
+    },
+    {
+      "start": 712,
+      "end": 722,
+      "text": "April 2019",
+      "label": "TIME",
+      "score": 0.5367687940597534
+    },
+    {
+      "start": 741,
+      "end": 752,
+      "text": "RM2 million",
+      "label": "MONEY",
+      "score": 0.9618349671363831
+    },
+    {
+      "start": 793,
+      "end": 801,
+      "text": "Jasnizah",
+      "label": "PERSON",
+      "score": 0.9880593419075012
+    },
+    {
+      "start": 815,
+      "end": 824,
+      "text": "one month",
+      "label": "TIME",
+      "score": 0.6706518530845642
+    },
+    {
+      "start": 927,
+      "end": 934,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.6537380218505859
+    },
+    {
+      "start": 978,
+      "end": 981,
+      "text": "JKM",
+      "label": "ORG",
+      "score": 0.8928919434547424
+    },
+    {
+      "start": 986,
+      "end": 988,
+      "text": "SK",
+      "label": "ORG",
+      "score": 0.9018162488937378
+    },
+    {
+      "start": 1069,
+      "end": 1076,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.5634121298789978
+    },
+    {
+      "start": 1135,
+      "end": 1143,
+      "text": "Jasnizah",
+      "label": "PERSON",
+      "score": 0.9818376898765564
+    },
+    {
+      "start": 1368,
+      "end": 1376,
+      "text": "Jasnizah",
+      "label": "PERSON",
+      "score": 0.9883783459663391
+    },
+    {
+      "start": 1444,
+      "end": 1464,
+      "text": "Maybank 114487056732",
+      "label": "ORG",
+      "score": 0.7099353075027466
+    },
+    {
+      "start": 1750,
+      "end": 1760,
+      "text": "bank islam",
+      "label": "ORG",
+      "score": 0.5500503182411194
+    }
+  ]
+}
