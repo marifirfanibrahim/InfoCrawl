@@ -80,7 +80,7 @@ def banner(title: str):
         <div style="
             background-color:#2c3e50;
             color:white;
-            padding:12px 20px;
+            padding:6px 20px;
             border-radius:6px;
             font-size:20px;
             font-weight:bold;

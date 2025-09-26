@@ -23,7 +23,7 @@ def render_entity_summary(search_text: str = ""):
         <div style="
             background-color:#34495e;
             color:white;
-            padding:12px 20px;
+            padding:6px 20px;
             border-radius:6px;
             font-size:20px;
             font-weight:bold;

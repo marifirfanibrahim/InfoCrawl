@@ -311,9 +311,14 @@ ollama pull llama3.2
 ollama serve
 ```
 
-*For lower-end hardwares i.e. <16gb RAM or no GPU, try using:
+*For lower-end hardwares i.e. <16gb RAM or GPU, try using:
 * `tinyllama` or `phi` (4-6gb RAM)
 * `mistral` (8-12gb RAM)
+
+The model can be changed in `pipeline/summarise.py` in:
+```
+summary = ollama_generate(prompt, model="mistral").strip()                                 # change model here!!
+```
 
 ---
 ## 6. Usage

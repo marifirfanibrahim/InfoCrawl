@@ -56,7 +56,7 @@ def summarise(txt: str, query: str = "") -> str:
             f"'Here is the summary' or 'Berikut adalah ringkasan artikel'.\n\n{txt}"
         )
 
-    summary = ollama_generate(prompt, model="llama3.2").strip()                                 # change model here!!
+    summary = ollama_generate(prompt, model="mistral").strip()                                 # change model here!!
 
     # make sure query is mentioned
     if query and query.lower() not in summary.lower():
@@ -80,6 +80,14 @@ def run_individual(query: str = ""):
         print("no csv files in data/raw/search/")
         return
 
+    safe_q = "".join(c if c.isalnum() else "_" for c in query) if query else ""
+    # only keep CSVs whose stem contains the query
+    if query:
+        csvs = [f for f in csvs if safe_q.lower() in f.stem.lower()]
+        if not csvs:
+            print(f"no csv files found matching query '{query}'")
+            return
+
     for f in csvs:
         try:
             df = pd.read_csv(f)
@@ -87,7 +95,6 @@ def run_individual(query: str = ""):
             print("could not read", f, e)
             continue
 
-        # check for content col
         content_col = next((c for c in df.columns if c.lower() == "content"), None)
         if not content_col:
             print("no 'Content' col in", f)
@@ -104,7 +111,8 @@ def run_individual(query: str = ""):
                 continue
 
             safe_title = "".join(c if c.isalnum() else "_" for c in title)[:40]
-            out_path = out_indiv / f"{safe_title}_{idx}.txt"
+            # include query in filename
+            out_path = out_indiv / f"{safe_q}_{safe_title}_{idx}.txt" if query else out_indiv / f"{safe_title}_{idx}.txt"
             try:
                 out_path.write_text(summary, encoding="utf-8")
             except Exception as e:
@@ -112,22 +120,26 @@ def run_individual(query: str = ""):
 
 # summarise compiled file
 def run_overall(query: str = "") -> Path | None:
-    compiled = Path("data/processed/compiled.txt")
-    if compiled.exists():
-        txt = compiled.read_text(encoding="utf-8", errors="ignore")
-        summary = summarise(txt, query=query)
-        if not summary:
-            return None
-        out_path = out_folder / "summary_overall.txt"
-        try:
-            out_path.write_text(summary, encoding="utf-8")
-            return out_path
-        except Exception as e:
-            print("could not write overall summary:", e)
-            return None
-    else:
-        print("no compiled.txt in data/processed/")
-    return None
+    safe_q = "".join(c if c.isalnum() else "_" for c in query) if query else "compiled"
+    compiled = Path("data/processed") / f"compiled_{safe_q}.txt"
+
+    if not compiled.exists():
+        print(f"no compiled file for query '{query}'")
+        return None
+
+    txt = compiled.read_text(encoding="utf-8", errors="ignore")
+    summary = summarise(txt, query=query)
+    if not summary:
+        return None
+
+    out_path = out_folder / f"summary_overall_{safe_q}.txt"
+    try:
+        out_path.write_text(summary, encoding="utf-8")
+        print(f"overall summary saved to {out_path}")
+        return out_path
+    except Exception as e:
+        print("could not write overall summary:", e)
+        return None
 
 # test
 # if __name__ == "__main__":

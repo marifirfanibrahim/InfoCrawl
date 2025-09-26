@@ -134,7 +134,6 @@ def scrape_news(sources=None):
     df = pd.DataFrame(articles) if articles else pd.DataFrame()
     return {"dataframe": df, "failed_sources": failed}
 
-# run directly
 if __name__ == "__main__":
     res = scrape_news()
     if not res["dataframe"].empty:

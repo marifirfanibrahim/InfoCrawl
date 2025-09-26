@@ -1,10 +1,10 @@
 # pipeline/scraper_search.py
 """
-scrape news based on id
+scrape news based on query
 1. set scrape
 2. set parse
 3. scrape and parse
-4. save as search_*.csv file into data/raw/news_search (work on the naming)
+4. save as search_*.csv file into data/raw/search
 """
 import requests
 import pandas as pd
@@ -30,9 +30,9 @@ def load_links() -> list[str]:
         raise FileNotFoundError("no links file found")
     return f.read_text(encoding="utf-8").splitlines()
 
-# clean filename part
-def clean_name(txt: str, max_len: int = 50) -> str:
-    return re.sub(r"[^a-zA-Z0-9_-]", "_", txt).strip("_")[:max_len] or "default"
+# clean filename
+def clean_name(txt: str, max_len: int = 100) -> str:
+    return re.sub(r"[^a-zA-Z0-9_-]", "_", txt).strip("_")[:max_len]
 
 # get last query
 def get_last_query() -> str:
@@ -83,7 +83,7 @@ def scrape_page(url: str) -> dict | None:
     cat = ""
     for sel in [".category", "a[rel='category tag']", "meta[property='article:section']"]:
         el = soup.select_one(sel)
-        if el:
+        if el:d
             cat = el.get("content", "").strip() if el.has_attr("content") else el.get_text(strip=True)
             if cat:
                 break
@@ -118,8 +118,9 @@ def scrape_page(url: str) -> dict | None:
     }
 
 # main run
-def run_scraper():
-    query = get_last_query()
+def run_scraper(query: str | None = None):
+    if query is None:
+        query = get_last_query()
     links = load_links()
     print("loaded", len(links), "links")
 
@@ -142,5 +143,6 @@ def run_scraper():
         print("no articles scraped")
 
 if __name__ == "__main__":
+    save_folder.mkdir(parents=True, exist_ok=True)
     run_scraper()
     

@@ -1,6 +1,6 @@
 # pipeline/predict.py
 """
-label prediction with batching + progress printing
+label prediction
 1. set labels
 2. load model (urchade/gliner_multi)
 3. get csv files
@@ -14,6 +14,8 @@ import time
 import pandas as pd
 from collections import defaultdict
 from gliner import GLiNER
+import hashlib
+import re
 
 # config
 CHUNK_SIZE = 500
@@ -36,7 +38,6 @@ labels = [
     "PERCENT", "WORK_OF_ART", "TIME", "ORDINAL", "CARDINAL", "QUANTITY", "LAW"
 ]
 
-# Singleton pattern for model loading
 _model = None
 
 def get_model():
@@ -57,6 +58,9 @@ def safe_str(x) -> str:
     except Exception:
         pass
     return str(x)
+
+def clean_name(txt: str, max_len: int = 50) -> str:
+    return re.sub(r"[^a-zA-Z0-9_-]", "_", txt).strip("_")[:max_len]
 
 def read_all_csvs(folder: Path) -> pd.DataFrame:
     files = sorted(folder.glob("*.csv"))
@@ -91,6 +95,16 @@ def deduplicate_entities(entities: list[dict]) -> list[dict]:
             unique.append(ent)
     return unique
 
+def file_hash(path: Path) -> str | None:
+    try:
+        h = hashlib.sha256()
+        with path.open("rb") as f:
+            for chunk in iter(lambda: f.read(8192), b""):
+                h.update(chunk)
+        return h.hexdigest()
+    except Exception:
+        return None
+
 # batch prediction
 def predict_entities_in_chunks(texts, batch_size=32):
     model = get_model()
@@ -110,13 +124,11 @@ def predict_entities_in_chunks(texts, batch_size=32):
     return results
 
 # individual summaries
-def run_individual() -> Path:
-    out_file = proc_folder / "predictions_individual.json"
-    if out_file.exists():
-        print(f"Skipping individual summaries — {out_file} already exists")
-        return out_file
+def run_individual(query: str = "") -> Path:
+    safe_q = clean_name(query) if query else "default"
+    out_file = proc_folder / f"predictions_individual_{safe_q}.json"
 
-    print("Running individual summaries prediction...")
+    print(f"Running individual summaries prediction for query '{query}'...")
     texts, keys = [], []
     for f in sorted(indiv_summaries.glob("*.txt")):
         try:
@@ -130,19 +142,26 @@ def run_individual() -> Path:
     preds = predict_entities_in_chunks(texts)
     res = {k: deduplicate_entities(p) for k, p in zip(keys, preds)}
 
-    out_file.write_text(json.dumps(res, ensure_ascii=False, indent=2), encoding="utf-8")
+    new_content = json.dumps(res, ensure_ascii=False, indent=2)
+    new_hash = hashlib.sha256(new_content.encode("utf-8")).hexdigest()
+
+    if out_file.exists():
+        old_hash = file_hash(out_file)
+        if old_hash == new_hash:
+            print(f"Skipping individual summaries — {out_file} already up to date")
+            return out_file
+
+    out_file.write_text(new_content, encoding="utf-8")
     print(f"Individual predictions saved to {out_file}")
     return out_file
 
 # overall summary
-def run_overall() -> Path | None:
-    out_file = proc_folder / "predictions_overall.json"
-    if out_file.exists():
-        print(f"Skipping overall summary — {out_file} already exists")
-        return out_file
+def run_overall(query: str = "") -> Path | None:
+    safe_q = clean_name(query) if query else "default"
+    out_file = proc_folder / f"predictions_overall_{safe_q}.json"
 
-    print("Running overall summary prediction...")
-    sum_file = out_folder / "summary_overall.txt"
+    print(f"Running overall summary prediction for query '{query}'...")
+    sum_file = out_folder / f"summary_overall_{safe_q}.txt"
     if not sum_file.exists():
         print("Overall summary file not found")
         return None
@@ -159,16 +178,25 @@ def run_overall() -> Path | None:
     ents = predict_entities_in_chunks([txt])[0]
     ents = deduplicate_entities(ents)
 
-    out_file.write_text(
-        json.dumps({"file": sum_file.name, "entities": ents}, ensure_ascii=False, indent=2),
-        encoding="utf-8"
-    )
+    new_content = json.dumps({"file": sum_file.name, "entities": ents}, ensure_ascii=False, indent=2)
+    new_hash = hashlib.sha256(new_content.encode("utf-8")).hexdigest()
+
+    if out_file.exists():
+        old_hash = file_hash(out_file)
+        if old_hash == new_hash:
+            print(f"Skipping overall summary — {out_file} already up to date")
+            return out_file
+
+    out_file.write_text(new_content, encoding="utf-8")
     print(f"Overall predictions saved to {out_file}")
     return out_file
 
-# predict csv files
-def run_csv(folder: Path, out_name: str, text_cols: list[str], batch_size: int = 32) -> Path:
-    out_file = proc_folder / f"predictions_{out_name}.json"
+# predict csvs
+def run_csv(folder: Path, out_name: str, text_cols: list[str], batch_size: int = 32, query: str = "") -> Path:
+    safe_q = clean_name(query) if query else ""
+    # only add suffix if a query is provided
+    suffix = f"_{safe_q}" if safe_q else ""
+    out_file = proc_folder / f"predictions_{out_name}{suffix}.json"
 
     # load existing predictions if available
     if out_file.exists():
@@ -179,7 +207,9 @@ def run_csv(folder: Path, out_name: str, text_cols: list[str], batch_size: int =
     else:
         existing = {}
 
-    print(f"Running {out_name} prediction...")
+    msg = f"Running {out_name} prediction" + (f" for query '{query}'..." if query else "...")
+    print(msg)
+
     df = read_all_csvs(folder)
     if df.empty:
         print(f"No {out_name} data found")
@@ -188,7 +218,6 @@ def run_csv(folder: Path, out_name: str, text_cols: list[str], batch_size: int =
 
     texts, keys, starts = [], [], []
     for i, row in df.iterrows():
-        # pick first non-empty text col
         txt = ""
         for col in text_cols:
             txt = safe_str(row.get(col))
@@ -201,11 +230,9 @@ def run_csv(folder: Path, out_name: str, text_cols: list[str], batch_size: int =
         if not key:
             key = f"{safe_str(row.get('__srcfile__'))}:{i}"
 
-        # skip if already predicted
         if key in existing and existing.get(key):
             continue
 
-        # chunking
         start = 0
         while start < len(txt):
             end = min(start + CHUNK_SIZE, len(txt))
@@ -234,18 +261,25 @@ def run_csv(folder: Path, out_name: str, text_cols: list[str], batch_size: int =
             combined = (existing.get(doc, []) or []) + ents
             existing[doc] = deduplicate_entities(combined)
 
-    out_file.write_text(json.dumps(existing, ensure_ascii=False, indent=2), encoding="utf-8")
+    new_content = json.dumps(existing, ensure_ascii=False, indent=2)
+    new_hash = hashlib.sha256(new_content.encode("utf-8")).hexdigest()
+
+    if out_file.exists():
+        old_hash = file_hash(out_file)
+        if old_hash == new_hash:
+            print(f"Skipping {out_name} — {out_file} already up to date")
+            return out_file
+
+    out_file.write_text(new_content, encoding="utf-8")
     print(f"{out_name.capitalize()} predictions saved to {out_file}")
     return out_file
 
-def run_news(): return run_csv(news_feed_folder, "newsfeed", ["Summary", "Title"])
-def run_fullnews(): return run_csv(news_id_folder, "fullnews", ["Summary", "Title"])
-def run_search(): return run_csv(search_folder, "search", ["Content", "Title"])
+# respective runs
+def run_news(): 
+    return run_csv(news_feed_folder, "newsfeed", ["Summary", "Title"])
 
-# test - don't uncomment when running streamlit
-# if __name__ == "__main__":
-#     run_individual()
-#     run_overall()
-#     run_search()
-#     run_news()
-#     run_fullnews()
+def run_fullnews(): 
+    return run_csv(news_id_folder, "fullnews", ["Summary", "Title"])
+
+def run_search(query: str = ""): 
+    return run_csv(search_folder, "search", ["Content", "Title"], query=query)

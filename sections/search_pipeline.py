@@ -62,23 +62,25 @@ def render_search_pipeline(search_text: str):
             else:
                 with st.status("Running pipeline...", expanded=True) as box:
                     try:
+                        query = search_text.strip()
+
                         box.write("Crawling for links...")
-                        crawl_mod.run(search_text)
-
-                        box.write("Scraping for text...")
-                        run_scraper()
-
-                        box.write("Summarising individual files...")
-                        sum_mod.run_individual()
-
-                        box.write("Compiling files...")
-                        comp_mod.run()
-
-                        box.write("Summarising compiled file...")
-                        sum_mod.run_overall()
+                        crawl_mod.run(query)
 
                         _ensure_parent(last_query_file)
-                        last_query_file.write_text(search_text.strip(), encoding="utf-8")
+                        last_query_file.write_text(query, encoding="utf-8")
+
+                        box.write("Scraping for text...")
+                        run_scraper(query) 
+
+                        box.write("Summarising individual files...")
+                        sum_mod.run_individual(query=query)
+
+                        box.write("Compiling files...")
+                        comp_mod.run(query=query)
+
+                        box.write("Summarising compiled file...")
+                        sum_mod.run_overall(query=query)
 
                         box.success("Search summarised")
                     except Exception as e:

@@ -3,7 +3,7 @@
 compile search data into a single txt file
 1. get all csv files in data/raw/search
 2. get only content column
-3. save as compiled.txt into data/processed
+3. save as compiled_<query>.txt into data/processed
 """
 from pathlib import Path
 import pandas as pd
@@ -15,7 +15,7 @@ raw_folder = Path("data/raw/search")
 processed_folder = Path("data/processed")
 processed_folder.mkdir(parents=True, exist_ok=True)
 
-def run(output_name="compiled.txt"):
+def run(query: str = "", output_name: str | None = None) -> Path:
     texts = []  # keep all the text here
 
     # get all csv files and sort them
@@ -33,25 +33,23 @@ def run(output_name="compiled.txt"):
             continue
 
         for i, row in df.iterrows():
-            # get title if exists, else just row number
             title = row.get("Title", f"row{i}")
             content = str(row.get("Content", "")).strip()
-            if content == "":
+            if not content:
                 continue
-            # add title, then content, then separator
             texts.append(f"# {title}\n\n{content}\n\n---\n")
 
-    # if nothing was added, just say empty
-    if texts:
-        final = "\n".join(texts)
+    final = "\n".join(texts) if texts else "# Empty\n"
+
+    # build output filename
+    if output_name:
+        out_file = processed_folder / output_name
     else:
-        final = "# Empty\n"
+        safe_q = "".join(c if c.isalnum() else "_" for c in query) if query else "compiled"
+        out_file = processed_folder / f"compiled_{safe_q}.txt"
 
-    # save the file
-    out_path = processed_folder / output_name
-    out_path.write_text(final, encoding="utf-8")
-
-    return out_path
+    out_file.write_text(final, encoding="utf-8")
+    return out_file
 
 if __name__ == "__main__":
-    print(run())
+    print(run(query="maybank"))
