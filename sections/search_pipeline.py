@@ -91,10 +91,12 @@ def render_search_pipeline(search_text: str):
         if st.button("Predict Labels", type="secondary", disabled=disabled):
             try:
                 with st.status("running label prediction...", expanded=True) as box:
+                    query = last_query_file.read_text(encoding="utf-8").strip()
+
                     box.write("predicting labels...")
-                    pred_mod.run_individual()
-                    pred_mod.run_overall()
-                    pred_mod.run_search()
+                    pred_mod.run_individual(query=query)
+                    pred_mod.run_overall(query=query)
+                    pred_mod.run_search(query=query)
                     pred_mod.run_news()
                     pred_mod.run_fullnews()
                     box.success("label prediction complete")

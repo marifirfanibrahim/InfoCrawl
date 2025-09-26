@@ -1,0 +1,2859 @@
+{
+  "bank_negara_Akta_Kredit_Pengguna__BNPL_tidak_lagi_be_4.txt": [
+    {
+      "start": 48,
+      "end": 72,
+      "text": "Consumer Credit Act 2025",
+      "label": "LAW",
+      "score": 0.8794801235198975
+    },
+    {
+      "start": 144,
+      "end": 153,
+      "text": "consumers",
+      "label": "PERSON",
+      "score": 0.838044285774231
+    },
+    {
+      "start": 281,
+      "end": 307,
+      "text": "Consumer Credit Commission",
+      "label": "ORG",
+      "score": 0.9727716445922852
+    },
+    {
+      "start": 407,
+      "end": 411,
+      "text": "BNPL",
+      "label": "ORG",
+      "score": 0.502720832824707
+    },
+    {
+      "start": 423,
+      "end": 454,
+      "text": "lending and financing companies",
+      "label": "ORG",
+      "score": 0.779536783695221
+    },
+    {
+      "start": 456,
+      "end": 481,
+      "text": "loan assignment companies",
+      "label": "ORG",
+      "score": 0.7609500288963318
+    },
+    {
+      "start": 483,
+      "end": 507,
+      "text": "debt collection agencies",
+      "label": "ORG",
+      "score": 0.8562166690826416
+    },
+    {
+      "start": 513,
+      "end": 552,
+      "text": "counseling and debt management agencies",
+      "label": "ORG",
+      "score": 0.8606263995170593
+    },
+    {
+      "start": 558,
+      "end": 584,
+      "text": "Consumer Credit Commission",
+      "label": "ORG",
+      "score": 0.9460082650184631
+    },
+    {
+      "start": 586,
+      "end": 589,
+      "text": "SKP",
+      "label": "ORG",
+      "score": 0.5308637619018555
+    },
+    {
+      "start": 626,
+      "end": 642,
+      "text": "credit providers",
+      "label": "ORG",
+      "score": 0.5538601279258728
+    },
+    {
+      "start": 767,
+      "end": 814,
+      "text": "Ministry of Domestic Trade and Consumer Affairs",
+      "label": "ORG",
+      "score": 0.8602416515350342
+    },
+    {
+      "start": 816,
+      "end": 820,
+      "text": "KPDN",
+      "label": "ORG",
+      "score": 0.6353354454040527
+    },
+    {
+      "start": 847,
+      "end": 871,
+      "text": "Rental Purchase Act 1967",
+      "label": "LAW",
+      "score": 0.9528310298919678
+    },
+    {
+      "start": 896,
+      "end": 905,
+      "text": "consumers",
+      "label": "PERSON",
+      "score": 0.7379978895187378
+    },
+    {
+      "start": 940,
+      "end": 959,
+      "text": "Consumer Credit Act",
+      "label": "LAW",
+      "score": 0.9168552756309509
+    },
+    {
+      "start": 975,
+      "end": 984,
+      "text": "phase two",
+      "label": "LAW",
+      "score": 0.6132134199142456
+    },
+    {
+      "start": 1042,
+      "end": 1046,
+      "text": "KPDN",
+      "label": "ORG",
+      "score": 0.8014370799064636
+    },
+    {
+      "start": 1055,
+      "end": 1095,
+      "text": "Ministry of Housing and Local Government",
+      "label": "ORG",
+      "score": 0.7685847282409668
+    },
+    {
+      "start": 1126,
+      "end": 1129,
+      "text": "SKP",
+      "label": "ORG",
+      "score": 0.7671047449111938
+    },
+    {
+      "start": 1135,
+      "end": 1139,
+      "text": "BNPL",
+      "label": "ORG",
+      "score": 0.6736004948616028
+    },
+    {
+      "start": 1236,
+      "end": 1240,
+      "text": "2024",
+      "label": "TIME",
+      "score": 0.6133240461349487
+    },
+    {
+      "start": 1276,
+      "end": 1288,
+      "text": "RM12 billion",
+      "label": "MONEY",
+      "score": 0.9052738547325134
+    },
+    {
+      "start": 1382,
+      "end": 1391,
+      "text": "consumers",
+      "label": "PERSON",
+      "score": 0.6875696182250977
+    },
+    {
+      "start": 1420,
+      "end": 1431,
+      "text": "bank negara",
+      "label": "ORG",
+      "score": 0.9618312120437622
+    }
+  ],
+  "bank_negara_Bongkar_kartel_diesel_antara_operasi_meg_0.txt": [
+    {
+      "start": 0,
+      "end": 20,
+      "text": "Bank Negara Malaysia",
+      "label": "ORG",
+      "score": 0.9543782472610474
+    },
+    {
+      "start": 22,
+      "end": 25,
+      "text": "BNM",
+      "label": "ORG",
+      "score": 0.8388293981552124
+    },
+    {
+      "start": 71,
+      "end": 97,
+      "text": "Anti-Corruption Commission",
+      "label": "ORG",
+      "score": 0.9318318963050842
+    },
+    {
+      "start": 99,
+      "end": 103,
+      "text": "SPRM",
+      "label": "ORG",
+      "score": 0.6975162625312805
+    },
+    {
+      "start": 143,
+      "end": 150,
+      "text": "Sarawak",
+      "label": "GPE",
+      "score": 0.8786249756813049
+    },
+    {
+      "start": 174,
+      "end": 182,
+      "text": "Op White",
+      "label": "ORG",
+      "score": 0.572041928768158
+    },
+    {
+      "start": 215,
+      "end": 223,
+      "text": "Op Metal",
+      "label": "ORG",
+      "score": 0.558107852935791
+    },
+    {
+      "start": 229,
+      "end": 237,
+      "text": "Op Karen",
+      "label": "ORG",
+      "score": 0.5527579188346863
+    },
+    {
+      "start": 270,
+      "end": 286,
+      "text": "RM960.73 million",
+      "label": "MONEY",
+      "score": 0.9595555067062378
+    },
+    {
+      "start": 468,
+      "end": 471,
+      "text": "BNM",
+      "label": "ORG",
+      "score": 0.705689549446106
+    },
+    {
+      "start": 521,
+      "end": 541,
+      "text": "Inland Revenue Board",
+      "label": "ORG",
+      "score": 0.9370677471160889
+    },
+    {
+      "start": 543,
+      "end": 561,
+      "text": "Customs Department",
+      "label": "ORG",
+      "score": 0.9253141283988953
+    },
+    {
+      "start": 563,
+      "end": 585,
+      "text": "CyberSecurity Malaysia",
+      "label": "ORG",
+      "score": 0.9258996248245239
+    },
+    {
+      "start": 595,
+      "end": 622,
+      "text": "Attorney General's Chambers",
+      "label": "ORG",
+      "score": 0.89631187915802
+    },
+    {
+      "start": 672,
+      "end": 684,
+      "text": "Sinar Harian",
+      "label": "ORG",
+      "score": 0.9228683114051819
+    },
+    {
+      "start": 789,
+      "end": 796,
+      "text": "Sarawak",
+      "label": "GPE",
+      "score": 0.8019227385520935
+    },
+    {
+      "start": 830,
+      "end": 834,
+      "text": "SPRM",
+      "label": "ORG",
+      "score": 0.7921969294548035
+    },
+    {
+      "start": 844,
+      "end": 852,
+      "text": "Op Karen",
+      "label": "ORG",
+      "score": 0.5621439814567566
+    },
+    {
+      "start": 856,
+      "end": 863,
+      "text": "Sarawak",
+      "label": "GPE",
+      "score": 0.8287867903709412
+    },
+    {
+      "start": 905,
+      "end": 928,
+      "text": "three company directors",
+      "label": "PERSON",
+      "score": 0.6762304902076721
+    },
+    {
+      "start": 932,
+      "end": 951,
+      "text": "corporate executive",
+      "label": "PERSON",
+      "score": 0.7539960145950317
+    },
+    {
+      "start": 959,
+      "end": 975,
+      "text": "regional manager",
+      "label": "PERSON",
+      "score": 0.8710954189300537
+    },
+    {
+      "start": 991,
+      "end": 1003,
+      "text": "RM34 million",
+      "label": "MONEY",
+      "score": 0.9137762784957886
+    }
+  ],
+  "bank_negara_Moratorium_pinjaman_menyeluruh_bukan_pen_6.txt": [
+    {
+      "start": 0,
+      "end": 20,
+      "text": "Bank Negara Malaysia",
+      "label": "ORG",
+      "score": 0.92433100938797
+    },
+    {
+      "start": 22,
+      "end": 25,
+      "text": "BNM",
+      "label": "ORG",
+      "score": 0.9323636293411255
+    },
+    {
+      "start": 106,
+      "end": 115,
+      "text": "borrowers",
+      "label": "PERSON",
+      "score": 0.7217475175857544
+    },
+    {
+      "start": 172,
+      "end": 194,
+      "text": "Movement Control Order",
+      "label": "LAW",
+      "score": 0.8507781028747559
+    },
+    {
+      "start": 241,
+      "end": 250,
+      "text": "borrowers",
+      "label": "PERSON",
+      "score": 0.7561540603637695
+    },
+    {
+      "start": 271,
+      "end": 276,
+      "text": "banks",
+      "label": "ORG",
+      "score": 0.6782727241516113
+    },
+    {
+      "start": 320,
+      "end": 323,
+      "text": "BNM",
+      "label": "ORG",
+      "score": 0.9023726582527161
+    },
+    {
+      "start": 339,
+      "end": 362,
+      "text": "Nor Shamsiah Mohd Yunus",
+      "label": "PERSON",
+      "score": 0.5201951265335083
+    },
+    {
+      "start": 379,
+      "end": 384,
+      "text": "banks",
+      "label": "ORG",
+      "score": 0.7053258419036865
+    },
+    {
+      "start": 477,
+      "end": 486,
+      "text": "borrowers",
+      "label": "PERSON",
+      "score": 0.6448779106140137
+    },
+    {
+      "start": 613,
+      "end": 660,
+      "text": "Credit Counseling and Debt Consolidation Agency",
+      "label": "ORG",
+      "score": 0.92890864610672
+    },
+    {
+      "start": 662,
+      "end": 666,
+      "text": "AKPK",
+      "label": "ORG",
+      "score": 0.7467233538627625
+    },
+    {
+      "start": 669,
+      "end": 672,
+      "text": "BNM",
+      "label": "ORG",
+      "score": 0.8835787177085876
+    },
+    {
+      "start": 775,
+      "end": 784,
+      "text": "borrowers",
+      "label": "PERSON",
+      "score": 0.5728287696838379
+    },
+    {
+      "start": 999,
+      "end": 1008,
+      "text": "borrowers",
+      "label": "PERSON",
+      "score": 0.709128201007843
+    },
+    {
+      "start": 1010,
+      "end": 1013,
+      "text": "BNM",
+      "label": "ORG",
+      "score": 0.9180333018302917
+    },
+    {
+      "start": 1060,
+      "end": 1065,
+      "text": "banks",
+      "label": "ORG",
+      "score": 0.7116962671279907
+    },
+    {
+      "start": 1154,
+      "end": 1157,
+      "text": "95%",
+      "label": "PERCENT",
+      "score": 0.9148564338684082
+    },
+    {
+      "start": 1160,
+      "end": 1163,
+      "text": "BNM",
+      "label": "ORG",
+      "score": 0.9050419926643372
+    },
+    {
+      "start": 1168,
+      "end": 1172,
+      "text": "AKPK",
+      "label": "ORG",
+      "score": 0.8563274145126343
+    },
+    {
+      "start": 1213,
+      "end": 1219,
+      "text": "47,000",
+      "label": "QUANTITY",
+      "score": 0.5117537379264832
+    },
+    {
+      "start": 1220,
+      "end": 1229,
+      "text": "borrowers",
+      "label": "PERSON",
+      "score": 0.6330838799476624
+    },
+    {
+      "start": 1276,
+      "end": 1281,
+      "text": "banks",
+      "label": "ORG",
+      "score": 0.6916556358337402
+    },
+    {
+      "start": 1319,
+      "end": 1366,
+      "text": "Centralised Credit Reference Information System",
+      "label": "ORG",
+      "score": 0.8715500235557556
+    }
+  ],
+  "bank_negara_Operasi_mega_SPRM_gempur_Sabah__Sarawak_2.txt": [
+    {
+      "start": 23,
+      "end": 37,
+      "text": "Operation Mega",
+      "label": "EVENT",
+      "score": 0.8938620090484619
+    },
+    {
+      "start": 45,
+      "end": 81,
+      "text": "Malaysian Anti-Corruption Commission",
+      "label": "ORG",
+      "score": 0.9542329907417297
+    },
+    {
+      "start": 83,
+      "end": 87,
+      "text": "MACC",
+      "label": "ORG",
+      "score": 0.5379750728607178
+    },
+    {
+      "start": 183,
+      "end": 189,
+      "text": "diesel",
+      "label": "PRODUCT",
+      "score": 0.8463342785835266
+    },
+    {
+      "start": 217,
+      "end": 230,
+      "text": "RM247 million",
+      "label": "MONEY",
+      "score": 0.8022952079772949
+    },
+    {
+      "start": 248,
+      "end": 256,
+      "text": "10 years",
+      "label": "TIME",
+      "score": 0.848332405090332
+    },
+    {
+      "start": 260,
+      "end": 265,
+      "text": "Sabah",
+      "label": "GPE",
+      "score": 0.9356433749198914
+    },
+    {
+      "start": 270,
+      "end": 277,
+      "text": "Sarawak",
+      "label": "GPE",
+      "score": 0.8583452105522156
+    },
+    {
+      "start": 354,
+      "end": 374,
+      "text": "Bank Negara Malaysia",
+      "label": "ORG",
+      "score": 0.9193353652954102
+    },
+    {
+      "start": 425,
+      "end": 440,
+      "text": "luxury vehicles",
+      "label": "PRODUCT",
+      "score": 0.8098317384719849
+    },
+    {
+      "start": 442,
+      "end": 446,
+      "text": "gold",
+      "label": "PRODUCT",
+      "score": 0.738198459148407
+    },
+    {
+      "start": 448,
+      "end": 452,
+      "text": "land",
+      "label": "PRODUCT",
+      "score": 0.5910862684249878
+    },
+    {
+      "start": 454,
+      "end": 459,
+      "text": "boats",
+      "label": "PRODUCT",
+      "score": 0.7232235074043274
+    },
+    {
+      "start": 461,
+      "end": 467,
+      "text": "diesel",
+      "label": "PRODUCT",
+      "score": 0.8242810964584351
+    },
+    {
+      "start": 469,
+      "end": 483,
+      "text": "cryptocurrency",
+      "label": "PRODUCT",
+      "score": 0.8110093474388123
+    },
+    {
+      "start": 505,
+      "end": 523,
+      "text": "foreign currencies",
+      "label": "MONEY",
+      "score": 0.9030410051345825
+    },
+    {
+      "start": 533,
+      "end": 552,
+      "text": "millions of ringgit",
+      "label": "MONEY",
+      "score": 0.7576691508293152
+    },
+    {
+      "start": 588,
+      "end": 599,
+      "text": "individuals",
+      "label": "PERSON",
+      "score": 0.9443169236183167
+    }
+  ],
+  "bank_negara_Pemandu_tidak_bersalah_boleh_tuntut_insu_3.txt": [
+    {
+      "start": 0,
+      "end": 20,
+      "text": "Bank Negara Malaysia",
+      "label": "ORG",
+      "score": 0.9320647716522217
+    },
+    {
+      "start": 22,
+      "end": 25,
+      "text": "BNM",
+      "label": "ORG",
+      "score": 0.8962492346763611
+    },
+    {
+      "start": 465,
+      "end": 482,
+      "text": "No-Claim Discount",
+      "label": "PRODUCT",
+      "score": 0.5158313512802124
+    },
+    {
+      "start": 553,
+      "end": 566,
+      "text": "police report",
+      "label": "PRODUCT",
+      "score": 0.5033156275749207
+    },
+    {
+      "start": 606,
+      "end": 623,
+      "text": "insurance company",
+      "label": "ORG",
+      "score": 0.7851611375808716
+    },
+    {
+      "start": 807,
+      "end": 810,
+      "text": "BNM",
+      "label": "ORG",
+      "score": 0.7451604008674622
+    },
+    {
+      "start": 831,
+      "end": 858,
+      "text": "Digital Roadside Assistance",
+      "label": "PRODUCT",
+      "score": 0.6288357377052307
+    },
+    {
+      "start": 983,
+      "end": 1002,
+      "text": "insurance companies",
+      "label": "ORG",
+      "score": 0.6174480319023132
+    },
+    {
+      "start": 1033,
+      "end": 1046,
+      "text": "policyholders",
+      "label": "PERSON",
+      "score": 0.508747398853302
+    },
+    {
+      "start": 1161,
+      "end": 1174,
+      "text": "policyholders",
+      "label": "PERSON",
+      "score": 0.5133047103881836
+    },
+    {
+      "start": 1208,
+      "end": 1235,
+      "text": "Financial Ombudsman Service",
+      "label": "ORG",
+      "score": 0.9279126524925232
+    },
+    {
+      "start": 1303,
+      "end": 1306,
+      "text": "BNM",
+      "label": "ORG",
+      "score": 0.8352797627449036
+    },
+    {
+      "start": 1462,
+      "end": 1474,
+      "text": "Sinar Harian",
+      "label": "ORG",
+      "score": 0.830954909324646
+    }
+  ],
+  "bank_negara_PKP_3_0_dijangka_tidak_beri_impak_signif_5.txt": [
+    {
+      "start": 0,
+      "end": 20,
+      "text": "Bank Negara Malaysia",
+      "label": "ORG",
+      "score": 0.8678107261657715
+    },
+    {
+      "start": 22,
+      "end": 25,
+      "text": "BNM",
+      "label": "ORG",
+      "score": 0.7494344115257263
+    },
+    {
+      "start": 93,
+      "end": 110,
+      "text": "suku pertama 2021",
+      "label": "TIME",
+      "score": 0.593753457069397
+    },
+    {
+      "start": 140,
+      "end": 157,
+      "text": "suku keempat 2020",
+      "label": "TIME",
+      "score": 0.6289892792701721
+    },
+    {
+      "start": 168,
+      "end": 173,
+      "text": "-0.5%",
+      "label": "PERCENT",
+      "score": 0.653357744216919
+    },
+    {
+      "start": 269,
+      "end": 311,
+      "text": "Tengku Datuk Seri Zafrul Tengku Abdul Aziz",
+      "label": "PERSON",
+      "score": 0.8757246136665344
+    },
+    {
+      "start": 665,
+      "end": 674,
+      "text": "Singapura",
+      "label": "GPE",
+      "score": 0.8512423634529114
+    }
+  ],
+  "bank_negara_Suami_isteri_mengaku_tidak_bersalah_tipu_1.txt": [
+    {
+      "start": 0,
+      "end": 20,
+      "text": "Bank Negara Malaysia",
+      "label": "ORG",
+      "score": 0.9833821654319763
+    },
+    {
+      "start": 59,
+      "end": 88,
+      "text": "Mohammad Riza Ahmad Hambadley",
+      "label": "PERSON",
+      "score": 0.9581069946289062
+    },
+    {
+      "start": 93,
+      "end": 115,
+      "text": "Wan Ziraiza Wan Ismail",
+      "label": "PERSON",
+      "score": 0.9761849045753479
+    },
+    {
+      "start": 159,
+      "end": 173,
+      "text": "RM52.8 million",
+      "label": "MONEY",
+      "score": 0.8803215622901917
+    },
+    {
+      "start": 251,
+      "end": 279,
+      "text": "Judges Ainul Shahrin Mohamad",
+      "label": "PERSON",
+      "score": 0.8378960490226746
+    },
+    {
+      "start": 284,
+      "end": 307,
+      "text": "Jean Sharmila Jesudason",
+      "label": "PERSON",
+      "score": 0.9572036266326904
+    },
+    {
+      "start": 315,
+      "end": 337,
+      "text": "Sessions Court of Ipoh",
+      "label": "ORG",
+      "score": 0.6926994323730469
+    },
+    {
+      "start": 424,
+      "end": 445,
+      "text": "Amal Kita Kinta Perak",
+      "label": "ORG",
+      "score": 0.9192912578582764
+    },
+    {
+      "start": 517,
+      "end": 525,
+      "text": "15 years",
+      "label": "TIME",
+      "score": 0.7727693915367126
+    },
+    {
+      "start": 595,
+      "end": 606,
+      "text": "RM5 million",
+      "label": "MONEY",
+      "score": 0.8648055791854858
+    },
+    {
+      "start": 626,
+      "end": 641,
+      "text": "Section 4(1)(b)",
+      "label": "LAW",
+      "score": 0.8302834033966064
+    },
+    {
+      "start": 649,
+      "end": 682,
+      "text": "Prevention of Corruption Act 2001",
+      "label": "LAW",
+      "score": 0.802121102809906
+    },
+    {
+      "start": 712,
+      "end": 726,
+      "text": "Section 137(1)",
+      "label": "LAW",
+      "score": 0.6996081471443176
+    },
+    {
+      "start": 734,
+      "end": 761,
+      "text": "Financial Services Act 2013",
+      "label": "LAW",
+      "score": 0.7968143224716187
+    },
+    {
+      "start": 892,
+      "end": 931,
+      "text": "Amal Kita Kinta Kampung Chicken Program",
+      "label": "LAW",
+      "score": 0.5847042202949524
+    },
+    {
+      "start": 940,
+      "end": 975,
+      "text": "Shami Goat Indigenous Breed Program",
+      "label": "LAW",
+      "score": 0.7064564228057861
+    },
+    {
+      "start": 1047,
+      "end": 1054,
+      "text": "No. 11A",
+      "label": "LOC",
+      "score": 0.6556233763694763
+    },
+    {
+      "start": 1056,
+      "end": 1073,
+      "text": "Lorong Dewangsa 2",
+      "label": "LOC",
+      "score": 0.7457340955734253
+    },
+    {
+      "start": 1078,
+      "end": 1088,
+      "text": "Batu Gajah",
+      "label": "LOC",
+      "score": 0.7936179041862488
+    },
+    {
+      "start": 1100,
+      "end": 1114,
+      "text": "Kinta District",
+      "label": "LOC",
+      "score": 0.6971030235290527
+    },
+    {
+      "start": 1142,
+      "end": 1150,
+      "text": "10 years",
+      "label": "TIME",
+      "score": 0.7184996604919434
+    },
+    {
+      "start": 1179,
+      "end": 1191,
+      "text": "RM50 million",
+      "label": "MONEY",
+      "score": 0.8395976424217224
+    },
+    {
+      "start": 1216,
+      "end": 1229,
+      "text": "Mohammad Riza",
+      "label": "PERSON",
+      "score": 0.8588169813156128
+    },
+    {
+      "start": 1247,
+      "end": 1262,
+      "text": "Section 3(2)(b)",
+      "label": "LAW",
+      "score": 0.864521324634552
+    },
+    {
+      "start": 1270,
+      "end": 1285,
+      "text": "Scheme Act 2016",
+      "label": "LAW",
+      "score": 0.5510764718055725
+    },
+    {
+      "start": 1335,
+      "end": 1343,
+      "text": "10 years",
+      "label": "TIME",
+      "score": 0.5572718381881714
+    },
+    {
+      "start": 1372,
+      "end": 1384,
+      "text": "RM50 million",
+      "label": "MONEY",
+      "score": 0.8667276501655579
+    },
+    {
+      "start": 1392,
+      "end": 1403,
+      "text": "Wan Ziraiza",
+      "label": "PERSON",
+      "score": 0.8832631707191467
+    },
+    {
+      "start": 1541,
+      "end": 1587,
+      "text": "Deputy Public Prosecutor Steve Chin Yun Cheong",
+      "label": "PERSON",
+      "score": 0.8924466967582703
+    },
+    {
+      "start": 1601,
+      "end": 1627,
+      "text": "Fazarul Ezhar Mohd Mokhtar",
+      "label": "PERSON",
+      "score": 0.8536719083786011
+    },
+    {
+      "start": 1629,
+      "end": 1646,
+      "text": "Nurul Nabila Azmi",
+      "label": "PERSON",
+      "score": 0.9479236602783203
+    },
+    {
+      "start": 1652,
+      "end": 1672,
+      "text": "Bank Negara Malaysia",
+      "label": "ORG",
+      "score": 0.9044331908226013
+    },
+    {
+      "start": 1682,
+      "end": 1703,
+      "text": "Muhamad Atif Abdullah",
+      "label": "PERSON",
+      "score": 0.8794504404067993
+    },
+    {
+      "start": 1708,
+      "end": 1726,
+      "text": "Harvind Raja Gopal",
+      "label": "PERSON",
+      "score": 0.9199851751327515
+    },
+    {
+      "start": 1770,
+      "end": 1789,
+      "text": "Datuk Yaacob Md Sam",
+      "label": "PERSON",
+      "score": 0.9297298789024353
+    },
+    {
+      "start": 1794,
+      "end": 1810,
+      "text": "Md Yunos Shariff",
+      "label": "PERSON",
+      "score": 0.9263880848884583
+    },
+    {
+      "start": 1841,
+      "end": 1850,
+      "text": "RM100,000",
+      "label": "MONEY",
+      "score": 0.9121245741844177
+    }
+  ],
+  "maybank_Bursa_Malaysia_akhiri_dagangan_dengan_pr_9.txt": [
+    {
+      "start": 0,
+      "end": 7,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9130375385284424
+    },
+    {
+      "start": 30,
+      "end": 35,
+      "text": "2 sen",
+      "label": "MONEY",
+      "score": 0.8230955600738525
+    },
+    {
+      "start": 39,
+      "end": 45,
+      "text": "RM8.96",
+      "label": "MONEY",
+      "score": 0.912511944770813
+    },
+    {
+      "start": 104,
+      "end": 128,
+      "text": "FTSE Bursa Malaysia KLCI",
+      "label": "ORG",
+      "score": 0.8527146577835083
+    },
+    {
+      "start": 130,
+      "end": 138,
+      "text": "FBM KLCI",
+      "label": "ORG",
+      "score": 0.6548956632614136
+    },
+    {
+      "start": 286,
+      "end": 295,
+      "text": "Wednesday",
+      "label": "TIME",
+      "score": 0.7363002300262451
+    },
+    {
+      "start": 310,
+      "end": 331,
+      "text": "Rakuten Trade Sdn Bhd",
+      "label": "ORG",
+      "score": 0.9229351878166199
+    },
+    {
+      "start": 362,
+      "end": 376,
+      "text": "Thong Pak Leng",
+      "label": "PERSON",
+      "score": 0.9673247337341309
+    },
+    {
+      "start": 396,
+      "end": 404,
+      "text": "FBM KLCI",
+      "label": "ORG",
+      "score": 0.7475991249084473
+    },
+    {
+      "start": 458,
+      "end": 463,
+      "text": "1,535",
+      "label": "CARDINAL",
+      "score": 0.6634760499000549
+    },
+    {
+      "start": 468,
+      "end": 473,
+      "text": "1,545",
+      "label": "CARDINAL",
+      "score": 0.5658044815063477
+    },
+    {
+      "start": 480,
+      "end": 486,
+      "text": "Friday",
+      "label": "TIME",
+      "score": 0.7407464385032654
+    },
+    {
+      "start": 529,
+      "end": 545,
+      "text": "Telekom Malaysia",
+      "label": "ORG",
+      "score": 0.8917482495307922
+    },
+    {
+      "start": 547,
+      "end": 558,
+      "text": "Public Bank",
+      "label": "ORG",
+      "score": 0.9212756156921387
+    },
+    {
+      "start": 560,
+      "end": 574,
+      "text": "IHH Healthcare",
+      "label": "ORG",
+      "score": 0.9212033748626709
+    },
+    {
+      "start": 580,
+      "end": 586,
+      "text": "Cypark",
+      "label": "ORG",
+      "score": 0.9134002923965454
+    },
+    {
+      "start": 592,
+      "end": 599,
+      "text": "FBM ACE",
+      "label": "PRODUCT",
+      "score": 0.813270092010498
+    },
+    {
+      "start": 601,
+      "end": 617,
+      "text": "FBM Emas Syariah",
+      "label": "PRODUCT",
+      "score": 0.8703377842903137
+    },
+    {
+      "start": 619,
+      "end": 627,
+      "text": "FBM Emas",
+      "label": "PRODUCT",
+      "score": 0.8893086314201355
+    },
+    {
+      "start": 629,
+      "end": 637,
+      "text": "FBMT 100",
+      "label": "PRODUCT",
+      "score": 0.9204603433609009
+    },
+    {
+      "start": 643,
+      "end": 649,
+      "text": "FBM 70",
+      "label": "PRODUCT",
+      "score": 0.8662274479866028
+    }
+  ],
+  "maybank_Bursa_Malaysia_ambil_petunjuk_prestasi_l_4.txt": [
+    {
+      "start": 0,
+      "end": 7,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.922599732875824
+    },
+    {
+      "start": 39,
+      "end": 45,
+      "text": "RM8.85",
+      "label": "MONEY",
+      "score": 0.5397490859031677
+    },
+    {
+      "start": 80,
+      "end": 88,
+      "text": "Thursday",
+      "label": "TIME",
+      "score": 0.602691650390625
+    },
+    {
+      "start": 122,
+      "end": 133,
+      "text": "Wall Street",
+      "label": "LOC",
+      "score": 0.6623597145080566
+    },
+    {
+      "start": 161,
+      "end": 185,
+      "text": "FTSE Bursa Malaysia KLCI",
+      "label": "ORG",
+      "score": 0.8435512781143188
+    },
+    {
+      "start": 187,
+      "end": 195,
+      "text": "FBM KLCI",
+      "label": "ORG",
+      "score": 0.7666100263595581
+    },
+    {
+      "start": 420,
+      "end": 440,
+      "text": "158.76 million units",
+      "label": "QUANTITY",
+      "score": 0.5334339141845703
+    },
+    {
+      "start": 469,
+      "end": 495,
+      "text": "Malacca Securities Sdn Bhd",
+      "label": "ORG",
+      "score": 0.9450263977050781
+    },
+    {
+      "start": 508,
+      "end": 516,
+      "text": "FBM KLCI",
+      "label": "ORG",
+      "score": 0.7891315221786499
+    },
+    {
+      "start": 537,
+      "end": 555,
+      "text": "late trading hours",
+      "label": "TIME",
+      "score": 0.8212884068489075
+    },
+    {
+      "start": 654,
+      "end": 665,
+      "text": "Wall Street",
+      "label": "LOC",
+      "score": 0.7036969065666199
+    },
+    {
+      "start": 667,
+      "end": 684,
+      "text": "technology stocks",
+      "label": "PRODUCT",
+      "score": 0.6459105610847473
+    },
+    {
+      "start": 764,
+      "end": 770,
+      "text": "US$123",
+      "label": "MONEY",
+      "score": 0.7692341804504395
+    },
+    {
+      "start": 788,
+      "end": 802,
+      "text": "trucker strike",
+      "label": "EVENT",
+      "score": 0.5046656727790833
+    },
+    {
+      "start": 806,
+      "end": 817,
+      "text": "South Korea",
+      "label": "GPE",
+      "score": 0.8317359089851379
+    },
+    {
+      "start": 907,
+      "end": 923,
+      "text": "palm oil futures",
+      "label": "PRODUCT",
+      "score": 0.69134521484375
+    },
+    {
+      "start": 943,
+      "end": 950,
+      "text": "RM6,450",
+      "label": "MONEY",
+      "score": 0.6145868897438049
+    },
+    {
+      "start": 1083,
+      "end": 1106,
+      "text": "Ukraine-Russia conflict",
+      "label": "EVENT",
+      "score": 0.6050689816474915
+    },
+    {
+      "start": 1111,
+      "end": 1116,
+      "text": "China",
+      "label": "GPE",
+      "score": 0.6537460684776306
+    },
+    {
+      "start": 1218,
+      "end": 1222,
+      "text": "REIT",
+      "label": "ORG",
+      "score": 0.7397627234458923
+    },
+    {
+      "start": 1285,
+      "end": 1292,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9359373450279236
+    },
+    {
+      "start": 1317,
+      "end": 1335,
+      "text": "Petronas Chemicals",
+      "label": "ORG",
+      "score": 0.8582147359848022
+    },
+    {
+      "start": 1369,
+      "end": 1383,
+      "text": "IHH Healthcare",
+      "label": "ORG",
+      "score": 0.8208790421485901
+    },
+    {
+      "start": 1408,
+      "end": 1412,
+      "text": "CIMB",
+      "label": "ORG",
+      "score": 0.8960673809051514
+    },
+    {
+      "start": 1451,
+      "end": 1462,
+      "text": "Public Bank",
+      "label": "ORG",
+      "score": 0.8895164728164673
+    },
+    {
+      "start": 1511,
+      "end": 1520,
+      "text": "Dynaciate",
+      "label": "ORG",
+      "score": 0.9107567667961121
+    },
+    {
+      "start": 1553,
+      "end": 1568,
+      "text": "Yew Lee Pacific",
+      "label": "ORG",
+      "score": 0.8893587589263916
+    },
+    {
+      "start": 1573,
+      "end": 1581,
+      "text": "Metronic",
+      "label": "ORG",
+      "score": 0.9005380272865295
+    },
+    {
+      "start": 1632,
+      "end": 1636,
+      "text": "LGMS",
+      "label": "ORG",
+      "score": 0.8779708743095398
+    },
+    {
+      "start": 1673,
+      "end": 1686,
+      "text": "Serba Dinamik",
+      "label": "ORG",
+      "score": 0.8781515955924988
+    },
+    {
+      "start": 1740,
+      "end": 1754,
+      "text": "FBM Gold Index",
+      "label": "PRODUCT",
+      "score": 0.6597720384597778
+    },
+    {
+      "start": 1798,
+      "end": 1820,
+      "text": "FBM Emas Syariah index",
+      "label": "PRODUCT",
+      "score": 0.7216998338699341
+    }
+  ],
+  "maybank_Bursa_Malaysia_pulih_dibuka_lebih_tinggi_7.txt": [
+    {
+      "start": 0,
+      "end": 7,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9648112058639526
+    },
+    {
+      "start": 55,
+      "end": 61,
+      "text": "RM8.95",
+      "label": "MONEY",
+      "score": 0.7200152277946472
+    },
+    {
+      "start": 74,
+      "end": 89,
+      "text": "trading session",
+      "label": "EVENT",
+      "score": 0.7024620175361633
+    },
+    {
+      "start": 169,
+      "end": 193,
+      "text": "FTSE Bursa Malaysia KLCI",
+      "label": "ORG",
+      "score": 0.9108428955078125
+    },
+    {
+      "start": 195,
+      "end": 203,
+      "text": "FBM KLCI",
+      "label": "ORG",
+      "score": 0.8549979329109192
+    },
+    {
+      "start": 363,
+      "end": 384,
+      "text": "169.34 million shares",
+      "label": "QUANTITY",
+      "score": 0.6435256004333496
+    },
+    {
+      "start": 421,
+      "end": 428,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9598899483680725
+    },
+    {
+      "start": 504,
+      "end": 521,
+      "text": "technology stocks",
+      "label": "PRODUCT",
+      "score": 0.8655787110328674
+    },
+    {
+      "start": 628,
+      "end": 637,
+      "text": "crude oil",
+      "label": "PRODUCT",
+      "score": 0.580897867679596
+    },
+    {
+      "start": 652,
+      "end": 658,
+      "text": "US$116",
+      "label": "MONEY",
+      "score": 0.6145156621932983
+    },
+    {
+      "start": 677,
+      "end": 693,
+      "text": "palm oil futures",
+      "label": "PRODUCT",
+      "score": 0.7026403546333313
+    },
+    {
+      "start": 765,
+      "end": 780,
+      "text": "trading session",
+      "label": "EVENT",
+      "score": 0.6614469885826111
+    },
+    {
+      "start": 789,
+      "end": 800,
+      "text": "Public Bank",
+      "label": "ORG",
+      "score": 0.9477279186248779
+    },
+    {
+      "start": 821,
+      "end": 835,
+      "text": "IHH Healthcare",
+      "label": "ORG",
+      "score": 0.9190925359725952
+    },
+    {
+      "start": 860,
+      "end": 864,
+      "text": "CIMB",
+      "label": "ORG",
+      "score": 0.936837911605835
+    },
+    {
+      "start": 896,
+      "end": 914,
+      "text": "Petronas Chemicals",
+      "label": "ORG",
+      "score": 0.9299386143684387
+    },
+    {
+      "start": 989,
+      "end": 996,
+      "text": "FBM ACE",
+      "label": "ORG",
+      "score": 0.5254074335098267
+    },
+    {
+      "start": 1041,
+      "end": 1057,
+      "text": "FBM Emas Syariah",
+      "label": "ORG",
+      "score": 0.599065899848938
+    },
+    {
+      "start": 1101,
+      "end": 1115,
+      "text": "FBM Emas Index",
+      "label": "PRODUCT",
+      "score": 0.5273572206497192
+    },
+    {
+      "start": 1154,
+      "end": 1162,
+      "text": "FBMT 100",
+      "label": "PRODUCT",
+      "score": 0.5996460318565369
+    },
+    {
+      "start": 1270,
+      "end": 1312,
+      "text": "Index for Industrial Products and Services",
+      "label": "PRODUCT",
+      "score": 0.6832940578460693
+    },
+    {
+      "start": 1358,
+      "end": 1376,
+      "text": "Agricultural Index",
+      "label": "PRODUCT",
+      "score": 0.7426258325576782
+    },
+    {
+      "start": 1419,
+      "end": 1443,
+      "text": "Financial Services Index",
+      "label": "PRODUCT",
+      "score": 0.6861114501953125
+    },
+    {
+      "start": 1495,
+      "end": 1502,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9561603665351868
+    },
+    {
+      "start": 1538,
+      "end": 1553,
+      "text": "trading session",
+      "label": "EVENT",
+      "score": 0.6720870733261108
+    },
+    {
+      "start": 1557,
+      "end": 1563,
+      "text": "June 1",
+      "label": "TIME",
+      "score": 0.5852571129798889
+    },
+    {
+      "start": 1620,
+      "end": 1637,
+      "text": "technology stocks",
+      "label": "PRODUCT",
+      "score": 0.9158247113227844
+    }
+  ],
+  "maybank_IMPAK_BIZ__Memacu_transformasi_digital___2.txt": [
+    {
+      "start": 0,
+      "end": 22,
+      "text": "Maybank Islamic Berhad",
+      "label": "ORG",
+      "score": 0.9738880395889282
+    },
+    {
+      "start": 43,
+      "end": 52,
+      "text": "IMPAK BIZ",
+      "label": "ORG",
+      "score": 0.728714108467102
+    },
+    {
+      "start": 88,
+      "end": 102,
+      "text": "Unifi Business",
+      "label": "ORG",
+      "score": 0.9567972421646118
+    },
+    {
+      "start": 224,
+      "end": 242,
+      "text": "microfinance loans",
+      "label": "PRODUCT",
+      "score": 0.5627152919769287
+    },
+    {
+      "start": 248,
+      "end": 270,
+      "text": "Bank Simpanan Nasional",
+      "label": "ORG",
+      "score": 0.9241095185279846
+    },
+    {
+      "start": 278,
+      "end": 305,
+      "text": "Halal certification support",
+      "label": "PRODUCT",
+      "score": 0.526455819606781
+    },
+    {
+      "start": 311,
+      "end": 326,
+      "text": "Maybank Islamic",
+      "label": "ORG",
+      "score": 0.840514063835144
+    },
+    {
+      "start": 356,
+      "end": 360,
+      "text": "CTOS",
+      "label": "ORG",
+      "score": 0.8905906677246094
+    },
+    {
+      "start": 399,
+      "end": 404,
+      "text": "RTIST",
+      "label": "ORG",
+      "score": 0.869801938533783
+    },
+    {
+      "start": 406,
+      "end": 435,
+      "text": "personal digital consultation",
+      "label": "PRODUCT",
+      "score": 0.5028157234191895
+    },
+    {
+      "start": 441,
+      "end": 455,
+      "text": "Unifi Business",
+      "label": "ORG",
+      "score": 0.9490188360214233
+    },
+    {
+      "start": 465,
+      "end": 481,
+      "text": "IMPAK BIZ Awards",
+      "label": "EVENT",
+      "score": 0.6796275973320007
+    },
+    {
+      "start": 695,
+      "end": 704,
+      "text": "IMPAK BIZ",
+      "label": "ORG",
+      "score": 0.7427611947059631
+    },
+    {
+      "start": 733,
+      "end": 747,
+      "text": "Unifi Business",
+      "label": "ORG",
+      "score": 0.9643995761871338
+    },
+    {
+      "start": 793,
+      "end": 805,
+      "text": "Sinar Harian",
+      "label": "ORG",
+      "score": 0.8769230246543884
+    }
+  ],
+  "maybank_Lelaki_Nigeria_didakwa_miliki_kad_ATM_wa_1.txt": [
+    {
+      "start": 0,
+      "end": 7,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9553515911102295
+    },
+    {
+      "start": 38,
+      "end": 46,
+      "text": "Nigerian",
+      "label": "NORP",
+      "score": 0.8320510983467102
+    },
+    {
+      "start": 52,
+      "end": 61,
+      "text": "Udoh Imeh",
+      "label": "PERSON",
+      "score": 0.9288946390151978
+    },
+    {
+      "start": 82,
+      "end": 100,
+      "text": "Magistrate's Court",
+      "label": "ORG",
+      "score": 0.8408035635948181
+    },
+    {
+      "start": 104,
+      "end": 112,
+      "text": "Seremban",
+      "label": "LOC",
+      "score": 0.8470884561538696
+    },
+    {
+      "start": 130,
+      "end": 137,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9346237778663635
+    },
+    {
+      "start": 252,
+      "end": 277,
+      "text": "Judge Nurul Saqinah Rosli",
+      "label": "PERSON",
+      "score": 0.8166447877883911
+    },
+    {
+      "start": 310,
+      "end": 322,
+      "text": "Section 424A",
+      "label": "LAW",
+      "score": 0.7831010222434998
+    },
+    {
+      "start": 330,
+      "end": 340,
+      "text": "Penal Code",
+      "label": "LAW",
+      "score": 0.8491635322570801
+    },
+    {
+      "start": 385,
+      "end": 392,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9340367913246155
+    },
+    {
+      "start": 587,
+      "end": 597,
+      "text": "Desa Palma",
+      "label": "LOC",
+      "score": 0.8180491924285889
+    },
+    {
+      "start": 614,
+      "end": 619,
+      "text": "Nilai",
+      "label": "LOC",
+      "score": 0.7729446291923523
+    },
+    {
+      "start": 675,
+      "end": 682,
+      "text": "RM5,000",
+      "label": "MONEY",
+      "score": 0.8531308770179749
+    },
+    {
+      "start": 686,
+      "end": 694,
+      "text": "RM50,000",
+      "label": "MONEY",
+      "score": 0.8299353718757629
+    },
+    {
+      "start": 705,
+      "end": 715,
+      "text": "six months",
+      "label": "TIME",
+      "score": 0.6486661434173584
+    },
+    {
+      "start": 719,
+      "end": 729,
+      "text": "five years",
+      "label": "TIME",
+      "score": 0.5145862698554993
+    },
+    {
+      "start": 825,
+      "end": 833,
+      "text": "Malaysia",
+      "label": "LOC",
+      "score": 0.8566187024116516
+    },
+    {
+      "start": 918,
+      "end": 932,
+      "text": "Renalyn Rivera",
+      "label": "PERSON",
+      "score": 0.9275217652320862
+    },
+    {
+      "start": 1102,
+      "end": 1124,
+      "text": "Hendry Chinonso Udemba",
+      "label": "PERSON",
+      "score": 0.9266452193260193
+    },
+    {
+      "start": 1129,
+      "end": 1140,
+      "text": "Eric Onumah",
+      "label": "PERSON",
+      "score": 0.9591050744056702
+    },
+    {
+      "start": 1153,
+      "end": 1161,
+      "text": "RM10,000",
+      "label": "MONEY",
+      "score": 0.9055567979812622
+    },
+    {
+      "start": 1221,
+      "end": 1229,
+      "text": "Malaysia",
+      "label": "LOC",
+      "score": 0.8673731088638306
+    },
+    {
+      "start": 1349,
+      "end": 1359,
+      "text": "six months",
+      "label": "TIME",
+      "score": 0.7006462216377258
+    },
+    {
+      "start": 1375,
+      "end": 1393,
+      "text": "Christopher Joseph",
+      "label": "PERSON",
+      "score": 0.9472772479057312
+    },
+    {
+      "start": 1587,
+      "end": 1644,
+      "text": "Deputy Public Prosecutors Nik Nur Aqilah Syarfa Nik Zaidi",
+      "label": "PERSON",
+      "score": 0.8588144183158875
+    },
+    {
+      "start": 1649,
+      "end": 1671,
+      "text": "Norshafatihah Nor Azmi",
+      "label": "PERSON",
+      "score": 0.9356272220611572
+    },
+    {
+      "start": 1686,
+      "end": 1698,
+      "text": "Sinar Harian",
+      "label": "ORG",
+      "score": 0.9246336817741394
+    }
+  ],
+  "maybank_Maybank_0.txt": [
+    {
+      "start": 0,
+      "end": 7,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9515321254730225
+    },
+    {
+      "start": 9,
+      "end": 17,
+      "text": "Malaysia",
+      "label": "GPE",
+      "score": 0.7071214914321899
+    },
+    {
+      "start": 73,
+      "end": 82,
+      "text": "Singapore",
+      "label": "LOC",
+      "score": 0.7661172151565552
+    },
+    {
+      "start": 84,
+      "end": 93,
+      "text": "Indonesia",
+      "label": "LOC",
+      "score": 0.6842650771141052
+    },
+    {
+      "start": 103,
+      "end": 114,
+      "text": "Philippines",
+      "label": "LOC",
+      "score": 0.6889857053756714
+    },
+    {
+      "start": 154,
+      "end": 157,
+      "text": "15%",
+      "label": "PERCENT",
+      "score": 0.6668528318405151
+    },
+    {
+      "start": 167,
+      "end": 179,
+      "text": "An Binh Bank",
+      "label": "ORG",
+      "score": 0.9508814811706543
+    },
+    {
+      "start": 181,
+      "end": 188,
+      "text": "Vietnam",
+      "label": "LOC",
+      "score": 0.6294170022010803
+    },
+    {
+      "start": 201,
+      "end": 213,
+      "text": "MCB Bank Ltd",
+      "label": "ORG",
+      "score": 0.9501854777336121
+    },
+    {
+      "start": 215,
+      "end": 223,
+      "text": "Pakistan",
+      "label": "GPE",
+      "score": 0.5456342697143555
+    },
+    {
+      "start": 314,
+      "end": 322,
+      "text": "Malaysia",
+      "label": "LOC",
+      "score": 0.6681491136550903
+    },
+    {
+      "start": 381,
+      "end": 392,
+      "text": "second year",
+      "label": "TIME",
+      "score": 0.5101760029792786
+    },
+    {
+      "start": 400,
+      "end": 413,
+      "text": "RM9.3 billion",
+      "label": "MONEY",
+      "score": 0.9126360416412354
+    },
+    {
+      "start": 502,
+      "end": 524,
+      "text": "ALB SE Asia Law Awards",
+      "label": "EVENT",
+      "score": 0.5341151356697083
+    },
+    {
+      "start": 526,
+      "end": 533,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9345117211341858
+    },
+    {
+      "start": 748,
+      "end": 754,
+      "text": "Brunei",
+      "label": "LOC",
+      "score": 0.6669992804527283
+    },
+    {
+      "start": 756,
+      "end": 772,
+      "text": "Papua New Guinea",
+      "label": "LOC",
+      "score": 0.6633052825927734
+    },
+    {
+      "start": 774,
+      "end": 783,
+      "text": "Indonesia",
+      "label": "LOC",
+      "score": 0.6394532322883606
+    },
+    {
+      "start": 785,
+      "end": 793,
+      "text": "Cambodia",
+      "label": "LOC",
+      "score": 0.616201639175415
+    },
+    {
+      "start": 795,
+      "end": 802,
+      "text": "Vietnam",
+      "label": "LOC",
+      "score": 0.5889465808868408
+    },
+    {
+      "start": 838,
+      "end": 852,
+      "text": "United Kingdom",
+      "label": "LOC",
+      "score": 0.5078260898590088
+    },
+    {
+      "start": 863,
+      "end": 872,
+      "text": "Hong Kong",
+      "label": "LOC",
+      "score": 0.588284432888031
+    },
+    {
+      "start": 874,
+      "end": 881,
+      "text": "Bahrain",
+      "label": "LOC",
+      "score": 0.5529659986495972
+    },
+    {
+      "start": 887,
+      "end": 892,
+      "text": "China",
+      "label": "LOC",
+      "score": 0.5005857944488525
+    },
+    {
+      "start": 927,
+      "end": 941,
+      "text": "Khoo Teck Puat",
+      "label": "PERSON",
+      "score": 0.8795268535614014
+    },
+    {
+      "start": 968,
+      "end": 975,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.8761832118034363
+    },
+    {
+      "start": 1008,
+      "end": 1027,
+      "text": "Amirsham Abdul Aziz",
+      "label": "PERSON",
+      "score": 0.91176837682724
+    },
+    {
+      "start": 1062,
+      "end": 1088,
+      "text": "Dato' Sri Abdul Wahid Omar",
+      "label": "PERSON",
+      "score": 0.8645803332328796
+    },
+    {
+      "start": 1144,
+      "end": 1151,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9341386556625366
+    },
+    {
+      "start": 1177,
+      "end": 1184,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9361963868141174
+    },
+    {
+      "start": 1204,
+      "end": 1216,
+      "text": "$165 billion",
+      "label": "MONEY",
+      "score": 0.8759221434593201
+    },
+    {
+      "start": 1286,
+      "end": 1304,
+      "text": "Forbes Global 2000",
+      "label": "EVENT",
+      "score": 0.7559365034103394
+    },
+    {
+      "start": 1377,
+      "end": 1384,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9273884892463684
+    },
+    {
+      "start": 1404,
+      "end": 1412,
+      "text": "Malaysia",
+      "label": "LOC",
+      "score": 0.5871322751045227
+    },
+    {
+      "start": 1423,
+      "end": 1430,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9343376755714417
+    },
+    {
+      "start": 1545,
+      "end": 1551,
+      "text": "11.20%",
+      "label": "PERCENT",
+      "score": 0.7034666538238525
+    },
+    {
+      "start": 1555,
+      "end": 1562,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9190136790275574
+    },
+    {
+      "start": 1626,
+      "end": 1653,
+      "text": "Amanah Raya Trustees Berhad",
+      "label": "ORG",
+      "score": 0.9038078784942627
+    },
+    {
+      "start": 1695,
+      "end": 1701,
+      "text": "46.57%",
+      "label": "PERCENT",
+      "score": 0.65569007396698
+    },
+    {
+      "start": 1717,
+      "end": 1750,
+      "text": "Kumpulan Wang Simpanan Pekerjamem",
+      "label": "ORG",
+      "score": 0.8519733548164368
+    },
+    {
+      "start": 1756,
+      "end": 1762,
+      "text": "11.05%",
+      "label": "PERCENT",
+      "score": 0.656069815158844
+    },
+    {
+      "start": 1768,
+      "end": 1794,
+      "text": "Permodalan Nasional Berhad",
+      "label": "ORG",
+      "score": 0.960294783115387
+    },
+    {
+      "start": 1800,
+      "end": 1805,
+      "text": "5.47%",
+      "label": "PERCENT",
+      "score": 0.6908034086227417
+    },
+    {
+      "start": 1809,
+      "end": 1816,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9509146809577942
+    }
+  ],
+  "maybank_Naik_taraf_Masjid_At_Taqwa_beri_keselesa_8.txt": [
+    {
+      "start": 50,
+      "end": 82,
+      "text": "Masjid At-Taqwa Mukim Alor Pasir",
+      "label": "ORG",
+      "score": 0.6321552395820618
+    },
+    {
+      "start": 83,
+      "end": 94,
+      "text": "Wakaf Bharu",
+      "label": "LOC",
+      "score": 0.7776946425437927
+    },
+    {
+      "start": 125,
+      "end": 130,
+      "text": "1,650",
+      "label": "QUANTITY",
+      "score": 0.7484232187271118
+    },
+    {
+      "start": 222,
+      "end": 239,
+      "text": "two-storey mosque",
+      "label": "ORG",
+      "score": 0.5689760446548462
+    },
+    {
+      "start": 273,
+      "end": 287,
+      "text": "RM9.74 million",
+      "label": "MONEY",
+      "score": 0.9678199887275696
+    },
+    {
+      "start": 369,
+      "end": 382,
+      "text": "freehold land",
+      "label": "LOC",
+      "score": 0.7941858768463135
+    },
+    {
+      "start": 395,
+      "end": 398,
+      "text": "10%",
+      "label": "PERCENT",
+      "score": 0.7744104862213135
+    },
+    {
+      "start": 430,
+      "end": 444,
+      "text": "RM9.13 million",
+      "label": "MONEY",
+      "score": 0.9561376571655273
+    },
+    {
+      "start": 609,
+      "end": 624,
+      "text": "450 worshippers",
+      "label": "QUANTITY",
+      "score": 0.574735701084137
+    },
+    {
+      "start": 678,
+      "end": 689,
+      "text": "Wakaf Bharu",
+      "label": "LOC",
+      "score": 0.601188063621521
+    },
+    {
+      "start": 847,
+      "end": 858,
+      "text": "worshippers",
+      "label": "PERSON",
+      "score": 0.5066147446632385
+    },
+    {
+      "start": 891,
+      "end": 905,
+      "text": "Friday prayers",
+      "label": "EVENT",
+      "score": 0.807626485824585
+    },
+    {
+      "start": 914,
+      "end": 937,
+      "text": "Aidilfitri celebrations",
+      "label": "EVENT",
+      "score": 0.7775890827178955
+    },
+    {
+      "start": 1057,
+      "end": 1068,
+      "text": "Wakaf Bharu",
+      "label": "LOC",
+      "score": 0.7504926919937134
+    },
+    {
+      "start": 1080,
+      "end": 1106,
+      "text": "Bank Islam Malaysia Berhad",
+      "label": "ORG",
+      "score": 0.9399989247322083
+    },
+    {
+      "start": 1125,
+      "end": 1132,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.8897078037261963
+    }
+  ],
+  "maybank_Najib_mohon_kemuka_bukti_lanjut_batalkan_5.txt": [
+    {
+      "start": 0,
+      "end": 7,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9419435262680054
+    },
+    {
+      "start": 91,
+      "end": 108,
+      "text": "SRC International",
+      "label": "ORG",
+      "score": 0.9137429594993591
+    },
+    {
+      "start": 196,
+      "end": 211,
+      "text": "Najib Tun Razak",
+      "label": "PERSON",
+      "score": 0.8619336485862732
+    },
+    {
+      "start": 253,
+      "end": 283,
+      "text": "Judge Mohd Nazlan Mohd Ghazali",
+      "label": "PERSON",
+      "score": 0.9018458127975464
+    },
+    {
+      "start": 338,
+      "end": 345,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.8976395130157471
+    },
+    {
+      "start": 364,
+      "end": 371,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.8698222041130066
+    },
+    {
+      "start": 419,
+      "end": 434,
+      "text": "Muhammad Shafee",
+      "label": "PERSON",
+      "score": 0.9379475712776184
+    },
+    {
+      "start": 464,
+      "end": 471,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.8691533803939819
+    },
+    {
+      "start": 543,
+      "end": 560,
+      "text": "SRC International",
+      "label": "ORG",
+      "score": 0.8241783976554871
+    },
+    {
+      "start": 585,
+      "end": 595,
+      "text": "Bina Fikir",
+      "label": "ORG",
+      "score": 0.8651916980743408
+    },
+    {
+      "start": 661,
+      "end": 668,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.9032803177833557
+    },
+    {
+      "start": 750,
+      "end": 765,
+      "text": "Court of Appeal",
+      "label": "ORG",
+      "score": 0.9119276404380798
+    },
+    {
+      "start": 788,
+      "end": 793,
+      "text": "Najib",
+      "label": "PERSON",
+      "score": 0.6935681104660034
+    },
+    {
+      "start": 823,
+      "end": 831,
+      "text": "12 years",
+      "label": "TIME",
+      "score": 0.8578739166259766
+    },
+    {
+      "start": 856,
+      "end": 869,
+      "text": "RM210 million",
+      "label": "MONEY",
+      "score": 0.9348744750022888
+    }
+  ],
+  "maybank_Najib_mohon_masukkan_bukti_baharu_berkai_6.txt": [
+    {
+      "start": 0,
+      "end": 27,
+      "text": "Maybank Investment Bank Bhd",
+      "label": "ORG",
+      "score": 0.944831907749176
+    },
+    {
+      "start": 71,
+      "end": 96,
+      "text": "SRC International Sdn Bhd",
+      "label": "ORG",
+      "score": 0.9419039487838745
+    },
+    {
+      "start": 144,
+      "end": 159,
+      "text": "Najib Tun Razak",
+      "label": "PERSON",
+      "score": 0.8777853846549988
+    },
+    {
+      "start": 179,
+      "end": 192,
+      "text": "court hearing",
+      "label": "EVENT",
+      "score": 0.714256763458252
+    },
+    {
+      "start": 213,
+      "end": 236,
+      "text": "Maybank Investment Bank",
+      "label": "ORG",
+      "score": 0.9030179977416992
+    },
+    {
+      "start": 273,
+      "end": 291,
+      "text": "Bina Fikir Sdn Bhd",
+      "label": "ORG",
+      "score": 0.8988141417503357
+    },
+    {
+      "start": 364,
+      "end": 367,
+      "text": "SRC",
+      "label": "ORG",
+      "score": 0.6586163640022278
+    },
+    {
+      "start": 390,
+      "end": 397,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.7378589510917664
+    },
+    {
+      "start": 432,
+      "end": 435,
+      "text": "SRC",
+      "label": "ORG",
+      "score": 0.6587488651275635
+    },
+    {
+      "start": 466,
+      "end": 477,
+      "text": "prosecution",
+      "label": "ORG",
+      "score": 0.5576217174530029
+    },
+    {
+      "start": 498,
+      "end": 501,
+      "text": "SRC",
+      "label": "ORG",
+      "score": 0.560256838798523
+    },
+    {
+      "start": 531,
+      "end": 538,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.7144486308097839
+    },
+    {
+      "start": 540,
+      "end": 563,
+      "text": "Maybank Investment Bank",
+      "label": "ORG",
+      "score": 0.8383632302284241
+    },
+    {
+      "start": 568,
+      "end": 586,
+      "text": "Bina Fikir Sdn Bhd",
+      "label": "ORG",
+      "score": 0.8557072877883911
+    },
+    {
+      "start": 666,
+      "end": 702,
+      "text": "Judge Datuk Mohd Nazlan Mohd Ghazali",
+      "label": "PERSON",
+      "score": 0.8097737431526184
+    },
+    {
+      "start": 740,
+      "end": 747,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.8069039583206177
+    },
+    {
+      "start": 798,
+      "end": 801,
+      "text": "SRC",
+      "label": "ORG",
+      "score": 0.6853703260421753
+    },
+    {
+      "start": 885,
+      "end": 907,
+      "text": "Malayan Banking Berhad",
+      "label": "ORG",
+      "score": 0.9308964014053345
+    },
+    {
+      "start": 1011,
+      "end": 1018,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.7928922176361084
+    },
+    {
+      "start": 1064,
+      "end": 1087,
+      "text": "Maybank Investment Bank",
+      "label": "ORG",
+      "score": 0.9501650333404541
+    },
+    {
+      "start": 1144,
+      "end": 1161,
+      "text": "SRC International",
+      "label": "ORG",
+      "score": 0.8699362874031067
+    },
+    {
+      "start": 1191,
+      "end": 1209,
+      "text": "corruption scandal",
+      "label": "EVENT",
+      "score": 0.80027174949646
+    },
+    {
+      "start": 1242,
+      "end": 1257,
+      "text": "Najib Tun Razak",
+      "label": "PERSON",
+      "score": 0.9470766186714172
+    }
+  ],
+  "maybank_Rayu_sumbangan_baik_pulih_rumah_terbakar_10.txt": [
+    {
+      "start": 56,
+      "end": 73,
+      "text": "Taman Pandan Jaya",
+      "label": "LOC",
+      "score": 0.8944982290267944
+    },
+    {
+      "start": 75,
+      "end": 81,
+      "text": "Melaka",
+      "label": "LOC",
+      "score": 0.8516973853111267
+    },
+    {
+      "start": 132,
+      "end": 144,
+      "text": "10 years ago",
+      "label": "TIME",
+      "score": 0.6123082637786865
+    },
+    {
+      "start": 161,
+      "end": 175,
+      "text": "Jasnizah Karim",
+      "label": "PERSON",
+      "score": 0.9758264422416687
+    },
+    {
+      "start": 246,
+      "end": 265,
+      "text": "Mohd Farid Zolkepli",
+      "label": "PERSON",
+      "score": 0.969251275062561
+    },
+    {
+      "start": 279,
+      "end": 294,
+      "text": "Karim Abu Bakar",
+      "label": "PERSON",
+      "score": 0.9519548416137695
+    },
+    {
+      "start": 416,
+      "end": 420,
+      "text": "noon",
+      "label": "TIME",
+      "score": 0.5626863241195679
+    },
+    {
+      "start": 441,
+      "end": 451,
+      "text": "eldest son",
+      "label": "PERSON",
+      "score": 0.7237133979797363
+    },
+    {
+      "start": 667,
+      "end": 676,
+      "text": "RM100,000",
+      "label": "MONEY",
+      "score": 0.9593008160591125
+    },
+    {
+      "start": 783,
+      "end": 791,
+      "text": "RM40,000",
+      "label": "MONEY",
+      "score": 0.9752793908119202
+    },
+    {
+      "start": 941,
+      "end": 948,
+      "text": "RM2,000",
+      "label": "MONEY",
+      "score": 0.9639576077461243
+    },
+    {
+      "start": 1100,
+      "end": 1107,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.7653840780258179
+    },
+    {
+      "start": 1147,
+      "end": 1155,
+      "text": "Jasnizah",
+      "label": "PERSON",
+      "score": 0.5855667591094971
+    }
+  ],
+  "maybank_Tiada_lagi_transaksi_tunai_di_Puspakom_m_3.txt": [
+    {
+      "start": 27,
+      "end": 40,
+      "text": "Maybank QRPay",
+      "label": "PRODUCT",
+      "score": 0.9731881022453308
+    },
+    {
+      "start": 67,
+      "end": 76,
+      "text": "e-wallets",
+      "label": "PRODUCT",
+      "score": 0.8716878890991211
+    },
+    {
+      "start": 82,
+      "end": 89,
+      "text": "GrabPay",
+      "label": "PRODUCT",
+      "score": 0.9249587059020996
+    },
+    {
+      "start": 91,
+      "end": 110,
+      "text": "Touch ‘n Go eWallet",
+      "label": "PRODUCT",
+      "score": 0.8665616512298584
+    },
+    {
+      "start": 112,
+      "end": 117,
+      "text": "Boost",
+      "label": "PRODUCT",
+      "score": 0.8678176403045654
+    },
+    {
+      "start": 119,
+      "end": 129,
+      "text": "WeChat Pay",
+      "label": "PRODUCT",
+      "score": 0.8445270657539368
+    },
+    {
+      "start": 135,
+      "end": 141,
+      "text": "Alipay",
+      "label": "PRODUCT",
+      "score": 0.8736140131950378
+    },
+    {
+      "start": 211,
+      "end": 227,
+      "text": "Puspakom Sdn Bhd",
+      "label": "ORG",
+      "score": 0.8615609407424927
+    },
+    {
+      "start": 229,
+      "end": 237,
+      "text": "Puspakom",
+      "label": "ORG",
+      "score": 0.6885292530059814
+    },
+    {
+      "start": 263,
+      "end": 276,
+      "text": "Maybank QRPay",
+      "label": "PRODUCT",
+      "score": 0.8791013360023499
+    },
+    {
+      "start": 366,
+      "end": 374,
+      "text": "Puspakom",
+      "label": "ORG",
+      "score": 0.8241905570030212
+    },
+    {
+      "start": 502,
+      "end": 510,
+      "text": "Puspakom",
+      "label": "ORG",
+      "score": 0.8623418807983398
+    },
+    {
+      "start": 587,
+      "end": 596,
+      "text": "customers",
+      "label": "PERSON",
+      "score": 0.5696901679039001
+    },
+    {
+      "start": 608,
+      "end": 617,
+      "text": "e-wallets",
+      "label": "PRODUCT",
+      "score": 0.6730665564537048
+    },
+    {
+      "start": 621,
+      "end": 626,
+      "text": "cards",
+      "label": "PRODUCT",
+      "score": 0.6815507411956787
+    },
+    {
+      "start": 654,
+      "end": 657,
+      "text": "90%",
+      "label": "PERCENT",
+      "score": 0.831348180770874
+    },
+    {
+      "start": 661,
+      "end": 669,
+      "text": "Puspakom",
+      "label": "ORG",
+      "score": 0.8636993169784546
+    },
+    {
+      "start": 770,
+      "end": 788,
+      "text": "electronic payment",
+      "label": "PRODUCT",
+      "score": 0.5960665345191956
+    },
+    {
+      "start": 808,
+      "end": 816,
+      "text": "pandemic",
+      "label": "EVENT",
+      "score": 0.935381293296814
+    },
+    {
+      "start": 863,
+      "end": 871,
+      "text": "Puspakom",
+      "label": "ORG",
+      "score": 0.8791427612304688
+    },
+    {
+      "start": 919,
+      "end": 928,
+      "text": "Live Chat",
+      "label": "PRODUCT",
+      "score": 0.5460285544395447
+    },
+    {
+      "start": 936,
+      "end": 944,
+      "text": "puspakom",
+      "label": "ORG",
+      "score": 0.7361948490142822
+    },
+    {
+      "start": 962,
+      "end": 970,
+      "text": "Puspakom",
+      "label": "ORG",
+      "score": 0.9141335487365723
+    }
+  ]
+}

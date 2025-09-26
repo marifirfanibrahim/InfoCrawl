@@ -1,0 +1,173 @@
+{
+  "file": "summary_overall_maybank.txt",
+  "entities": [
+    {
+      "start": 64,
+      "end": 81,
+      "text": "Taman Pandan Jaya",
+      "label": "LOC",
+      "score": 0.6933718323707581
+    },
+    {
+      "start": 83,
+      "end": 89,
+      "text": "Melaka",
+      "label": "LOC",
+      "score": 0.7268807291984558
+    },
+    {
+      "start": 171,
+      "end": 185,
+      "text": "Jasnizah Karim",
+      "label": "PERSON",
+      "score": 0.955329954624176
+    },
+    {
+      "start": 336,
+      "end": 343,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.6712134480476379
+    },
+    {
+      "start": 442,
+      "end": 448,
+      "text": "Melaka",
+      "label": "LOC",
+      "score": 0.6638520956039429
+    },
+    {
+      "start": 487,
+      "end": 504,
+      "text": "Taman Pandan Jaya",
+      "label": "LOC",
+      "score": 0.7285112738609314
+    },
+    {
+      "start": 542,
+      "end": 556,
+      "text": "Forensik bomba",
+      "label": "ORG",
+      "score": 0.5847378969192505
+    },
+    {
+      "start": 694,
+      "end": 699,
+      "text": "RON95",
+      "label": "PRODUCT",
+      "score": 0.5149035453796387
+    },
+    {
+      "start": 725,
+      "end": 730,
+      "text": "RON95",
+      "label": "PRODUCT",
+      "score": 0.6340000629425049
+    },
+    {
+      "start": 753,
+      "end": 761,
+      "text": "RM1.99/L",
+      "label": "MONEY",
+      "score": 0.5083615779876709
+    },
+    {
+      "start": 796,
+      "end": 802,
+      "text": "RM0.06",
+      "label": "MONEY",
+      "score": 0.8572341799736023
+    },
+    {
+      "start": 966,
+      "end": 978,
+      "text": "Sinar Harian",
+      "label": "ORG",
+      "score": 0.5508837699890137
+    },
+    {
+      "start": 1253,
+      "end": 1273,
+      "text": "Semenanjung Malaysia",
+      "label": "LOC",
+      "score": 0.6768400073051453
+    },
+    {
+      "start": 1308,
+      "end": 1330,
+      "text": "Tenaga Nasional Berhad",
+      "label": "ORG",
+      "score": 0.7291409969329834
+    },
+    {
+      "start": 1384,
+      "end": 1396,
+      "text": "Pulau Pinang",
+      "label": "LOC",
+      "score": 0.6853145360946655
+    },
+    {
+      "start": 1401,
+      "end": 1406,
+      "text": "Sabah",
+      "label": "LOC",
+      "score": 0.6594338417053223
+    },
+    {
+      "start": 1641,
+      "end": 1649,
+      "text": "Malaysia",
+      "label": "GPE",
+      "score": 0.6218538880348206
+    },
+    {
+      "start": 1651,
+      "end": 1656,
+      "text": "Jepun",
+      "label": "GPE",
+      "score": 0.5768278241157532
+    },
+    {
+      "start": 1661,
+      "end": 1670,
+      "text": "Singapura",
+      "label": "GPE",
+      "score": 0.5232651233673096
+    },
+    {
+      "start": 1715,
+      "end": 1723,
+      "text": "Malaysia",
+      "label": "GPE",
+      "score": 0.5043451189994812
+    },
+    {
+      "start": 2044,
+      "end": 2064,
+      "text": "Kerajaan Persekutuan",
+      "label": "ORG",
+      "score": 0.7064034342765808
+    },
+    {
+      "start": 2291,
+      "end": 2299,
+      "text": "Malaysia",
+      "label": "GPE",
+      "score": 0.6016224026679993
+    },
+    {
+      "start": 2429,
+      "end": 2437,
+      "text": "Malaysia",
+      "label": "LOC",
+      "score": 0.5547736287117004
+    },
+    {
+      "start": 2487,
+      "end": 2507,
+      "text": "Kerajaan Persekutuan",
+      "label": "ORG",
+      "score": 0.7867363691329956
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Bank Negara Malaysia (BNM) is investigating a fraud syndicate using a fake MyBNM app to trick victims into transferring money without their knowledge. The suspects posing as BNM power-of-attorney staff will ask victims to download the fake app, providing personal details such as ATM card numbers, PIN codes, and passwords. Once information is obtained, the syndicate will transfer funds from the victim's account to a third party account (cyber fraud accounts).
+
+Last year, there were 53 cases with a total loss of RM1.1 million, while so far this year, 57 cases have been reported with losses exceeding RM1.7 million. The police are committed to strengthening efforts in investigation and operations to combat the increase in such cases. The public is encouraged to focus on prevention measures regarding cybercrime education and awareness.
+
+It's important to avoid clicking on any links, downloading mobile apps with the name MyBNM, or sharing banking information. Verify through the webpage <http://ccid.rmp.gov.my/semakmule/> or download the SEMAK MULE CCID app for confirmation.
+
+The MyBNM app was a digital service provided by BNM since November 2015, but it was discontinued by BNM last November, and an announcement regarding this was also made by the relevant authorities.

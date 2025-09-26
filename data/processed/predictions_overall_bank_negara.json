@@ -1,0 +1,117 @@
+{
+  "file": "summary_overall_bank_negara.txt",
+  "entities": [
+    {
+      "start": 71,
+      "end": 79,
+      "text": "RM40,000",
+      "label": "MONEY",
+      "score": 0.8851337432861328
+    },
+    {
+      "start": 188,
+      "end": 206,
+      "text": "Welfare Department",
+      "label": "ORG",
+      "score": 0.9270563125610352
+    },
+    {
+      "start": 214,
+      "end": 239,
+      "text": "Social Welfare Department",
+      "label": "ORG",
+      "score": 0.9388525485992432
+    },
+    {
+      "start": 248,
+      "end": 286,
+      "text": "School National Primary School Bachang",
+      "label": "ORG",
+      "score": 0.9351007342338562
+    },
+    {
+      "start": 452,
+      "end": 467,
+      "text": "extended period",
+      "label": "TIME",
+      "score": 0.721026599407196
+    },
+    {
+      "start": 499,
+      "end": 506,
+      "text": "Maybank",
+      "label": "ORG",
+      "score": 0.8798907995223999
+    },
+    {
+      "start": 548,
+      "end": 556,
+      "text": "Jasnizah",
+      "label": "PERSON",
+      "score": 0.9579445123672485
+    },
+    {
+      "start": 589,
+      "end": 620,
+      "text": "RON95 Petrol Savings Calculator",
+      "label": "PRODUCT",
+      "score": 0.9571760892868042
+    },
+    {
+      "start": 704,
+      "end": 710,
+      "text": "RM0.06",
+      "label": "MONEY",
+      "score": 0.7647876143455505
+    },
+    {
+      "start": 757,
+      "end": 761,
+      "text": "RM40",
+      "label": "MONEY",
+      "score": 0.7745721340179443
+    },
+    {
+      "start": 762,
+      "end": 766,
+      "text": "RM60",
+      "label": "MONEY",
+      "score": 0.6344701647758484
+    },
+    {
+      "start": 767,
+      "end": 771,
+      "text": "RM80",
+      "label": "MONEY",
+      "score": 0.5612862706184387
+    },
+    {
+      "start": 772,
+      "end": 777,
+      "text": "RM100",
+      "label": "MONEY",
+      "score": 0.6597518920898438
+    },
+    {
+      "start": 873,
+      "end": 879,
+      "text": "RM0.00",
+      "label": "MONEY",
+      "score": 0.8806226849555969
+    },
+    {
+      "start": 902,
+      "end": 914,
+      "text": "Sinar Harian",
+      "label": "ORG",
+      "score": 0.8685159087181091
+    },
+    {
+      "start": 972,
+      "end": 983,
+      "text": "bank negara",
+      "label": "ORG",
+      "score": 0.9413580298423767
+    }
+  ]
+}

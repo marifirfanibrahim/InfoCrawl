@@ -57,14 +57,17 @@ def build_source_map():
     return src_map
 
 def get_summaries_for_query(current_query: str):
-    last_query = get_last_query()
-    
-    # if current query matches last query
-    if current_query.strip().lower() == last_query.strip().lower():
-        overall_file = out_folder / "summary_overall.txt"
-        summary_files = sorted(out_indiv.glob("*.txt"))
+    last_query = get_last_query().strip().lower()
+    safe_q = "".join(c if c.isalnum() else "_" for c in current_query).lower()
+
+    # only return if current query matches last query
+    if current_query.strip().lower() == last_query:
+        overall_file = out_folder / f"summary_overall_{safe_q}.txt"
+
+        # only pick individual summaries that start with this query prefix
+        summary_files = sorted(out_indiv.glob(f"{safe_q}_*.txt"))
         return overall_file, summary_files
-    
+
     return None, []
 
 def check_and_regenerate_summaries(current_query: str):
@@ -93,7 +96,7 @@ def banner(title: str):
         unsafe_allow_html=True
     )
 
-def render_overall_summary(overall_file: Path, show_ents: bool, active_labels: list, colors: dict):
+def render_overall_summary(current_query: str, overall_file: Path, show_ents: bool, active_labels: list, colors: dict):
     if not overall_file.exists():
         st.caption("No overall summary available")
         return
@@ -104,7 +107,8 @@ def render_overall_summary(overall_file: Path, show_ents: bool, active_labels: l
             st.caption("Overall summary file is empty")
             return
         
-        overall_json = load_preds_json(proc_folder / "predictions_overall.json")
+        safe_q = "".join(c if c.isalnum() else "_" for c in current_query).lower()
+        overall_json = load_preds_json(proc_folder / f"predictions_overall_{safe_q}.json")
         overall_ents = overall_json.get("entities", []) if isinstance(overall_json, dict) else []
         
         st.markdown("<style>.summary-text{ text-align:justify; line-height:1.5; }</style>", unsafe_allow_html=True)
@@ -130,8 +134,9 @@ def render_individual_summaries(summary_files: list, show_ents: bool, active_lab
     
     st.caption(f"{len(summary_files)} individual summaries generated for query: {current_query}")
     
+    safe_q = "".join(c if c.isalnum() else "_" for c in current_query).lower()
     src_map = build_source_map()
-    indiv_preds = load_preds_json(proc_folder / "predictions_individual.json")
+    indiv_preds = load_preds_json(proc_folder / f"predictions_individual_{safe_q}.json")
     
     for i, f in enumerate(summary_files):
         try:
@@ -209,18 +214,20 @@ def render_summaries(search_text: str):
     active_labels = st.session_state.get("active_labels", [])
     colors = st.session_state.get("entity_colors", {})
     
-    # run predictions if entity highlighting is enabled
-    if show_ents:
-        with st.spinner("Loading entity predictions..."):
-            if needs_prediction(proc_folder / "predictions_individual.json"):
-                pred_mod.run_individual()
-            if needs_prediction(proc_folder / "predictions_overall.json"):
-                pred_mod.run_overall()
+    # # run predictions if entity highlighting is enabled
+    # if show_ents:
+    #     query = last_query_file.read_text(encoding="utf-8").strip()
+
+    #     with st.spinner("Loading entity predictions..."):
+    #         if needs_prediction(proc_folder / "predictions_individual.json"):
+    #             pred_mod.run_individual(query=query)
+    #         if needs_prediction(proc_folder / "predictions_overall.json"):
+    #             pred_mod.run_overall(query=query)
     
     # overall summary
     banner("Overall Summary")
     if has_overall:
-        render_overall_summary(overall_file, show_ents, active_labels, colors)
+        render_overall_summary(search_text, overall_file, show_ents, active_labels, colors)
     else:
         st.caption("No overall summary available for this query")
     
@@ -237,7 +244,7 @@ def render_summaries(search_text: str):
 # summary status
 def get_summary_status(search_text: str) -> dict:
     last_query = get_last_query()
-    overall_file = out_folder / "summary_overall.txt"
+    overall_file = out_folder / f"summary_overall_{last_query}.txt"
     summary_files = sorted(out_indiv.glob("*.txt"))
     
     return {

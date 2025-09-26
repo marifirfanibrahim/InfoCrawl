@@ -133,6 +133,15 @@ def run_overall(query: str = "") -> Path | None:
         return None
 
     out_path = out_folder / f"summary_overall_{safe_q}.txt"
+
+    # remove any older summary for this query
+    for old in out_folder.glob(f"summary_overall_{safe_q}.txt"):
+        try:
+            old.unlink()
+            print("removed old overall summary", old)
+        except Exception as e:
+            print("could not remove", old, e)
+
     try:
         out_path.write_text(summary, encoding="utf-8")
         print(f"overall summary saved to {out_path}")

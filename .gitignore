@@ -179,3 +179,10 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+model/gliner_multi/added_tokens.json
+model/gliner_multi/gliner_config.json
+model/gliner_multi/pytorch_model.bin
+model/gliner_multi/special_tokens_map.json
+model/gliner_multi/spm.model
+model/gliner_multi/tokenizer.json
+model/gliner_multi/tokenizer_config.json

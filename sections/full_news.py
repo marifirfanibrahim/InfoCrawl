@@ -53,8 +53,10 @@ def render_full_news(search_text: str):
     colors = st.session_state.get("entity_colors", {})
 
     # load predictions
+    safe_q = "".join(c if c.isalnum() else "_" for c in search_text).lower()
+    
     full_predictions = load_preds_json(processed_folder / "predictions_fullnews.json") or {}
-    search_predictions = load_preds_json(processed_folder / "predictions_search.json") or {}
+    search_predictions = load_preds_json(processed_folder / f"predictions_search_{safe_q}.json") or {}
     if isinstance(search_predictions, dict):
         full_predictions.update(search_predictions)
 

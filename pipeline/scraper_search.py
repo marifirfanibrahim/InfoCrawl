@@ -83,7 +83,7 @@ def scrape_page(url: str) -> dict | None:
     cat = ""
     for sel in [".category", "a[rel='category tag']", "meta[property='article:section']"]:
         el = soup.select_one(sel)
-        if el:d
+        if el:
             cat = el.get("content", "").strip() if el.has_attr("content") else el.get_text(strip=True)
             if cat:
                 break
@@ -136,6 +136,16 @@ def run_scraper(query: str | None = None):
     df = pd.DataFrame(articles)
     if not df.empty:
         safe_q = clean_name(query)
+
+        # remove any older CSVs for this query
+        for old in save_folder.glob(f"search_{safe_q}_*.csv"):
+            try:
+                old.unlink()
+                print("removed old file", old)
+            except Exception as e:
+                print("could not remove", old, e)
+
+        # save the new one
         out_path = save_folder / f"search_{safe_q}_{today}.csv"
         df.to_csv(out_path, index=False, encoding="utf-8")
         print("saved", len(df), "articles to", out_path)

@@ -124,7 +124,7 @@ def predict_entities_in_chunks(texts, batch_size=32):
     return results
 
 # individual summaries
-def run_individual(query: str = "") -> Path:
+def run_individual(query: str) -> Path:
     safe_q = clean_name(query) if query else "default"
     out_file = proc_folder / f"predictions_individual_{safe_q}.json"
 
@@ -156,7 +156,7 @@ def run_individual(query: str = "") -> Path:
     return out_file
 
 # overall summary
-def run_overall(query: str = "") -> Path | None:
+def run_overall(query: str) -> Path | None:
     safe_q = clean_name(query) if query else "default"
     out_file = proc_folder / f"predictions_overall_{safe_q}.json"
 
@@ -195,7 +195,7 @@ def run_overall(query: str = "") -> Path | None:
 def run_csv(folder: Path, out_name: str, text_cols: list[str], batch_size: int = 32, query: str = "") -> Path:
     safe_q = clean_name(query) if query else ""
     # only add suffix if a query is provided
-    suffix = f"_{safe_q}" if safe_q else ""
+    suffix = f"_{safe_q}" if safe_q else "" 
     out_file = proc_folder / f"predictions_{out_name}{suffix}.json"
 
     # load existing predictions if available
